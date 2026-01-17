@@ -1,0 +1,175 @@
+Social psychiatry is a branch of psychiatry that studies how the social environment impacts mental health and mental illness. It applies a cultural and societal lens on mental health by focusing on mental illness prevention, community-based care, mental health policy, and societal impact of mental health. It is closely related to cultural psychiatry and community psychiatry.
+Social psychiatry research is interdisciplinary by nature. It takes an epidemiological research approach and involves collaboration between psychiatrists and social scientists across sociology, anthropology, and social psychology. It has been  associated with the development of community-based care and therapeutic communities, and emphasizes the effect of socioeconomic factors on mental illness. Social psychiatry can be contrasted with biopsychiatry, which focuses on genetics, brain neurochemistry and medication.
+Social psychiatry has influenced U.S. social policy and social movements, including the community mental health movement and the era of deinstitutionalization.
+
+
+== History ==
+
+
+=== Early 20th century ===
+The term "social psychiatry" can be traced back to 1903 in a paper by German psychiatrist Georg Ilberg, 'Soziale Psychiatrie.' In it, Ilberg defined social psychiatry as factors that affect the mental health of populations and ways in which to prevent mental illness among society. Ilberg argued that there were many factors that influenced mental health, but the majority of mental illnesses were hereditary. In 1911, German psychiatrist Max Fischer defined social psychiatry as "the act of providing psychiatric care outside of asylums", and advocated for the creation of welfare centers to deliver psychiatric care outside of asylums. At this time in Germany, social psychiatry emphasized protection of the general public of those who are mentally ill and 'antisocial.'
+
+
+==== United States mental health community movement ====
+The mental hygiene movement in the United States marked a shift from individual responsibility of mental health to how public health and society could promote mental health. In 1909, the National Committee for Mental Hygiene (now called Mental Health America) was created to focus on mental illness prevention and mental health promotion.
+In 1915, the National Committee for Mental Hygiene administered a series of social surveys that explored mental illness outside of asylums and institutions. These surveys uncovered the extent of mental health challenges in society, and led to the development of community-based mental hygiene clinics. A psychiatrist, social workers, and a psychologist staffed these clinics, and provided outpatient services and public health and educational initiatives to prevent mental illness. This would later become a key component of the mental health community movement, which influenced the deinstitutionalization era.
+
+
+=== 1930s-1940s ===
+Prior to World War II, the majority of research related to social psychiatry focused on the impact of urbanization on serious psychiatric disorders like schizophrenia.
+One of the first social psychiatric studies, 'Mental Disorders in Urban Areas: An Ecological Study of Schizophrenia and Other Psychoses', challenged this focus. The study, published in 1939 by University of Chicago sociologists Robert Faris and Warren Dunham, applied a social sciences methodological approach to the study of mental illness. Their findings introduced the concept of social isolation and poverty as factors in mental illness, when existing research had primarily focused on urban versus rural environments. This study captured the attention of United States politicians and policy officials and helped usher in a wave of policy reforms in the coming years.
+
+
+==== World War II ====
+Social psychiatry turned its focus to veteran mental health as a result of World War II. The experiences of soldiers at war and coming home inspired psychiatrists to study the epidemiology of mental illness and the factors that exacerbate it. In particular, psychiatrists in the United Kingdom and United States began to study the impact of the environment on mental illness in soldiers and helped usher in the community mental health movement. 'Therapeutic communities' started forming across the UK, and community mental health services for outpatient care grew in number across the United States.
+In 1946, the United States passed the National Mental Health Act, citing the declining mental health of veterans during World War II. This act provided federal funding for prevention and treatment of mental illness. A direct result of this act was the creation of the National Institute of Mental Health (NIMH) in 1949. NMIH was formed to shift care from psychiatric hospitals to community-based services.
+
+
+=== 1950s-1960s ===
+As the community mental health movement gained traction, President John F Kennedy passed the Community Mental Health Act in 1963, which provided $2.9 billion to build community mental health centers across the country.
+This ushered in the deinstitutionalization era, which marked widespread closure of state psychiatric hospitals in favor of community mental health services.
+Lyndon B. Johnson's war on poverty, declared in his State of the Union in 1964, further advanced social psychiatry in United States public policy. It justified more spending on social welfare programs and community mental health centers. However, its focus on the 'culture of poverty' rather than poverty itself led to criticism among social scientists and psychiatrists.
+
+
+== The decline of social psychiatry ==
+The shifting terrain of American politics impacted the influence of social psychiatry at a national level. When President Nixon took office in 1969, he dismantled many of the social welfare programs implemented from the war on poverty. In addition, America's involvement in the Vietnam War pulled attention away from domestic affairs and reallocated social welfare spending to war efforts.
+The 1960s marked several movements that questioned mainstream psychiatry, which social psychiatry had become part of as a result of the policy enacted from its research. Movements like anti-psychiatry, radical psychiatry, and the psychiatric survivors movement protested psychiatric treatments like lobotomies, ECT, and insulin shock therapy. Although social psychiatry was not involved in these therapies, its mainstream status as a field resulted in eroded trust among psychotherapists and psychiatrists.
+Biological psychiatry as a field was rising in popularity during these counter-culture movements, further eroding social psychiatry as a field. Technological advancements in brain imaging techniques influenced this shift in focus and provided genetic and biological explanations for psychiatric disorders, rather than social explanations.
+These advancements in neurology, psychopharmacology, and genetics fueled the rise of pharmacological drugs like Prozac, for mental disorders and deemphasized the need for psychotherapy. By the 1980s, biological psychiatry had overtaken social psychiatry as the premier mode of research in mental illness.
+
+
+== Core theories and concepts ==
+Social psychiatry emphasizes how  social, cultural, and environmental factors influence mental health and illness. It focuses on understanding and addressing the social determinants of mental health, the role of relationships and community in psychological well-being, and the prevention and treatment of mental disorders within broader social contexts.
+
+
+=== Psychobiology ===
+Psychobiology, a term first coined by Adolf Meyer in the early 20th century, refers to an interdisciplinary approach to understanding behavior and mental health by integrating biological, psychological, and social factors. Meyer, often considered the father of modern American psychiatry, advocated for a holistic perspective that examined the interplay between an individual's biological constitution, psychological experiences, and social environment. This approach was unique because it diverged from models that focused exclusively on either biological or psychodynamic explanations for mental illness. It emphasized the importance of context, life history, and adaptability in understanding human behavior.
+Psychobiology laid the groundwork for recognizing the role of environmental and relational factors in mental health. By framing psychiatric disorders as dynamic processes influenced by life events and social interactions, psychobiology inspired approaches that consider patients within their broader environment. This influenced later theories, including Harry Stack Sullivan's interpersonal theory and the study of social determinants of health. It also reinforced the need for interdisciplinary collaboration between psychiatry and sociology, anthropology, and public health.
+
+
+=== Interpersonal theory ===
+Harry Stack Sullivan's interpersonal theory emphasizes the role of interpersonal relationships in shaping personality development and mental health, arguing that individuals' personalities are formed and expressed within the context of their social interactions.
+In his book The Interpersonal Theory of Psychiatry (1955), Sullivan argued that psychiatric disorders are best understood through interpersonal interactions, not just internal conflicts. By integrating social and cultural influences with biological and intra-psychic models, Sullivan believed it was crucial to examine societal structures and interpersonal systems in order to address mental health challenges.
+Sullivan proposed that personality develops through relationships and that disruptions in these interactions often underlie psychological distress. He introduced the idea that the "self" is shaped by social experiences and outlined a developmental framework linking psychological well-being to navigating interpersonal challenges at different life stages, such as trust in infancy and intimacy in adolescence.
+Interpersonal theory helped advance social psychiatry by emphasizing the significance of social and interpersonal factors in mental health, shifting the focus from purely biological explanations to a more holistic understanding of mental illness.
+By incorporating interpersonal dynamics and social influences into psychiatric theory, Sullivan shifted the field toward a more holistic understanding of mental health, paving the way for innovations such as family therapy, community mental health programs, and the exploration of social determinants of health.
+
+
+=== Biopsychosocial model ===
+The biopsychosocial model, developed by George Engel in 1977, integrates biological, psychological, and social factors to provide a comprehensive understanding of mental health. Social psychiatry builds on this framework to design interventions around community-based care and mental illness prevention.
+
+
+=== Social determinants of mental health ===
+Social psychiatry emphasizes how different societal and environmental factors influence mental health and contribute to psychiatric disorders. Below are some of the core factors the field has identified.
+
+
+==== Housing and urbanization ====
+Housing is recognized as a fundamental determinant of mental health, serving as both a basic human need and a stabilizing factor in people's lives. Social psychiatry attributes those with housing instability, such as frequent moves, evictions, or homelessness, generates stress, disrupts social support networks, with higher risk of psychiatric disorders. Poor living conditions, including overcrowding, unsafe environments, and exposure to hazards like mold or lead, further exacerbate mental health challenges, particularly in children. Residential segregation, often resulting from systemic issues like redlining and gentrification, concentrates marginalized communities in under-resourced areas, perpetuating mental health disparities. Conversely, stable and affordable housing provides psychological safety, fostering a sense of control and security that protects mental well-being.
+
+
+==== Poverty ====
+Social psychiatry views poverty as a critical determinant of mental health, emphasizing its role in creating chronic stress, limited access to resources, and systemic barriers to care. Research has shown that these barriers can generate psychological distress and increase vulnerability to conditions like depression, anxiety, and substance abuse.
+Poverty often leads to social isolation, a key topic in social psychiatry. Faris and Dunham's 1939 study was among the first to identify social isolation as a determinant to mental health. Children in poverty, social psychiatry argues, can have developmental impacts and are associated with higher risk for adverse mental health outcomes. In the medical community, poverty is considered an Adverse Childhood Experience (ACE).
+
+
+==== Class and socioeconomic status ====
+Social psychiatry examines class and socioeconomic status (SES) as factors that shape mental health by influencing access to power, privilege, and resources. Research shows that employment instability, low-paying jobs, and poor working conditions are linked to higher rates of psychological distress.
+In his book The Impact of Inequality: How to Make Sick Societies Healthier, British epidemiologist Richard G. Wilkinson outlines how lower-class individuals can experience "status anxiety" or humiliation tied to social stratification, which impacts mental health.
+Class disparities can also shape perceptions and treatment of mental illness, with working-class populations often encountering greater stigma and fewer resources. Social psychiatry also emphasizes the importance of intersectionality; the interplay of class, race, and gender can amplify risks for mental illness.
+
+
+==== Education ====
+Social psychiatry views education as both a pathway to improved mental health and a source of stress or inequity. Higher levels of education often correlate with better mental health outcomes due to increased economic opportunities, problem-solving skills, and social mobility.  A 2022 study, "Mental health effects of education", found that an extra year of education was associated with lower rates of depression and anxiety among high school students, highlighting that the impact was even stronger for women and individuals in rural communities.
+According to social psychiatry, disparities in educational quality and access mirror broader socioeconomic and racial inequities, perpetuating cycles of disadvantage that affect mental health. Negative school environments—characterized by bullying, exclusion, or lack of culturally responsive curricula—can harm students' mental well-being, particularly those from minority or marginalized groups.
+
+
+==== Race and ethnicity ====
+Social psychiatrists have done research on how race and ethnicity influences mental health, particularly in the context of systemic racism, migration, immigration, and globalization.
+Experiences of discrimination and institutional bias in areas like housing, employment, and healthcare contribute to chronic stress and poorer mental health outcomes for marginalized racial groups. Immigrants and racial minorities may also face acculturation stress and identity conflicts, further affecting their mental well-being. However, some communities develop strong cultural or social bonds that act as protective factors against the effects of racism, a key area of interest in social psychiatry. Racial disparities in mental health care access, often influenced by cultural stigma, exacerbate untreated conditions and highlight the need for culturally informed interventions.
+Social psychiatry leverages these insights to advocate for policies that promote housing security, equitable education, anti-discrimination measures, and economic redistribution. These systemic changes aim to address the root causes of mental health disparities and improve overall population mental health.
+
+
+==== Gender ====
+Epidemiological studies have consistently found that women experience more mental health disorders compared to men. Depression, post-traumatic stress disorder (PTSD), anxiety, and eating disorders are among the mental health disorders women experience at a higher frequency than men.
+The American Psychiatric Association attributes some of these to higher social risk factors. Women experience more poverty compared to men, they are more likely to be victims of violence, and they earn less income than men.
+
+
+=== The Stress-Vulnerability Model ===
+The Stress-Vulnerability Model explains the development and progression of mental health disorders as a result of an interaction between an individual's biological or psychological vulnerabilities and external stressors. Vulnerabilities can include genetic predispositions, neurobiological abnormalities, or personality traits, while stressors refer to environmental and social factors such as trauma, poverty, discrimination, or interpersonal conflict. The model outlines how mental health problems progress to full-blown disorders when stressors exceed an individual's coping resources and resilience.
+In social psychiatry, the Stress-Vulnerability Model provides a framework for understanding how social and environmental factors contribute to mental illness. This perspective shifts the focus from purely biological causes to the broader social context, recognizing that reducing external stressors and enhancing social support can mitigate mental health risks.
+
+
+=== Community-based care and prevention ===
+Social psychiatry advocates for community-based care and preventive measures to address mental health issues, rather than solely relying on traditional hospital-based care. Public policy analyst Gerald Caplan laid the foundation for preventative mental health care in his 1964 book, Principles of Preventative Psychiatry, where he argues that early intervention in community settings can reduce mental illness stigma and promote mental health. By shifting the focus from individual pathology to the social context, community-based care promotes recovery, reduces stigma, and improves overall well-being.
+Community-based care offers a range of services, including early intervention, crisis intervention, medication management, therapy, and rehabilitation. These services are delivered in various settings, such as clinics, schools, workplaces, and community centers. By providing accessible and culturally competent care, community-based programs aim to reduce disparities in mental health care and improve outcomes for individuals with mental illness.
+These programs often involve collaboration between healthcare providers, social workers, educators, and community members to create supportive environments and empower individuals to build resilience.
+
+
+=== Cultural norms, values, and beliefs ===
+Social psychiatry acknowledges that cultural norms, values, and beliefs shape the expression, diagnosis, and treatment of mental illnesses. This perspective advocates for culturally competent care to adjust for biases in psychiatry and public health services.
+In this sense, social psychiatry mirrors cultural psychiatry by emphasizing how mental illnesses and psychiatric disorders vary across cultural contexts. Cultural psychiatry outlines how different cultures view mental health differently and how that impacts people from seeking help.
+
+
+=== Social network and social support theories ===
+Social psychiatry believes that social networks, support, and communities positively influence mental health and wellbeing. Leveraging social network theory and social support models, it emphasizes the importance of fostering strong social ties and support systems to increase resilience and wellbeing.
+The field focuses on the negative effects of social isolation, as well, arguing that social isolation is a key contributor to mental illnesses. This phenomenon, social psychiatrists argue, is closely tied to poverty and urbanization.
+
+
+== Research ==
+Social psychiatry integrates different social factors of mental health to advocate for systemic changes, such as improving living conditions, addressing discrimination, and ensuring equitable access to mental health care.
+By combining quantitative and qualitative methods, social psychiatry research aims to identify effective interventions, reduce stigma, and promote mental health equity.
+
+
+=== Epidemiology ===
+Social psychiatry relies on epidemiological data to understand the distribution and determinants of mental health. This involves studying the patterns of mental illness within populations, including prevalence and incidence rates. Researchers often analyze risk factors and protective factors associated with mental disorders.
+
+
+=== Life events research ===
+Life events research investigates how significant life events, such as loss, trauma, or major life transitions, can impact mental health. It is one example of a longitudinal approach to social psychiatry.
+By following individuals over time, researchers can identify the long-term consequences of early life experiences and social factors on mental health.
+
+
+=== Landmark studies ===
+Several landmark studies have significantly contributed to the field of social psychiatry.
+
+
+==== Faris and Dunham's Chicago study (1939) ====
+This 1939 study, 'Mental Disorders in Urban Areas: An Ecological Study of Schizophrenia and Other Psychoses' was one of the first studies to link mental health issues with social and environmental factors, shifting the focus from purely biological explanations to sociological ones.
+University of Chicago sociologists Robert E. L. Faris and H. Warren Dunham aimed to examine the relationship between urban environmental factors and rates of mental illness, particularly schizophrenia. Using psychiatric hospital admission records in Chicago, they mapped the distribution of schizophrenia and other psychoses across different neighborhoods, correlating mental illness prevalence with socioeconomic conditions. They found higher rates of schizophrenia in areas with significant poverty, high population turnover, and social disintegration, particularly in inner-city neighborhoods. Mental illness rates decreased as neighborhoods became more stable and affluent.
+This study laid the foundation for future research on social determinants of mental health and legitimized the role of social science methods in psychiatric research. It also influenced public health policies over the next few decades, including the war on poverty and the community health movements.
+
+
+==== Hollingshead and Redlich's New Haven study (1958) ====
+Social Class and Mental Illness was a collaboration between psychiatrist Frederick Redlich and sociologist August Hollingshead. It explored the relationship between social class and mental illness in New Haven, Connecticut, focusing on disparities in access to and types of mental health care. Using a classification system that divided participants into five social classes, Hollingshead and Redlich analyzed patterns of mental illness diagnoses, treatment settings, and care quality. They found that individuals in lower social classes experienced higher rates of mental illness but were more likely to receive custodial care, while those in upper classes accessed psychotherapy and higher-quality treatments.
+By highlighting the systemic inequities in mental health care based on social class, this study contributed to social psychiatry by emphasizing the need for equitable mental health services and policy reform to reduce inequities in psychiatric care.
+
+
+==== Midtown Manhattan study (1962) ====
+Mental Health in the Metropolis, published in 1962, was one of the earliest urban studies to systematically document the social factors of mental health. The study, conducted by two sociologists, one anthropologist, and two psychiatrists, explored the prevalence of mental disorders in urban Midtown Manhattan. This study provided critical evidence of how urban environments impact mental well-being, and emphasized the significance of cultural diversity and social stressors in shaping mental health. It highlighted that social factors like poverty were more influential to mental health compared to simply living in urban environments.
+
+
+==== Leighton and Murphy's Stirling County study (1948 - present) ====
+The Stirling County Study is a longitudinal investigation investigating the social determinants of mental illness in a rural Canadian community. Sociologist and psychiatrist Alexander Leighton and psychiatric epidemiologist Jane Murphy founded the study in 1948, and it is still in effect today. It uses community surveys, interviews, and follow-ups to gather comprehensive data on mental health and social conditions of individuals in the Stirling county community. The long-term nature of this study provided valuable insights for social psychiatry by demonstrating that mental illness did exist in rural communities, not just urban ones. The study revealed that mental illness rates were significantly influenced by social factors, including economic deprivation, social isolation, and family dynamics. Its long-term perspective provided insights into how changing social and economic conditions affect mental health over time. This research also highlighted the unique challenges of mental health in rural settings and helped influence the community mental health center movement.
+
+
+== Current work ==
+Social psychiatry can be most effectively applied in helping to develop mental health promotion and prevent certain mental illnesses by educating individuals, families, and societies.
+Facilitating the social inclusion of people with mental health problems is a major focus of modern social psychiatry.
+Social psychiatry research today spans many topics, including the effect of the pandemic, social media, race, and poverty on mental health. It also researches social causes and implications of common mental disorders like depression, anxiety, eating disorders, and substance abuse.
+Modern social psychiatry research continues to address a wide range of topics, including:
+
+Impact of the COVID-19 pandemic on mental health
+How technology and social media impacts mental health
+How race, poverty, and socioeconomic status impact mental health
+Social determinants of substance use disorders
+Development and evaluation of culturally competent interventions
+
+
+== References ==
+
+
+== External links ==
+https://web.archive.org/web/20050327051651/http://www.sanctuaryweb.com/main/social_psychiatry.htm
+http://library.cpmc.columbia.edu/hsl/archives/findingaids/opler.html
+Faculty of Rehabilitation and Social Psychiatry of the Royal College of Psychiatrists in the UK.
+Social psychiatry and public mental health: present situation and future objectives. Time for rethinking and renaissance?

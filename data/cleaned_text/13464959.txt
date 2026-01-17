@@ -1,0 +1,47 @@
+Bittern (pl. bitterns), or nigari, is the salt solution formed when halite (table salt) precipitates from seawater or brines. Bitterns contain magnesium, calcium, and potassium ions as well as chloride, sulfate, iodide, and other ions.
+Bittern is commonly formed in salt ponds where the evaporation of water prompts the precipitation of halite. These salt ponds can be part of a salt-producing industrial facility, or they can be used as a waste storage location for brines produced in desalination processes.
+Bittern is a source of many useful salts. It is used as a natural source of Mg2+, and it can be used as a coagulant both in the production of tofu and in the treatment of industrial wastewater.
+
+
+== History ==
+Bittern has been extracted for a long time, at least several centuries. The Dutch chemist Petrus Jacobus Kipp (1808–1864) experimented with saturated solutions of bittern. The term for the solution is a modification of "bitter".
+
+
+== Uses ==
+
+
+=== Salt derivation ===
+Bittern is a source of many salts including magnesium sulfate (epsom salt). Multiple methods exist for removing these salts from the bittern, and the method ultimately used depends on the target product. Products that would naturally precipitate from the bitterns crystallize as evaporation proceeds (e. g. kainite). Products that do not preferentially precipitate from bitterns may precipitate through the addition of another compound or through ion exchange.
+Potassium-magnesium sulfate double salt, a good fertilizer, is a salt that precipitates from bitterns upon addition of methanol. Ethanol is also used, but it exhibits a preference for potassium sulfate precipitation.
+The solution can furthermore be used in the production of potash and potassium salts. Tartaric acid is one compound that can facilitate the precipitation of these salts.
+Magnesium hydroxide (Mg(OH)2) can be derived from bittern. Adding an alkaline solution such as sodium hydroxide (NaOH) or lime will cause magnesium hydroxide to precipitate, although lime is not as effective. Slower addition of the alkaline solution results in the precipitation of larger particles that are easier to remove from solution.
+
+
+=== Coagulation ===
+
+
+==== Tofu ====
+Nigari is produced from seawater after first removing sodium chloride. It contains mostly magnesium chloride, smaller amounts of magnesium sulfate (Epsom salt), potassium chloride, calcium chloride, and trace amounts of other naturally occurring salts. 
+Nigari was the first coagulant used to make tofu in Japan. It is still used today because tofu made using bittern preserves the original flavor of the soybeans used to make it. Bittern causes rapid coagulation which influences the quality of the tofu. Alternatively calcium sulfate, calcium chloride or other substances are also used.
+
+
+==== Wastewater treatment ====
+Bittern can be used instead of aluminum-based coagulants in the treatment of wastewater produced during the fabric-dyeing process. The wastewater pH is basic, which is favorable for the use of bittern. After the addition of bittern, precipitated magnesium hydroxide works as the coagulant to collect dye, solids, organic matter, and heavy metals from the wastewater before settling out of solution. The sludge produced from this wastewater treatment is also easier to dispose of than sludge produced by aluminum-based coagulants because there are less restrictions surrounding the disposal of magnesium, and it may be possible to recycle the sludge as fertilizer.
+Bittern can also be used as a source of magnesium ions (Mg2+) for the precipitation of struvite, a useful fertilizer, from wastewater containing nitrogen and phosphorus. One source of useful wastewater is landfill leachate. Bittern is just as good as other sources of magnesium ions at removing phosphorus from wastewater streams, but it lags behind other magnesium ion sources in terms of the removal of ammonia (a nitrogen compound).
+
+
+=== Other uses ===
+Bittern can be used to culture Haloquadratum archaea. Haloquadratum are distinctly square-shaped and are abundant in hypersaline environments such as salt ponds. Their cultivation is necessary for understanding both their ecological function in those environments as well as their unique morphology. The presence of Haloquadratum in an environment deemed inhospitable for most life has prompted closer study of these archaea.
+A study has been performed exploring the use of bittern as a natural magnesium supplement used to decrease cholesterol spikes after a meal (postprandial hyperlipidemia).
+Due to its high salinity, bittern can also be used as a draw solution for an osmotic process that concentrates sucrose in sugarcane juice. Because forward osmosis is being used, the process is relatively energy-efficient. Epsom salt can also be taken from the bittern draw solution once it is used. This method is particularly useful in areas where sugarcane and salt production are in close proximity to avoid costs associated with movement of either the sugarcane juice or the bittern.
+
+
+== Environmental impact ==
+In some jurisdictions, most bitterns are used for other production instead of being directly discarded.  In other jurisdictions each tonne of salt produced can create 3+ tonnes of waste bitterns.
+Although bittern generally contains the same compounds as seawater, it is much more concentrated than seawater. If bittern is released directly into seawater, the ensuing salinity increase may harm marine life around the point of release. Even small increases in salinity can disrupt marine species' osmotic balances, which may result in the death of the organism in some cases.
+In December 1997, 94 corpses of green sea turtles, Chelonia mydas, were found at the Ojo de Liebre Lagoon (OLL) in Mexico, adjacent to the industrial operation of Exportadora de Sal S.A. (ESSA), the largest saltworks in the world. The fluoride ion F− content in bitterns was 60.5-fold more than that in seawater. The bitterns osmolality was 11,000 mosm/kg of water, whereas the turtle's plasma osmolality was about 400 mosm/kg of water. Researchers concluded that the dumping of bitterns into the ocean should be avoided.
+
+The lack of adequate disposal methods for bitterns and concerns of local commercial and recreational fishing associations about bitterns’ deleterious impacts upon local fish and prawn hatchery areas led the Western Australian EPA in 2008 to recommend against the proposed 4.2 million tonne per annum Straits Salt project in The Pilbara region of WA.  The EPA concluded that: ...the proposed solar salt farm is located in an area that presents unacceptably high risks of environmental harm to wetland values and unacceptable levels of uncertainty in relation to long term management of bitterns. [...] A high level of uncertainty in relation to the proponent’s ability to manage the ongoing production of over 1 million cubic metres per annum of bitterns C, which is toxic to marine biota and therefore likely to degrade wetland and biodiversity values should bitterns discharge occur either accidentally or be required to maintain salt farm production in the long term.
+
+
+== References ==

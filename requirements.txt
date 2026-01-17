@@ -1,0 +1,11 @@
+sentence-transformers
+faiss-cpu
+rank-bm25
+transformers
+beautifulsoup4
+requests
+streamlit
+gradio
+numpy
+pandas
+scikit-learn
