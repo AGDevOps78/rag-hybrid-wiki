@@ -1,0 +1,1 @@
+The circulating water channels in the microfluidic system are also used to precisely control temperatures of the cell culture channels and chambers. Furthermore, putting the device inside a cell culture incubator can also easily control the cell culture temperature. == See also == Microphysiometry == References ==

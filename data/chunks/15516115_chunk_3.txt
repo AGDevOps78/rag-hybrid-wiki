@@ -1,0 +1,1 @@
+Server to laptop replication enables mobile users to have access to a local replica of their business portal on a standard laptop. This technology may be employed to provide in the field access to portal content by, for example, sales forces and combat forces. == Geo-replication systems == == See also == Load balancing Round robin DNS == References ==
