@@ -1,0 +1,73 @@
+
+
+The aerospike engine is a type of rocket engine that maintains its aerodynamic efficiency across a wide range of altitudes.[1] It belongs to the class of altitude compensating nozzle engines.[2] Aerospike engines were proposed for many single-stage-to-orbit (SSTO) designs. They were a contender for the Space Shuttle main engine. However, as of 2023 no such engine was in commercial production, although some large-scale aerospikes were in testing phases.[3]
+
+The term aerospike was originally used for a truncated plug nozzle with a rough conical taper and some gas injection, forming an "air spike" to help make up for the absence of the plug tail. However, a full-length plug nozzle may also be called an aerospike.
+
+The purpose of any engine bell is to direct the exhaust of a rocket engine in one direction, generating thrust in the opposite direction. The exhaust, a high-temperature mix of gases, has an effectively random momentum distribution (i.e., the exhaust pushes in any direction it can). If the exhaust is allowed to escape in this form, only a small part of the flow will be moving in the correct direction and thus contribute to forward thrust. The bell redirects exhaust moving in the wrong direction so that it generates thrust in the correct direction. Ambient air pressure also imparts a small pressure against the exhaust, helping to keep it moving in the "right" direction as it exits the engine. As the vehicle travels upward through the atmosphere, ambient air pressure is reduced. This causes the thrust-generating exhaust to begin to expand outside the edge of the bell.  Since this exhaust begins traveling in the "wrong" direction (i.e., outward from the main exhaust plume), the efficiency of the engine is reduced as the rocket travels because this escaping exhaust is no longer contributing to the thrust of the engine.  An aerospike rocket engine seeks to eliminate this loss of efficiency.[1]
+
+Instead of firing the exhaust out of a small hole in the middle of a bell, an aerospike engine avoids this random distribution by firing along the outside edge of a wedge-shaped protrusion, the "spike", which serves the same function as a traditional engine bell. The spike forms one side of a "virtual" bell, with the other side being formed by the outside air.[1]
+
+The idea behind the aerospike design is that at low altitude the ambient pressure compresses the exhaust against the spike. Exhaust recirculation in the base zone of the spike can raise the pressure in that zone to nearly ambient. Since the pressure in front of the vehicle is ambient, this means that the exhaust at the base of the spike nearly balances out with the drag experienced by the vehicle. It gives no overall thrust, but this part of the nozzle also doesn't lose thrust by forming a partial vacuum. The thrust at the base part of the nozzle can be ignored at low altitude.[1]
+
+As the vehicle climbs to higher altitudes, the air pressure holding the exhaust against the spike decreases, as does the drag in front of the vehicle. The recirculation zone at the base of the spike maintains the pressure in that zone to a fraction of 1 bar, higher than the near-vacuum in front of the vehicle, thus giving extra thrust as altitude increases.  This effectively behaves like an "altitude compensator" in that the size of the bell automatically compensates as air pressure falls.[1]
+
+The disadvantages of aerospikes seem to be extra weight for the spike. Furthermore, the larger cooled area can reduce performance below theoretical levels by reducing the pressure against the nozzle. Aerospikes work relatively poorly between Mach 1–3, where the airflow around the vehicle has reduced the pressure, thus reducing the thrust.[4]
+
+Several versions of the design exist, differentiated by their shapes. In the toroidal aerospike the spike is bowl-shaped with the exhaust exiting in a ring around the outer rim. In theory, this requires an infinitely long spike for best efficiency, but a similar effect can be achieved by blowing a small amount of gas out of the center of a shorter truncated spike (like base bleed in an artillery shell).
+
+In the linear aerospike the spike consists of a tapered wedge-shaped plate, with exhaust exiting on either side at the "thick" end. This design has the advantage of being stackable, allowing several smaller engines to be placed in a row to make one larger engine while augmenting steering performance with the use of individual engine throttle control.
+
+Rocketdyne conducted a lengthy series of tests in the 1960s on various designs. Later models of these engines were based on their highly reliable J-2 engine machinery and provided the same sort of thrust levels as the conventional engines they were based on; 200,000 lbf (890 kN) in the J-2T-200k, and 250,000 lbf (1.1 MN) in the J-2T-250k (the T refers to the toroidal combustion chamber). Thirty years later their work was revived for use in NASA's X-33 project. In this case the slightly upgraded J-2S engine machinery was used with a linear spike, creating the XRS-2200. After more development and considerable testing, this project was cancelled when the X-33's composite fuel tanks repeatedly failed.
+
+Three XRS-2200 engines were built during the X-33 program and underwent testing at NASA's Stennis Space Center. The single-engine tests were a success, but the program was halted before the testing for the two-engine setup could be completed. The XRS-2200 produces 204,420 lbf (909,300 N) thrust with an Isp of 339 seconds at sea level, and 266,230 lbf (1,184,300 N) thrust with an Isp of 436.5 seconds in a vacuum.
+
+The RS-2200 Linear Aerospike Engine[5] was derived from the XRS-2200. The RS-2200 was to power the VentureStar single-stage-to-orbit vehicle. In the latest design, seven RS-2200s producing 542,000 pounds-force (2,410 kN) each would boost the VentureStar into low Earth orbit. The development on the RS-2200 was formally halted in early 2001 when the X-33 program did not receive Space Launch Initiative funding. Lockheed Martin chose to not continue the VentureStar program without any funding support from NASA. An engine of this type is on outdoor display on the grounds of the NASA Marshall Space Flight Center in Huntsville Alabama.
+
+The cancellation of the Lockheed Martin X-33 by the federal government in 2001 decreased funding availability, but aerospike engines remain an area of active research. For example, a milestone was achieved when a joint academic/industry team from California State University, Long Beach (CSULB) and Garvey Spacecraft Corporation successfully conducted a flight test of a liquid-propellant powered aerospike engine in the Mojave Desert on 20 September 2003. CSULB students had developed their Prospector 2 (P-2) rocket using a 1,000 lbf (4.4 kN) LOX/ethanol aerospike engine. This work on aerospike engines continues; Prospector-10, a ten-chamber aerospike engine, was test-fired 25 June 2008.[6]
+
+Further progress came in March 2004 when two successful tests sponsored by the NASA Dryden Flight Research Center using high-power rockets manufactured by Blacksky Corporation, based in Carlsbad, California. The aerospike nozzles and solid rocket motors were developed and built by the rocket motor division of Cesaroni Technology Incorporated, north of Toronto, Ontario. The two rockets were solid-fuel powered and fitted with non-truncated toroidal aerospike nozzles. Flown at the Pecos County Aerospace Development Center, Fort Stockton, Texas, the rockets achieved apogees of 26,000 ft (7,900 m) and speeds of about Mach 1.5.
+
+Small-scale aerospike engine development using a hybrid rocket propellant configuration has been ongoing by members of the Reaction Research Society.
+
+In 2020 the TU Dresden and Fraunhofer IWS started their CFDμSAT-Project for research on additively manufactured aerospike-engines. A prototype has already been tested in a test cell at TU Dresden's Institute of Aerospace Engineering, achieving a burn time of 30 seconds.[7]
+
+In July 2014 Firefly Space Systems announced its planned Alpha launcher that uses an aerospike engine for its first stage. Intended for the small satellite launch market, it is designed to launch satellites into low-Earth orbit (LEO) at a price of US$8–9 million, much lower than with conventional launchers.[8]
+
+Firefly Alpha 1.0 was designed to carry payloads of up to 400 kilograms (880 lb). It uses carbon composite materials and uses the same basic design for both stages. The plug-cluster aerospike engine puts out 90,000 pounds-force (400 kN) of thrust. The engine has a bell-shaped nozzle that has been cut in half, then stretched to form a ring with the half-nozzle now forming the profile of a plug.[8]
+
+This rocket design was never launched. The design was abandoned after Firefly Space Systems went bankrupt. A new company, Firefly Aerospace, has replaced the aerospike engine with a conventional engine in the Alpha 2.0 design. However, the company has proposed Firefly Gamma, a partially reusable spaceplane with aerospike engines.
+
+In March 2017 ARCA Space Corporation announced their intention to build a single-stage-to-orbit (SSTO) rocket, named Haas 2CA, using a linear aerospike engine. The rocket is designed to send up to 100 kg into low-Earth orbit, at a price of US$1 million per launch.[9] They later announced that their Executor Aerospike engine would produce 50,500 pounds-force (225 kN) of thrust at sea level and 73,800 pounds-force (328 kN) of thrust in a vacuum.[10]
+
+In June 2017, ARCA announced that they would fly their Demonstrator3 rocket to space, also using a linear aerospike engine. This rocket was designed to test several components of their Haas 2CA at lower cost. They announced a flight for August 2017.[9]  In September 2017, ARCA announced that, after being delayed, their linear aerospike engine was ready to perform ground tests and flight tests on a Demonstrator3 rocket.[9]
+
+On 20 December 2019, ARCA tested the LAS 25DA aerospike steam rocket engine for the Launch Assist System.[11]
+
+Another spike engine concept model, by KSF Space and Interstellar Space in Los Angeles, was designed for orbital vehicle named SATORI. Due to lack of funding, the concept is still undeveloped.[12]
+
+Rocketstar planned to launch its 3D-printed aerospike rocket to an altitude of 50 miles in February 2019 but canceled the mission three days ahead of liftoff citing safety concerns. They are working on a second launch attempt.[13]
+
+In November 2021, Spain-based Pangea Aerospace began hot-fire testing of its small-scale demonstration methane-oxygen aerospike engine DemoP1.[14][15]
+
+After successfully testing the demonstrator DemoP1, Pangea plans to up-scale to the 300 kN ARCOS engine.[16]
+
+Headquartered in Kent, Washington, Stoke Space is building and testing a distributed architecture LH2/LOX aerospike system for its reusable second stage.[17]
+
+The Bremen-based German startup POLARIS Raumflugzeuge GmbH received a Bundeswehr contract to design and flight test a linear aerospike engine in April 2023. The company is set to test this new engine on board of its fourth spaceplane demonstrator, DEMO-4 MIRA, in late 2023[18][19] at Peenemünde,[20] where the V-2 rockets were developed.
+
+The original MIRA demonstrator was catastrophically damaged in a runway accident in February 2024.[21]
+
+On 29 October 2024, the company was the first ever to ignite an aerospike engine in a flight over the Baltic Sea, powering a four-engine, kerosene-fueled, turbojet MIRA-II demonstrator. The test involved a three-second burn to collect data with minimal engine stress. The vehicle achieved an acceleration of 4 m/s2, producing 900 newtons of thrust.[22][23]
+
+On 27 February 2025, it was announced that the company had been commissioned by the Bundeswehr procurement office BAAINBw to develop a two-stage, horizontal take-off and fully reusable hypersonic research aircraft. In addition to its use as a hypersonic testbed and experimental platform for defense-related and scientific research, the aircraft can also be used as a small satellite carrier. POLARIS Spaceplanes plans to develop a prototype of a fully reusable spaceplane capable of transporting loads of up to 1,000 kilograms into space by 2028.[24]
+
+Based at the University of Bath, the Bath Rocket Team has been developing their own hybrid rocket engine with an aerospike nozzle since 2020. The engine was first tested at the UK Race to Space National Propulsion Competition in 2023.[25] The team is developing a flight-ready version of the engine they are planning to fly for the first time at EuRoC24.[26]
+
+SpaceFields, incubated at IISc, has successfully tested India's first AeroSpike Rocket Engine at its Challakere facility on 11-Sep-2024. The engine achieved a peak thrust of 2000N and featured altitude compensation for optimal efficiency.[27]
+
+Dubai-based LEAP 71 successfully hot fired a 5000N Aerospike powered by cryogenic liquid oxygen (LOX) and kerosene at the test stand of Airborne Engineering in Westcott, UK. The engine was created through the Noyron Large Computational Engineering Model directly from first principles without human intervention or traditional CAD modeling.[28][29]
+
+The engine was 3D-printed using selective laser melting as a single monolithic part from copper (CuCrZr). The central spike was cooled using LOX, while the outer jacket was cooled using the fuel. The injector head measured 600 mm in diameter and a nozzle approximately 1.6 meters tall.[28]
+
+The injector head measured 600 mm in diameter and a nozzle approximately 1.6 meters tall.[28] The company claimed that it had progressed from specification to hot-fire in under three weeks creating a dual 20 kN methalox bell-nozzle and aerospike in December 2025. The engine was demonstrated with both kerolox and methalox.

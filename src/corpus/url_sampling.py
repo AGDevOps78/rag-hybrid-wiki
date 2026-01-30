@@ -16,8 +16,9 @@ CATEGORIES = [
 
 MIN_WORDS = 200
 TARGET_COUNT = 30
+RANDOM_COUNT =  30
 OUTPUT_PATH = "data/fixed_urls.json"
-
+RANDOM_PATH = "data/random_urls.json"
 
 # ---------------------------------------------
 # HELPERS
@@ -150,6 +151,42 @@ def generate_fixed_urls():
 
     print(f"\nSaved {len(collected)} fixed URLs to {OUTPUT_PATH}")
 
+# ---------------------------------------------
+# GENERATE RANDOM URLS
+# ---------------------------------------------
+def generate_random_urls(count=RANDOM_COUNT):
+    """Generate 300 unique Wikipedia URLs with ≥200 words."""
+    collected = set()
+    while len(collected) < count:
+        category = random.choice(CATEGORIES)
+        pages = get_pages_from_category(category)
+
+        if not pages:
+            continue
+
+        page = random.choice(pages)
+        url = build_page_url(page["pageid"])
+
+        if url in collected:
+            continue
+        
+        wc = page_word_count(url)
+        if page_word_count(url) >= MIN_WORDS:
+            collected.add(url)
+            print(f"[{len(collected)}/{count}] Added random URL: {url}")
+        else:
+            print(f"Skipped (too short): {url} ({wc} words)")
+
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(RANDOM_PATH), exist_ok=True)
+    
+    # Save RANDOM URLs
+    with open(RANDOM_PATH, "w", encoding="utf-8") as f:
+        json.dump(list(collected), f, indent=2)
+
+    print(f"Saved {len(collected)} random URLs to {RANDOM_PATH}")
+    return list(collected)
+
 
 # ---------------------------------------------
 # CLI ENTRY POINT
@@ -157,3 +194,4 @@ def generate_fixed_urls():
 if __name__ == "__main__":
     dedupe_fixed_urls()
     generate_fixed_urls()
+    generate_random_urls()

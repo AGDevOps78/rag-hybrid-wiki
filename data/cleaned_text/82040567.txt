@@ -1,0 +1,43 @@
+The Strengthening Transparency and Obligations to Protect Children Suffering from Abuse and Mistreatment Act, or STOP CSAM Act, is proposed United States federal legislation sponsored by Senators Josh Hawley and Dick Durbin.[1][2] First introduced in 2023 and reintroduced in 2025, the bill would create a cause of action that allows victims of online child sexual exploitation to bring civil lawsuits against online platforms.[3][4][5]
+
+The bill received some bipartisan support, but also prompted opposition from Senator Ron Wyden and several privacy and civil liberties organizations, who stated that it could incentivize online platforms to restrict lawful speech and potentially affect the availability of end-to-end encrypted services.[6][7][4][8]
+
+If passed, the STOP CSAM Act would expand reporting obligations for online service providers. Under the Act, online platforms that obtain actual knowledge of an apparent violation involving child sexual abuse material (CSAM) are required to submit a report to the National Center for Missing & Exploited Children’s (NCMEC) CyberTipline as soon as possible, but no later than 60 days after acquiring such knowledge.[9][10][11][5] Reports must include certain information, including available information about the minor depicted and the provider’s terms of service in force at the time of the violation. The STOP CSAM Act also makes mandatory previously optional categories of reporting, including reports relating to knowledge of "planned or imminent" child exploitation.[11][12][5]
+
+The Act requires online providers with over 1 million unique monthly visitors and with revenue over $50 million to submit annual reports to the United States Attorney General and Chair of the Federal Trade Commission.[9] These reports must include information about the provider’s actions to address notifications of child exploitation, measures taken to promote a culture of safety, and other details.[11][12][13]
+
+Penalties and liabilities
+
+The Act establishes civil and criminal penalties for online service providers that knowingly fail to comply with reporting and preservation requirements.[10] Providers that fail to submit a satisfactory CyberTipline report may be subject to penalties ranging from $50,000 to $250,000. Providers may also be liable for fees ranging from $100,000 to $1,000,000 if they fail to submit satisfactory annual reports.[2][5]
+
+The STOP CSAM Act makes it unlawful for providers of interactive computer services to "intentionally host or store child pornography or make child pornography available to any person" or "knowingly promote or facilitate a violation" of specified sections of Title 18 of the United States Code.[5][12]
+
+Remedies
+
+The STOP CSAM Act establishes a private right of action for minor victims under specified provisions of Title 18.[10][14] Under the Act, victims may bring civil actions against interactive computer service providers or app store operators for the "intentional, knowing, or reckless promotion, or aiding and abetting" violations of covered statutes. The Act also permits civil actions for the "intentional, knowing, or reckless hosting or storing" of CSAM.[9][11][5]
+
+Upon receipt of a complete notification of CSAM, online service providers are required to remove the identified material as soon as possible.[2][9][5][11]
+
+The Act provides limited protection for platforms’ use of end-to-end encryption by stating that certain encryption services cannot serve as an "independent basis for liability."[11][5]
+
+The STOP CSAM Act was introduced in May 2023 by Senators Durbin and Hawley and referred to the Senate Judiciary Committee.[15] The legislation was built on an earlier proposal from Senator Durbin aimed at combating the distribution of CSAM on online platforms.[2][16]
+
+The Act was intended to limit protections under Section 230 of the Communications Decency Act, which, under certain circumstances, shields online platforms from civil liability for third-party content.[15][2] In May 2023, the Senate Judiciary Committee advanced the STOP CSAM Act along with several other bills focused on online child exploitation.[7][17] However, the bill did not proceed to a full Senate vote and remained in committee later that year.[12] Democratic Senate Majority Leader Chuck Schumer attributed the stalled progress to opposition from technology companies, while Senator Durbin cited a lack of consensus among Senate Democrats. As of that period, no companion legislation had been introduced in the House of Representatives.[18]
+
+In January 2024, ahead of a Senate Judiciary Committee hearing with social media executives on child exploitation, Senator Durbin circulated a revised version of the bill. The updated draft included provisions intended to provide greater protection for platforms offering end-to-end encrypted services.[19] At the hearing titled "Big Tech and the Online Child Sexual Exploitation Crisis," lawmakers criticized social media executives for what they characterized as insufficient support for child safety legislation and called for Section 230 reform.[3][20][21][22][23]
+
+In February 2024, Senator Wyden objected to a request to pass the STOP CSAM Act by unanimous consent, citing concerns that the legislation could undermine online platforms’ ability to provide end-to-end encryption.[24]
+
+In early 2025, Senators Durbin and Hawley announced plans to reintroduce the STOP CSAM Act, which was formally introduced in the Senate in May 2025.[6][14] In June 2025, the Senate Judiciary Committee voted to advance the legislation.[5] A companion bill was introduced in the House of Representatives by Sylvia Garcia and Barry Moore and referred to the House Committee on the Judiciary.[25][13]
+
+Supporters of the Act argue that it would create financial accountability for online platforms and provide legal remedies for victims of child sexual abuse material.[8][14] Senator Lindsey Graham expressed support for a package of child safety bills, including the STOP CSAM Act.[26][18] In response to criticism that the bill could undermine end-to-end encryption, Senator Hawley characterized the concerns as "big tech talking points" and noted that the legislation includes protections for encryption.[24]
+
+The chief executive officer of NCMEC praised the Act, stating that it would "create meaningful incentives for these companies to ensure their platforms protect children from predators and to support survivors." NCMEC noted that the mandatory reporting would be important, citing the quality of CyberTipline reports submitted by technology companies has declined in recent years.[6]
+
+Google,[27] X Corp.,[28][29] the U.S. chapter of ECPAT,[30] and the Fraternal Order of Police have expressed support for the STOP CSAM Act.[16]
+
+The STOP CSAM Act has attracted criticism from trade groups, including NetChoice and the Chamber of Progress, and privacy and free expression advocates such as the American Civil Liberties Union, the Internet Society, the Electronic Frontier Foundation, and others.[12][3][24][25][18][31] Critics argue that online platforms are already subject to legal obligations to address child sexual abuse material and contend that the bill would create a notice-and-takedown mechanism that could be exploited by bad actors.[8] They also maintain that the Act would apply to an overly broad range of services, including cloud storage providers and email platforms.[9]
+
+Opponents have argued that the legislation could undermine end-to-end encryption by exposing providers to liability for content they cannot access.[24] These groups emphasize that end-to-end encryption protects all users, including children and other at-risk populations, from surveillance and abuse.[31][9] Although the bill contains some degree of protection for end-to-end encrypted services, critics contend that this provision is insufficient, as providers could still face costly litigation for providing them.[32][33]
+
+Senator Wyden has also expressed concern about the Act, stating that while he is open to reforms to Section 230, the legislation could incentivize companies to proactively scan user communications.[24][3]

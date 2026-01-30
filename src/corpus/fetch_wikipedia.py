@@ -1,96 +1,72 @@
 import os
-import re
-import unicodedata
+import requests
 from bs4 import BeautifulSoup
+import json
 
-INPUT_DIR = "data/cleaned_text"
-OUTPUT_DIR = "data/cleaned_text_final"
+URL_FILE = "data/fixed_urls.json"   # 200 URLs
+OUTPUT_DIR = "data/cleaned_text"
+RANDOM_FILE = "data/random_urls.json"
+OUTPUT_RANDOM = "data_random/cleaned_text"
+HEADERS = {
+    "User-Agent": "RAG-Hybrid-Wiki/1.0 (contact: 2024aa05720@wilp.bits-pilani.ac.in/2024aa05224@wilp.bits-pilani.ac.in)"
+}
 
+def fetch_page(url):
+    try:
+        html = requests.get(url, headers=HEADERS, timeout=10).text
+        soup = BeautifulSoup(html, "html.parser")
+        paragraphs = soup.find_all("p")
+        text = "\n".join(p.get_text() for p in paragraphs)
+        return text
+    except Exception as e:
+        print(f"Failed to fetch {url}: {e}")
+        return None
 
-# -------------------------------
-# Cleaning functions
-# -------------------------------
-def strip_html(text: str) -> str:
-    soup = BeautifulSoup(text, "html.parser")
-    for tag in soup(["script", "style"]):
-        tag.decompose()
-    return soup.get_text(separator=" ")
+def if_page_exists(pageid,out_dir):
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(OUTPUT_DIR, f"{pageid}.txt")
+    if os.path.exists(path):
+        # Page already saved
+        return True
+    else:
+        return False
 
-def normalize_unicode(text: str) -> str:
-    return unicodedata.normalize("NFKC", text)
+def save_page(text, pageid,out_dir):
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, f"{pageid}.txt")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    return path
 
-def collapse_whitespace(text: str) -> str:
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+def main():
+    with open(URL_FILE, "r", encoding="utf-8") as f:
+        urls = json.load(f)
 
-def remove_boilerplate(text: str) -> str:
-    patterns = [
-        r"©\s*\d{4}.*",
-        r"All rights reserved.*",
-        r"Page \d+ of \d+",
-        r"^\s*Advertisement\s*$",
-    ]
-    for p in patterns:
-        text = re.sub(p, "", text, flags=re.IGNORECASE | re.MULTILINE)
-    return text
+    for i, url in enumerate(urls, start=1):
+        pageid = url.split("=")[-1]  # extract Wikipedia pageid from URL
+        print(f"[{i}/{len(urls)}] Fetching {url}")
+        if if_page_exists(pageid, OUTPUT_DIR)==False:
+            text = fetch_page(url)
+            if text:
+                save_page(text, pageid,OUTPUT_DIR)
+        else:
+            print(f"Page already exists {pageid}")
+            continue
+    print("All pages fetched and saved to data/cleaned_text.")
+    with open(RANDOM_FILE, "r", encoding="utf-8") as f:
+        urls = json.load(f)
 
-def clean_text(text: str, lowercase: bool = False) -> str:
-    text = strip_html(text)
-    text = normalize_unicode(text)
-    text = remove_boilerplate(text)
-    text = collapse_whitespace(text)
-    if lowercase:
-        text = text.lower()
-    return text
+    for i, url in enumerate(urls, start=1):
+        pageid = url.split("=")[-1]  # extract Wikipedia pageid from URL
+        print(f"[{i}/{len(urls)}] Fetching {url}")
+        if if_page_exists(pageid,OUTPUT_RANDOM)==False:
+            text = fetch_page(url)
+            if text:
+                save_page(text, pageid, OUTPUT_RANDOM)
+        else:
+            print(f"Page already exists {pageid}")
+            continue
+    print("All pages fetched and saved to data/cleaned_text.")
 
-
-# -------------------------------
-# Clean a single file
-# -------------------------------
-def clean_file(input_path: str, output_path: str, lowercase=False):
-    with open(input_path, "r", encoding="utf-8") as f:
-        raw = f.read()
-
-    cleaned = clean_text(raw, lowercase=lowercase)
-
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(cleaned)
-
-    return output_path
-
-
-# -------------------------------
-# Clean ALL files in INPUT_DIR
-# -------------------------------
-def clean_all_files(lowercase=False):
-    if not os.path.exists(INPUT_DIR):
-        raise FileNotFoundError(f"Input directory not found: {INPUT_DIR}")
-
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-    files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".txt")]
-    print(f"Found {len(files)} files in {INPUT_DIR}")
-
-    for i, filename in enumerate(files, start=1):
-        in_path = os.path.join(INPUT_DIR, filename)
-        out_path = os.path.join(OUTPUT_DIR, filename)
-
-        print(f"[{i}/{len(files)}] Cleaning {filename}")
-        clean_file(in_path, out_path, lowercase=lowercase)
-
-    print("\nAll files cleaned successfully.")
-    return True
-
-
-# -------------------------------
-# CLI entry point
-# -------------------------------
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Clean all text files in a directory.")
-    parser.add_argument("--lowercase", action="store_true", help="Convert text to lowercase")
-    args = parser.parse_args()
-
-    clean_all_files(lowercase=args.lowercase)
+    main()

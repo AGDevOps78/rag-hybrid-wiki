@@ -4,13 +4,24 @@ import json
 import urllib.request
 
 INPUT_DIR = "data/cleaned_text_final"
+IN_RANDOM_DIR = "data_random/cleaned_text_final"
 OUTPUT_DIR = "data/chunks"
-##TITLE_DIR = "data/titles"   # store <pageid>.title.json from fetch step
+OUT_RANDOM_DIR = "data_random/chunks"
+EMBED_OUTPUT_FIXED = "data/embeddings.jsonl"
 
 MIN_SENTENCES = 3
 MAX_SENTENCES = 8
 OVERLAP_SENTENCES = 2
 
+# ---------------------------------------------------------
+# Check if fixed jsonl exists
+# ---------------------------------------------------------
+def if_fixed_jsonl_exists(path=EMBED_OUTPUT_FIXED):
+    if os.path.exists(path):
+        # Page already saved
+        return True
+    else:
+        return False
 
 # ---------------------------------------------------------
 # Sentence splitter (regex-based)
@@ -117,7 +128,7 @@ def load_title(pageid: str):
 # ---------------------------------------------------------
 # Process a single file
 # ---------------------------------------------------------
-def chunk_file(input_path: str, filename: str):
+def chunk_file(input_path: str, filename: str, outdir: str):
     pageid = extract_pageid_from_filename(filename)
     wikipedia_url = f"https://en.wikipedia.org/?curid={pageid}"
     title = load_title(pageid)
@@ -134,12 +145,12 @@ def chunk_file(input_path: str, filename: str):
     # Create chunks
     chunks = create_chunks(sentences)
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(outdir, exist_ok=True)
 
     for idx, chunk in enumerate(chunks):
         chunk_uid = f"{pageid}_chunk_{idx}"
-        chunk_text_path = os.path.join(OUTPUT_DIR, f"{chunk_uid}.txt")
-        chunk_meta_path = os.path.join(OUTPUT_DIR, f"{chunk_uid}.json")
+        chunk_text_path = os.path.join(outdir, f"{chunk_uid}.txt")
+        chunk_meta_path = os.path.join(outdir, f"{chunk_uid}.json")
 
         # Save chunk text
         with open(chunk_text_path, "w", encoding="utf-8") as f:
@@ -172,18 +183,31 @@ def chunk_file(input_path: str, filename: str):
 # Process all files in INPUT_DIR
 # ---------------------------------------------------------
 def chunk_all_files():
-    if not os.path.exists(INPUT_DIR):
-        raise FileNotFoundError(f"Input directory not found: {INPUT_DIR}")
+    #Only if fixed_jsonl does not exist, means we need chunking of fixed files
+    if if_fixed_jsonl_exists()==False:
+        if not os.path.exists(INPUT_DIR):
+            raise FileNotFoundError(f"Input directory not found: {INPUT_DIR}")
 
-    files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".txt")]
+        files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".txt")]
+        print(f"Found {len(files)} cleaned files to chunk.")
+
+        for i, filename in enumerate(files, start=1):
+            print(f"[{i}/{len(files)}] Chunking {filename}")
+            input_path = os.path.join(INPUT_DIR, filename)
+            chunk_file(input_path, filename,OUTPUT_DIR)
+        print("\nAll files chunked successfully.")
+    else:
+        print("fixed urls already chunked")
+    if not os.path.exists(IN_RANDOM_DIR):
+        raise FileNotFoundError(f"Input directory not found: {IN_RANDOM_DIR}")
+    files = [f for f in os.listdir(IN_RANDOM_DIR) if f.endswith(".txt")]
     print(f"Found {len(files)} cleaned files to chunk.")
 
     for i, filename in enumerate(files, start=1):
         print(f"[{i}/{len(files)}] Chunking {filename}")
-        input_path = os.path.join(INPUT_DIR, filename)
-        chunk_file(input_path, filename)
-
-    print("\nAll files chunked successfully.")
+        input_path = os.path.join(IN_RANDOM_DIR, filename)
+        chunk_file(input_path, filename,OUT_RANDOM_DIR)
+    print("\nAll random files chunked successfully.")
 
 
 # ---------------------------------------------------------

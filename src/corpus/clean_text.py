@@ -3,6 +3,9 @@ import re
 import unicodedata
 from bs4 import BeautifulSoup
 
+# -------------------------------
+# Cleaning primitives
+# -------------------------------
 def strip_html(text: str) -> str:
     """Remove HTML tags, scripts, and styles."""
     soup = BeautifulSoup(text, "html.parser")
@@ -22,7 +25,7 @@ def collapse_whitespace(text: str) -> str:
 def remove_boilerplate(text: str) -> str:
     """Remove common boilerplate patterns."""
     patterns = [
-        r"©\s*\d{4}.*",
+        r"�?\s*\d{4}.*",
         r"All rights reserved.*",
         r"Page \d+ of \d+",
         r"^\s*Advertisement\s*$",
@@ -43,8 +46,11 @@ def clean_text(text: str, lowercase: bool = False) -> str:
 
     return text
 
+# -------------------------------
+# File-level cleaning
+# -------------------------------
 def clean_file(input_path: str, output_path: str, lowercase: bool = False) -> str:
-    """Read a .txt file, clean it, and save to output_path."""
+    """Clean a single .txt file."""
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
@@ -59,15 +65,74 @@ def clean_file(input_path: str, output_path: str, lowercase: bool = False) -> st
 
     return output_path
 
+# -------------------------------
+# Directory-level cleaning (NEW)
+# -------------------------------
+def clean_directory(
+    input_dir: str,
+    output_dir: str,
+    lowercase: bool = False
+) -> int:
+    """
+    Clean all .txt files in a directory.
+    Returns number of files processed.
+    """
+    if not os.path.exists(input_dir):
+        raise FileNotFoundError(f"Input directory not found: {input_dir}")
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    files = [f for f in os.listdir(input_dir) if f.endswith(".txt")]
+    print(f"Found {len(files)} files in {input_dir}")
+
+    for i, filename in enumerate(files, start=1):
+        in_path = os.path.join(input_dir, filename)
+        out_path = os.path.join(output_dir, filename)
+
+        print(f"[{i}/{len(files)}] Cleaning {filename}")
+        clean_file(in_path, out_path, lowercase=lowercase)
+
+    print("All files cleaned successfully.")
+    return len(files)
+
+# -------------------------------
+# CLI entry point
+# -------------------------------
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description="Clean a text file for RAG pipelines.")
-    parser.add_argument("input", help="Path to input .txt file")
-    parser.add_argument("output", help="Path to save cleaned .txt file")
-    parser.add_argument("--lowercase", action="store_true", help="Convert text to lowercase")
+    parser = argparse.ArgumentParser(description="Clean text files for RAG pipelines.")
+
+    parser.add_argument(
+        "--input",
+        required=True,
+        help="Input file OR directory"
+    )
+    parser.add_argument(
+        "--output",
+        required=True,
+        help="Output file OR directory"
+    )
+    parser.add_argument(
+        "--lowercase",
+        action="store_true",
+        help="Convert text to lowercase"
+    )
 
     args = parser.parse_args()
 
-    out = clean_file(args.input, args.output, lowercase=args.lowercase)
-    print(f"Cleaned file saved to: {out}")
+    if os.path.isdir(args.input):
+        count = clean_directory(
+            args.input,
+            args.output,
+            lowercase=args.lowercase
+        )
+        print(f"Cleaned {count} files.")
+    else:
+        out = clean_file(
+            args.input,
+            args.output,
+            lowercase=args.lowercase
+        )
+        print(f"Cleaned file saved to: {out}")
+

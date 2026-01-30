@@ -1,0 +1,21 @@
+Phytochemistry is the study of phytochemicals, which are chemicals derived from plants. Phytochemists strive to describe the structures of the large number of secondary metabolites found in plants, the functions of these compounds in human and plant biology, and the biosynthesis of these compounds. Plants synthesize phytochemicals for many reasons, including to protect themselves against insect attacks and plant diseases. The compounds found in plants are of many kinds, but most can be grouped into four major biosynthetic classes: alkaloids, phenylpropanoids, polyketides, and terpenoids.
+
+Phytochemistry can be considered a subfield of botany or chemistry. Activities can be led in botanical gardens or in the wild with the aid of ethnobotany. Phytochemical studies directed toward human (i.e. drug discovery) use may fall under the discipline of pharmacognosy, whereas phytochemical studies focused on the ecological functions and evolution of phytochemicals likely fall under the discipline of chemical ecology. Phytochemistry also has relevance to the field of plant physiology.
+
+Techniques commonly used in the field of phytochemistry are extraction, isolation, and structural elucidation (MS,1D and 2D NMR) of natural products, as well as various chromatography techniques (MPLC, HPLC, and LC-MS).
+
+Many plants produce chemical compounds for defence against herbivores. The major classes of pharmacologically active phytochemicals are described below, with examples of medicinal plants that contain them.[1] Human settlements are often surrounded by weeds containing phytochemicals, such as nettle, dandelion and chickweed.[2][3]
+
+Many phytochemicals, including curcumin, epigallocatechin gallate, genistein, and resveratrol are pan-assay interference compounds and are not useful in drug discovery.[4][5]
+
+Alkaloids are bitter-tasting chemicals, widespread in nature, and often toxic. There are several classes with different modes of action as drugs, both recreational and pharmaceutical. Medicines of different classes include atropine, scopolamine, and hyoscyamine (all from nightshade),[6] the traditional medicine berberine (from plants such as Berberis and Mahonia), caffeine (Coffea), cocaine (Coca), ephedrine (Ephedra), morphine (opium poppy),  nicotine (tobacco), reserpine (Rauvolfia serpentina), quinidine and quinine (Cinchona), vincamine (Vinca minor), and vincristine (Catharanthus roseus).[7]
+
+Anthraquinone glycosides are found in senna,[9] rhubarb, and Aloe.[10]
+
+The cardiac glycosides are phytochemicals from plants including foxglove and lily of the valley. They include digoxin and digitoxin which act as diuretics.[11]
+
+Polyphenols of several classes are widespread in plants, including anthocyanins, phytoestrogens, and tannins.[13] Polyphenols are secondary metabolites produced by almost every part of plants, including fruits, flowers, leaves and bark.[13]
+
+Terpenes and terpenoids of many kinds are found in resinous plants such as the conifers. They are aromatic and serve to repel herbivores. Their scent makes them useful in essential oils, whether for perfumes such as rose and lavender, or for aromatherapy.[14][15] Some have had medicinal uses: thymol is an antiseptic and was once used as a vermifuge (anti-worm medicine).[16][17]
+
+Contrary to bacteria and fungi, most plant metabolic pathways are not grouped into biosynthetic gene clusters, but instead are scattered as individual genes. Some exceptions have been discovered: steroidal glycoalkaloids in Solanum, polyketides in Pooideae, benzoxazinoids in Zea mays, triterpenes in Avena sativa, Cucurbitaceae, Arabidopsis, and momilactone diterpenes in Oryza sativa.[18]
