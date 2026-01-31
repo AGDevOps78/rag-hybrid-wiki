@@ -6,6 +6,9 @@ from rank_bm25 import BM25Okapi
 CHUNKS_DIR = "data/chunks"
 BM25_INDEX_PATH = "data/bm25_index.json"
 
+CHUNKS_DIR_RANDOM = "data_random/chunks"
+BM25_INDEX_PATH_RANDOM = "data_random/bm25_random_index.json"
+
 
 # ---------------------------------------------------------
 # Simple tokenizer for BM25
@@ -16,19 +19,22 @@ def tokenize(text: str):
 
 
 # ---------------------------------------------------------
-# Load all chunks + metadata
+# Load all chunks + metadata from a directory
 # ---------------------------------------------------------
-def load_chunks():
-    txt_files = sorted([f for f in os.listdir(CHUNKS_DIR) if f.endswith(".txt")])
-    print(f"Found {len(txt_files)} chunk files for BM25 indexing.")
+def load_chunks_from(chunks_dir: str):
+    if not os.path.exists(chunks_dir):
+        return [], []
+
+    txt_files = sorted([f for f in os.listdir(chunks_dir) if f.endswith(".txt")])
+    print(f"Found {len(txt_files)} chunk files in {chunks_dir} for BM25 indexing.")
 
     documents = []
     metadata_list = []
-
+    print(f"Loading chunks from {chunks_dir}...")
     for txt_file in txt_files:
         chunk_uid = txt_file.replace(".txt", "")
-        text_path = os.path.join(CHUNKS_DIR, txt_file)
-        meta_path = os.path.join(CHUNKS_DIR, f"{chunk_uid}.json")
+        text_path = os.path.join(chunks_dir, txt_file)
+        meta_path = os.path.join(chunks_dir, f"{chunk_uid}.json")
 
         # Load text
         with open(text_path, "r", encoding="utf-8") as f:
@@ -51,10 +57,14 @@ def load_chunks():
 
 
 # ---------------------------------------------------------
-# Build BM25 index
+# Build BM25 index for a given chunks dir -> index path
 # ---------------------------------------------------------
-def build_bm25_index():
-    documents, metadata_list = load_chunks()
+def build_bm25_index_for(chunks_dir: str, index_path: str):
+    documents, metadata_list = load_chunks_from(chunks_dir)
+    print(f"Building BM25 index for {chunks_dir} documents to {index_path}...")
+    if not documents:
+        print(f"No documents found in {chunks_dir}; skipping index build for {index_path}.")
+        return
 
     tokenized_docs = [tokenize(doc) for doc in documents]
     bm25 = BM25Okapi(tokenized_docs)
@@ -64,22 +74,54 @@ def build_bm25_index():
         "tokenized_docs": tokenized_docs,
         "metadata": metadata_list
     }
-
-    os.makedirs(os.path.dirname(BM25_INDEX_PATH), exist_ok=True)
-    with open(BM25_INDEX_PATH, "w", encoding="utf-8") as f:
+    print(f"Saving BM25 index to {index_path}...")
+    os.makedirs(os.path.dirname(index_path), exist_ok=True)
+    with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index_data, f)
 
-    print(f"BM25 index saved to {BM25_INDEX_PATH}")
+    print(f"BM25 index saved to {index_path}")
 
 
 # ---------------------------------------------------------
-# Load BM25 index from disk
+# Build both indexes if their source dirs exist
 # ---------------------------------------------------------
-def load_bm25_index():
-    if not os.path.exists(BM25_INDEX_PATH):
-        raise FileNotFoundError("BM25 index not found. Run bm25_index.py to build it.")
+def build_bm25_index():
+    # Primary index
+    if os.path.exists(CHUNKS_DIR):
+        build_bm25_index_for(CHUNKS_DIR, BM25_INDEX_PATH)
+    else:
+        print(f"{CHUNKS_DIR} not found; skipping primary BM25 index.")
 
-    with open(BM25_INDEX_PATH, "r", encoding="utf-8") as f:
+    # Random index
+    if os.path.exists(CHUNKS_DIR_RANDOM):
+        build_bm25_index_for(CHUNKS_DIR_RANDOM, BM25_INDEX_PATH_RANDOM)
+    else:
+        print(f"{CHUNKS_DIR_RANDOM} not found; skipping random BM25 index.")
+
+
+# ---------------------------------------------------------
+# Load BM25 index from disk (accepts a path, defaults to primary)
+# - If called with index_path=None or "both", returns:
+#     {"primary": (bm25, metadata) or None, "random": (bm25, metadata) or None}
+# - Otherwise returns (bm25, metadata) as before.
+# ---------------------------------------------------------
+def load_bm25_index(index_path: str = BM25_INDEX_PATH):
+    if index_path is None or index_path == "both":
+        results = {}
+        for name, path in (("primary", BM25_INDEX_PATH), ("random", BM25_INDEX_PATH_RANDOM)):
+            if os.path.exists(path):
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                bm25 = BM25Okapi(data["tokenized_docs"])
+                results[name] = (bm25, data["metadata"])
+            else:
+                results[name] = None
+        return results
+
+    if not os.path.exists(index_path):
+        raise FileNotFoundError(f"BM25 index not found at {index_path}. Run bm25_embed.py to build it.")
+
+    with open(index_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     bm25 = BM25Okapi(data["tokenized_docs"])
@@ -87,19 +129,27 @@ def load_bm25_index():
 
 
 # ---------------------------------------------------------
-# Search API
+# Search API (defaults to both indexes; pass `index_path` to change)
 # ---------------------------------------------------------
-def search_bm25(query: str, top_k: int = 5):
-    bm25, metadata_list = load_bm25_index()
+def search_bm25(query: str, top_k: int = 5, index_path: str = "both"):
+    res = load_bm25_index(index_path)
 
+    candidates = []
     query_tokens = tokenize(query)
-    scores = bm25.get_scores(query_tokens)
+    #check if returned value is dict or tuple
+    if isinstance(res, dict):
+        for entry in res.values():
+            if entry is None:
+                continue
+            bm25_obj, metadata_list = entry
+            scores = bm25_obj.get_scores(query_tokens)
+            candidates.extend((float(s), m) for s, m in zip(scores, metadata_list))
+    else:
+        bm25_obj, metadata_list = res
+        scores = bm25_obj.get_scores(query_tokens)
+        candidates.extend((float(s), m) for s, m in zip(scores, metadata_list))
 
-    ranked = sorted(
-        zip(scores, metadata_list),
-        key=lambda x: x[0],
-        reverse=True
-    )[:top_k]
+    ranked = sorted(candidates, key=lambda x: x[0], reverse=True)[:top_k]
 
     results = []
     for score, meta in ranked:
