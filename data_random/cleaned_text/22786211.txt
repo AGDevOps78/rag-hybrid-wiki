@@ -1,0 +1,35 @@
+Condorcet methods
+
+Positional voting
+
+Cardinal voting
+
+Quota-remainder methods
+
+Approval-based committees
+
+Fractional social choice
+
+Semi-proportional representation
+
+By ballot type
+
+Pathological response
+
+Strategic voting
+
+Paradoxes of majority rule
+
+Positive results
+
+The countback method is a way of filling casual vacancies in proportional voting systems. Casual vacancies are filled by re-examining the ballots from the previous election. The candidate who held the seat is eliminated, and the election is then re-run with this candidate removed. Unlike other methods of filling vacancies, this procedure maintains proportional representation, and eliminates the need for expensive and low-turnout special elections.
+
+Countbacks are used in Malta,[1] the Australian Capital Territory,[2] Tasmania,[3][4] Victoria,[5] and Western Australia,[6] and for some local councils in New South Wales.[7]
+
+Countries often attempt to use countbacks with instant-runoff voting or single transferable vote, which often causes major problems and complications, because STV does not pass local independence of irrelevant alternatives (LIIA). This means the results can respond chaotically to the removal of a winning candidate. For example, a second-place finisher could become the last-place finisher under a full STV recount, meaning a politician might lose their seat because of a colleague's death or resignation. Most jurisdictions that use STV countbacks avoid this by "resuming" the STV process in the final stage, taking votes originally allocated to the elected candidate and transferring them to any unsuccessful candidates. However, the procedure for this can quickly become complex and highly arbitrary, with the outcome depending strongly on minor variants in counting rules (e.g. which candidates are considered "eliminated" in each round). This procedure also inserts spoiler effects into the race, allowing the final result to depend on the order in which vacancies arise, and potentially excluding popular candidates from contention because they were eliminated in early rounds.
+
+For rules that do pass LIIA (such as ranked pairs or most rated voting rules), countbacks are trivial, because excluding the original winner causes the runner-up to take their place. Such rules therefore permit low-cost countbacks and allow jurisdictions to fully eliminate by-elections.
+
+A further problem is that the number of exhausted ballots in STV elections increases every time a candidate is removed from contention. It is therefore possible that the replacement will be elected with only a handful of votes, substantially less than a full quota. If this fraction is particularly small, and thus no similar candidates remain on the ballot, election rules may call for a different method of filling the vacancy to be used.[citation needed]
+
+Although the countback method is designed to select a replacement representing the same group of voters who elected the original candidate, it remains possible that no similar candidates remain on the ballot. In 1985 the Tasmanian Parliament amended the Electoral Act to allow true by-elections if no candidates of the same party as the outgoing representative remained on the ballot. In this circumstance, the party may request that a by-election be held. However, this has not happened because most political parties and community groups now nominate a surplus number of candidates, in order to ensure they can fill any casual vacancies.[citation needed]

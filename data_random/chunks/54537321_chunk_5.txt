@@ -1,0 +1,1 @@
+. For k = ∞, see "2d aligned squares" below. Asymptotic behavior:[25] θ k ∼ θ ∞ + 0.316 / k + 0.114 / k 2 ... {\displaystyle \theta _{k}\sim \theta _{\infty }+0.316/k+0.114/k^{2}\ldots } . See also [27]

@@ -1,0 +1,25 @@
+Biospeleology, also known as cave biology, is a branch of biology dedicated to the study of organisms that live in caves and are collectively referred to as troglofauna.
+
+The first documented mention of a cave organism dates back to 1689, with the documentation of the olm, a cave salamander. Discovered in a cave in Slovenia, in the region of Carniola, it was mistaken for a baby dragon and was recorded by Johann Weikhard von Valvasor in his work The Glory of the Duchy of Carniola. 
+The first formal study on cave organisms was conducted on the blind cave beetle. Found in 1831 by Luka Čeč, an assistant to the lamplighter, when exploring the newly discovered inner portions of the Postojna cave system in southwestern Slovenia.[2][3][4] The specimen was turned over to Ferdinand J. Schmidt, who described it in the paper Illyrisches Blatt (1832).[5] He named it Leptodirus Hochenwartii after the donor, and also gave it the Slovene name drobnovratnik and the German name Enghalskäfer, both meaning "slender-necked (beetle)".[6] The article represents the first formal description of a cave animal (the olm, described in 1768, wasn't recognized as a cave animal at the time).
+Subsequent research by Schmidt revealed further previously unknown cave inhabitants, which aroused considerable interest among natural historians. For this reason, the discovery of L. hochenwartii (along with the olm) is considered as the starting point of biospeleology as a scientific discipline.[2][3][7] Biospeleology was formalized as a science in 1907 by Emil Racoviță with his seminal work Essai sur les problèmes biospéologiques ("Essay on biospeleological problems”).[citation needed]
+
+The first work on the systematisation of biospeleology however was the Catalogus Cavernarum Animalium (1934) by Hungarian biologist Endre Dudich and German-Jewish biologist Benno Wolf, which is also the first animal catalogue in history. Among other discoveries Dudich is also responsible for the discovery of around 220 cavedwelling species,[8] realized that caves are not cohesive biotopes[9] and he was the first to classify cave ecosystems into groups:
+
+In 1930, he and his Hungarian co-researchers also disproved the then prominent theory that cave-dwelling creatures are subject to constant starvation.
+
+Cave organisms fall into three basic classes:[11]
+
+Troglobites are obligatory cavernicoles, specialized for cave life. Some can leave caves for short periods, and may complete parts of their life cycles above ground, but cannot live their entire lives outside of a cave environment. Examples include chemotrophic bacteria, some species of flatworms, springtails, and cavefish.
+
+Troglophiles can live part or all of their lives in caves, but can also complete a life cycle in appropriate environments on the surface. Examples include cave crickets, bats, millipedes, pseudoscorpions and spiders.
+
+Trogloxenes frequent caves, and may require caves for a portion of its life cycle, but must return to the surface (or a parahypogean zone) for at least some portion of its life. Oilbirds and most Daddy longlegs are trogloxenes.
+
+Cave environments fall into three general categories:
+
+Endogean environments are the parts of caves that are in communication with surface soils through cracks and rock seams, groundwater seepage, and root protrusion.
+
+Parahypogean environments are the threshold regions near cave mouths that extend to the last penetration of sunlight.
+
+Hypogean or "true" cave environments. These can be in regular contact with the surface via wind and underground rivers, or the migration of animals, or can be almost entirely isolated. Deep hypogean environments can host autonomous ecologies whose primary source of energy is not sunlight, but chemical energy liberated from limestone and other minerals by chemoautotrophic bacteria.

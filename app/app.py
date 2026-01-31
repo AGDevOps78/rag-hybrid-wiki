@@ -13,7 +13,7 @@ from src.retrieval.sparse import SparseRetriever
 from src.retrieval.hybrid import retrieve_hybrid
 from src.retrieval.generator import Generator
 
-st.title("Hybrid RAG over Wikipedia")
+st.title("Group 15 Hybrid RAG over Wikipedia")
 
 @st.cache_resource
 def load_components():
@@ -26,7 +26,7 @@ dense_ret, sparse_ret, generator = load_components()
 
 query = st.text_input("Enter your question")
 
-top_k = st.slider("Top-K per retriever", 3, 120, 60)
+top_k = st.slider("Top-K per retriever", 3, 40, 20)
 top_n = st.slider("Top-N after RRF", 1, 5, 3)
 
 if st.button("Ask") and query:

@@ -1,0 +1,15 @@
+Dark oxygen production refers to the generation of molecular oxygen (O2) through processes that do not involve light-dependent oxygenic photosynthesis. The name therefore uses a different sense of 'dark' than that used in the phrase "biological dark matter" (for example) which indicates obscurity to scientific assessment rather than the photometric meaning. While the majority of Earth's oxygen is produced by plants and photosynthetically active microorganisms via photosynthesis, dark oxygen production occurs via a variety of abiotic and biotic processes and may support aerobic metabolism in dark, anoxic environments.
+
+The theory for dark oxygen production by manganese nodules on the abyssal seafloor is controversial, with scientists disagreeing about its validity.[1][2]
+
+Abiotic production of dark oxygen can occur through several mechanisms, such as:
+
+In addition to direct O2 formation, these processes often produce reactive oxygen species (ROS), such as hydroxyl radicals (OH•), superoxide (O2•-), and hydrogen peroxide (H2O2). These ROS can be converted into O2 and water either biotically, through enzymes like superoxide dismutase and catalase, or abiotically, via reactions with ferrous iron and other reduced metals.[7][8]
+
+Biotic production of dark oxygen is performed by microorganisms through distinct microbial processes, including:
+
+These processes enable microbial communities to sustain aerobic metabolism in environments that lack oxygen.
+
+Recent studies have provided evidence for dark oxygen production in various geological and subsurface environments:
+
+Despite its diverse pathways, dark oxygen production has traditionally been considered negligible in Earth's systems. Recent evidence suggests that O2 is produced and consumed in dark, apparently anoxic environments on a much larger scale than previously thought, with implications for global biogeochemical cycles.[23][24]

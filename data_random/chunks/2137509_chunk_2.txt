@@ -1,0 +1,1 @@
+Relativistic Euler equations read in the non relativistic limit, these equations reduce to the usual Euler equations.[8]

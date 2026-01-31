@@ -1,0 +1,66 @@
+In thermodynamics, nucleation is the first step in the formation of either a new thermodynamic phase or structure via self-assembly or self-organization within a substance or mixture. Nucleation is typically defined to be the process that determines how long an observer has to wait before the new phase or self-organized structure appears. For example, if a volume of water is cooled (at atmospheric pressure) significantly below 0 °C, it will tend to freeze into ice, but volumes of water cooled only a few degrees below 0 °C often stay completely free of ice for long periods (supercooling). At these conditions, nucleation of ice is either slow or does not occur at all. However, at lower temperatures nucleation is fast, and ice crystals appear after little or no delay.[1][2]
+
+Nucleation is a common mechanism which generates first-order phase transitions, and it is the start of the process of forming a new thermodynamic phase. In contrast, new phases at continuous phase transitions start to form immediately.
+
+Nucleation is often very sensitive to impurities in the system. These impurities may be too small to be seen by the naked eye, but still can control the rate of nucleation. Because of this, it is often important to distinguish between heterogeneous nucleation and homogeneous nucleation. Heterogeneous nucleation occurs at nucleation sites on surfaces in the system.[1] Homogeneous nucleation occurs away from a surface.
+
+Nucleation is usually a stochastic (random) process, so even in two identical systems nucleation will occur at different times.[1][2][3][4] A common mechanism is illustrated in the animation to the right. This shows nucleation of a new phase (shown in red) in an existing phase (white). In the existing phase microscopic fluctuations of the red phase appear and decay continuously, until an unusually large fluctuation of the new red phase is so large it is more favourable for it to grow than to shrink back to nothing. This nucleus of the red phase then grows and converts the system to this phase. The standard theory that describes this behaviour for the nucleation of a new thermodynamic phase is called classical nucleation theory. However, the CNT fails in describing experimental results of vapour to liquid nucleation even for model substances like argon by several orders of magnitude.[5]
+
+For nucleation of a new thermodynamic phase, such as the formation of ice in water below 0 °C, if the system is not evolving with time and nucleation occurs in one step, then the probability that nucleation has not occurred should undergo exponential decay. This is seen for example in the nucleation of ice in supercooled small water droplets.[6] The decay rate of the exponential gives the nucleation rate. Classical nucleation theory is a widely used approximate theory for estimating these rates, and how they vary with variables such as temperature. It correctly predicts that the time you have to wait for nucleation decreases extremely rapidly when supersaturated.[1][2][4]
+
+It is not just new phases such as liquids and crystals that form via nucleation followed by growth. The self-assembly process that forms objects like the amyloid aggregates associated with Alzheimer's disease also starts with nucleation.[7] Energy consuming self-organising systems such as the microtubules in cells also show nucleation and growth.
+
+Heterogeneous nucleation, nucleation with the nucleus at a surface, is much more common than homogeneous nucleation.[1][3] 
+For example, in the nucleation of ice from supercooled water droplets, purifying the water to remove all or almost all impurities results in water droplets that freeze below around −35 °C,[1][3][6] whereas water that contains impurities may freeze at −5 °C or warmer.[1]
+
+This observation that heterogeneous nucleation can occur when the rate of homogeneous nucleation is essentially zero, is often understood using classical nucleation theory. This predicts that the nucleation slows exponentially with the height of a free energy barrier ΔG*. This barrier comes from the free energy penalty of forming the surface of the growing nucleus.[8] For homogeneous nucleation the nucleus is approximated by a sphere, but as we can see in the schematic of macroscopic droplets to the right, droplets on surfaces are not complete spheres and so the area of the interface between the droplet and the surrounding fluid is less than a sphere's 
+
+
+
+4
+π
+
+r
+
+2
+
+
+
+
+{\displaystyle 4\pi r^{2}}
+
+. This reduction in surface area of the nucleus reduces the height of the barrier to nucleation and so speeds nucleation up exponentially.[2]
+
+Nucleation can also start at the surface of a liquid. For example, computer simulations of gold nanoparticles show that the crystal phase sometimes nucleates at the liquid-gold surface.[9]
+
+Classical nucleation theory makes a number of assumptions, for example it treats a microscopic nucleus as if it is a macroscopic droplet with a well-defined surface whose free energy is estimated using an equilibrium property: the interfacial tension σ. For a nucleus that may be only of order ten molecules across it is not always clear that we can treat something so small as a volume plus a surface. Also nucleation is an inherently out of thermodynamic equilibrium phenomenon so it is not always obvious that its rate can be estimated using equilibrium properties.
+
+However, modern computers are powerful enough to calculate essentially exact nucleation rates for simple models. These have been compared with the classical theory, for example for the case of nucleation of the crystal phase in the model of hard spheres. This is a model of perfectly hard spheres in thermal motion, and is a simple model of some colloids. For the crystallization of hard spheres the classical theory is a very reasonable approximate theory.[10] So for the simple models we can study, classical nucleation theory works quite well, but we do not know if it works equally well for (say) complex molecules crystallising out of solution.
+
+Phase-transition processes can also be explained in terms of spinodal decomposition, where phase separation is delayed until the system enters the unstable region where a small perturbation in composition leads to a decrease in energy and, thus, spontaneous growth of the perturbation.[11] This region of a phase diagram is known as the spinodal region and the phase separation process is known as spinodal decomposition and may be governed by the Cahn–Hilliard equation.
+
+In many cases, liquids and solutions can be cooled down or concentrated up to conditions where the liquid or solution is significantly less thermodynamically stable than the crystal, but where no crystals will form for minutes, hours, weeks or longer; this process is called supercooling. Nucleation of the crystal is then being prevented by a substantial barrier. This has consequences, for example cold high altitude clouds may contain large numbers of small liquid water droplets that are far below 0 °C.
+
+
+In small volumes, such as in small droplets, only one nucleation event may be needed for crystallisation. In these small volumes, the time until the first crystal appears is usually defined to be the nucleation time. Calcium carbonate crystal nucleation depends not only on degree of supersaturation but also the ratio of calcium to carbonate ions in aqueous solutions.[12] In larger volumes many nucleation events will occur. A simple model for crystallisation in that case, that combines nucleation and growth is the KJMA or Avrami model. 
+Although the existing theories including the classical nucleation theory explain well the steady nucleation state when the crystal nucleation rate is not time dependent, the initial non-steady state transient nucleation,[13] and even more mysterious incubation period, require more attention of the scientific community. Chemical ordering of the undercooling liquid prior to crystal nucleation was suggested to be responsible for that[14] feature by reducing the energy barrier for nucleation.[15]
+
+The time until the appearance of the first crystal is also called primary nucleation time, to distinguish it from secondary nucleation times. Primary here refers to the first nucleus to form, while secondary nuclei are crystal nuclei produced from a preexisting crystal. Primary nucleation describes the transition to a new phase that does not rely on the new phase already being present, either because it is the very first nucleus of that phase to form, or because the nucleus forms far from any pre-existing piece of the new phase. Particularly in the study of crystallisation, secondary nucleation can be important. This is the formation of nuclei of a new crystal directly caused by pre-existing crystals.[16]
+
+For example, if the crystals are in a solution and the system is subject to shearing forces, small crystal nuclei could be sheared off a growing crystal, thus increasing the number of crystals in the system. So both primary and secondary nucleation increase the number of crystals in the system but their mechanisms are very different, and secondary nucleation relies on crystals already being present.
+
+It is typically difficult to experimentally study the nucleation of crystals. The nucleus is microscopic, and thus too small to be directly observed. In large liquid volumes there are typically multiple nucleation events, and it is difficult to disentangle the effects of nucleation from those of growth of the nucleated phase. These problems can be overcome by working with small droplets. As nucleation is stochastic, many droplets are needed so that statistics for the nucleation events can be obtained. 
+
+ To the right is shown an example set of nucleation data. It is for the nucleation at constant temperature and hence supersaturation of the crystal phase in small droplets of supercooled liquid tin; this is the work of Pound and La Mer.[17]
+
+Nucleation occurs in different droplets at different times, hence the fraction is not a simple step function that drops sharply from one to zero at one particular time. The red curve is a fit of a Gompertz function to the data. This is a simplified version of the model Pound and La Mer used to model their data.[17] The model assumes that nucleation occurs due to impurity particles in the liquid tin droplets, and it makes the simplifying assumption that all impurity particles produce nucleation at the same rate. It also assumes that these particles are Poisson distributed among the liquid tin droplets. The fit values are that the nucleation rate due to a single impurity particle is 0.02/s, and the average number of impurity particles per droplet is 1.2. Note that about 30% of the tin droplets never freeze; the data plateaus at a fraction of about 0.3. Within the model this is assumed to be because, by chance, these droplets do not have even one impurity particle and so there is no heterogeneous nucleation. Homogeneous nucleation is assumed to be negligible on the timescale of this experiment. The remaining droplets freeze in a stochastic way, at rates 0.02/s if they have one impurity particle, 0.04/s if they have two, and so on.
+
+These data are just one example, but they illustrate common features of the nucleation of crystals in that there is clear evidence for heterogeneous nucleation, and that nucleation is clearly stochastic.
+
+
+The freezing of small water droplets to ice is an important process, particularly in the formation and dynamics of clouds.[1] Water (at atmospheric pressure) does not freeze at 0 °C, but rather at temperatures that tend to decrease as the volume of the water decreases and as the concentration of dissolved chemicals in the water increases.[1] 
+ Thus small droplets of water, as found in clouds, may remain liquid far below 0 °C.
+
+An example of experimental data on the freezing of small water droplets is shown at the right. The plot shows the fraction of a large set of water droplets, that are still liquid water, i.e., have not yet frozen, as a function of temperature. Note that the highest temperature at which any of the droplets freezes is close to -19 °C, while the last droplet to freeze does so at almost -35 °C.[18]
+
+In addition to the nucleation and growth of crystals e.g. in non-crystalline glasses, the nucleation and growth of impurity precipitates in crystals at, and between, grain boundaries is quite important industrially. For example in metals solid-state nucleation and precipitate growth plays an important role e.g. in modifying mechanical properties like ductility, while in semiconductors it plays an important role e.g. in trapping impurities during integrated circuit manufacture.[22]

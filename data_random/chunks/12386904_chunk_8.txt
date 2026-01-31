@@ -1,0 +1,1 @@
+Raw data is then transformed into natural language. Ultimately, fuzzy data mining's goal is to help deal with inexact information, such as an incomplete database. Currently fuzzy preprocessing, as well as other fuzzy based data mining techniques see frequent use with neural networks and artificial intelligence.[11]

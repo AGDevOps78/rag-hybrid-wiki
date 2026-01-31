@@ -1,0 +1,29 @@
+Corrosion inhibitors are substances used in the oil industry to protect equipment and pipes against corrosion. Corrosion is a common problem in the oil industry due to the presence of water, gases, and other corrosive contaminants in the production environment.
+
+Anodic inhibitors and cathodic inhibitors are the two main categories of corrosion inhibitors. While cathodic inhibitors act as catalysts to slow down corrosion, anodic inhibitors protect metal surfaces by acting as physical barriers. They can also be divided into organic and inorganic corrosion inhibitors based on their chemical composition.[1]
+
+Corrosion inhibitors are used in the petroleum industry in several steps, including drilling, production, transportation, and storage of oil and gas.[2][3] They can mitigate different types of corrosion in the petroleum industry, such as generalized corrosion, pitting corrosion, erosion corrosion, stress corrosion, galvanic corrosion, cavitation corrosion, and hydrogen blister.[4]
+
+There are different chemical families of corrosion inhibitors used in the oil industry, among them are the following:
+
+Fatty Imidazolines: These are imidazole-based compounds, usually with a long unsaturated chain length, derived mainly from oleic acid. They are very effective in preventing acid corrosion of carbon steel (Figure 1).[5]
+
+Fatty amines: These corrosion inhibitors are organic compounds that contain an amino group and an alkyl group. They act as cathodic inhibitors and form a protective layer on the metal surface.They work efficiently against corrosion brought about by carbon dioxide (CO2) and hydrogen sulfide (H2S). Also, ethoxylated amines are widely applied for the same purpose (Figure 2).[6]
+
+Organic Acids: Organic acids such as acetic acid, formic acid and citric acid are used as corrosion inhibitors. These acids react with metal ions to form insoluble compounds that protect the metal surface. These inhibitors are often used in combination with other corrosion inhibitors and techniques, such as cathodic protection and coatings, to provide comprehensive corrosion protection. CO2 and H2S are regularly seen in oilfields and are notorious for causing corrosion of metal sections. Fortunately, they can be kept under control with measures that have been found to be effective (Figure 3).[7]
+
+Pyridines: Some studies have shown that certain pyridines can inhibit corrosion caused by the presence of acid gases, such as carbon dioxide and hydrogen sulfide, which are common in the oil industry. Pyridine and its derivatives have been shown to be effective inhibitors for a wide range of metals, such as carbon steel, stainless steel, and copper alloys. They act by adsorbing to the metal surface and forming a protective film, which can be physical or chemical in nature. Pyridine and its derivatives are also effective in inhibiting localized corrosion, such as pitting and crevice corrosion (Figure 4).[8]
+
+Azoles: Azoles, such as triazole and benzotriazole, oxazole and benzoxazoles, thioazoles, and benzothioazoles, are organic compounds used as corrosion inhibitors in the petroleum industry. They act as anodic inhibitors and form a protective layer on the metal surface (Figure 5).[9][10]
+
+Polymers: Polymers are large molecules used in the petroleum industry as corrosion inhibitors. These polymers can adsorb onto the metal surface and form a protective coating. They can also be used as dispersants to prevent the formation of corrosive deposits. Some examples are:
+
+Aminated polymers: These polymers are used for corrosion protection of metal surfaces in the oil industry. They are highly effective in preventing salt water and hydrogen sulfide corrosion.
+
+Acrylic polymers: These polymers are used as corrosion inhibitors in the industry due to their good compatibility with oil and drilling fluids. They are effective against corrosion caused by the presence of hydrochloric acid (HCl) in drilling fluids.
+
+Maleate polymers: These polymers are used as corrosion inhibitors in the industry due to their good adsorption capacity on metal surfaces and their high solubility in oil and drilling fluids. They offer protection against the corrosive effects of hydrogen sulfide present in the drilling fluid. (Figure 6).[11]
+
+Other organic products used as corrosion inhibitors in the oil industry are nitriles, amides, oximes, ureas and, thioureas, and phosphonate salts. Inorganic inhibitors such as lanthanides,[12] molybdates, silicates, boric and phosphoric acids, and combinations of nitrates and nitrites are also widely employed. Environmentally friendly inhibitors such as some biomass wastes, amino acids, and ionic liquids have been investigated.[13]
+
+It is critical to choose the right corrosion inhibitor based on environmental conditions (temperature, pressure, and type of metal to be protected) and to ensure that the right amount is applied for maximum protection. The corrosion progress should also be monitored periodically to adjust the dosage of the inhibitor if necessary.

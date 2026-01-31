@@ -1,0 +1,151 @@
+In the iron and steel industry, direct reduction is a set of processes for obtaining iron from iron ore, by reducing iron oxides without melting the metal. The resulting product is pre-reduced iron ore.
+
+Historically, direct reduction was used to obtain a mix of iron and slag called a bloom in a bloomery. At the beginning of the 20th century, this process was abandoned in favor of the blast furnace, which produces iron in two stages (reduction-melting to produce cast iron, followed by refining in a converter).
+
+However, various processes were developed in the course of the 20th century and, since the 1970s, the production of pre-reduced iron ore has undergone remarkable industrial development, notably with the rise of the Midrex process [Wikidata]. Designed to replace the blast furnace, these processes have so far only proved profitable in certain economic contexts, which still limits this sector to less than 5% of world steel production.
+
+Historically, the reduction of iron ore without smelting is the oldest process for obtaining steel. Low-temperature furnaces, unable to reach the melting temperatures of iron alloys, produce a bloom, a heterogeneous agglomerate of metallic iron more or less impregnated with carbon, gangue, and charcoal. This process was gradually succeeded, from the 1st century in China and the 13th century in Europe, by the blast furnace, which simultaneously reduces and melts iron.[3]
+
+Elaborate low furnaces, such as the tatara or the Catalan forge, survived until the early 19th century.[1] Compared with the indirect process (reduction-melting in the blast furnace, followed by cast-iron refining), these processes only survived when they enjoyed at least one of the following two advantages:
+
+More advanced direct reduction processes were developed at the beginning of the 20th century, when it became possible to smelt pre-reduced ores using the Martin-Siemens process or the electric arc furnace. Based on this technical and economic model, a number of processes were industrialized before World War II (the Krupp-Renn process adopted by the Shōwa Steel Works, the Chenot process,[1] etc.). They remained confidential, however, and their profitability was generally debated.[2]
+
+Modern direct reduction processes, based on the use of natural gas instead of coal, were studied intensively in the 1950s.[nb 2] On December 5, 1957, the Mexican company Hylsa started up the first industrial production unit of this type in Monterrey, with the pre-reduced ore obtained destined for smelting in an electric arc furnace.[nb 3][4] As the production of pre-reduced ore with natural gas was economically viable, several plants were built in the late 1960s. As a cheap supply of natural gas[nb 4] was essential to their profitability, most plants were located in countries with gas deposits, in Latin America (where many were developed) and in the Middle East.[5]
+
+In 1970, worldwide production of pre-reduced iron ore reached 790,000 tonnes. The processes then in operation were the HYL process (680,000 tonnes produced), an SL/RN unit, a Purofer unit, and the first plant to use the Midrex process.[4]
+
+Although profitable and innovative, the processes invented did not ultimately prove to be a technological revolution capable of supplanting the traditional blast furnace-based process.[3] However, the quantity of steel produced from pre-reduced materials grew steadily, outstripping world steel production:
+
+Packaging of pre-reduced iron ore is evenly divided between sponge iron and briquettes. Sponges are a highly porous metallic product, close to the original ore but highly pyrophoric, which limits their transport. They are therefore often subjected to hot compaction, which improves both product density and handling safety.[10] In 2012, 45% of prereducts were transformed into briquettes in this way.[9]
+
+Iron oxides are reduced in the following sequence:[11]
+
+ Fe2O3  →    Fe3O4     →   FeO[nb 7] → Fe
+
+Each transition from one oxide to the next is due to two simultaneous high-temperature reduction reactions by carbon monoxide CO or dihydrogen H2:
+
+Fe3O4 + CO → 3 FeO + CO2
+
+Fe3O4 + H2 → 3 FeO + H2O
+
+These temperatures differ from those predicted by the Ellingham diagram.[nb 8] In reality, there is a coupling between carbon monoxide reduction and dihydrogen,[nb 9] so that these reactions work together, with hydrogen significantly improving the efficiency of CO reduction.
+
+In coal-fired processes, part of the fuel is first burnt to heat the charge. The product of this combustion is CO2. When the temperature reaches 1,000 °C, the CO2[12] reacts with the unburned carbon to create CO:[13]
+
+           CO2 + C ⇌ 2 CO                when T > 1 000 °C (Boudouard reaction)
+
+The production of H2 cannot be achieved by the thermal decomposition of water, as the temperatures involved are too low. Hydrogen is in fact produced along with carbon monoxide by the reaction:
+
+           H2O + C → H2 + CO          when  T > 1 000 °C
+
+These two reducing gas production reactions, which consume 172.45 and 131.4 kJ/mol[14] respectively, are highly endothermic and operate by limiting charge heating.
+
+The reducing atmosphere, rich in CO and H2, can be created from the high-temperature cracking of natural gas at around 1100-1150 °C, in the presence of oxidized gases (H2O and CO2) from ore reduction reactors.
+
+The system that generates the reducing gases is called a "reformer". In the Midrex process, it consists of tubes heated by the combustion of a portion (around a third) of the gas from the reactor.
+
+Plants for the production of pre-reduced iron ore are known as direct reduction plants. The principle involves exposing iron ore to the reducing action of a high-temperature gas (around 1000 °C). This gas is composed of carbon monoxide and dihydrogen, the proportions of which depend on the production process.
+
+Generally speaking, there are two main types[nb 10] of processes:[12]
+
+Another way of classifying processes is to distinguish between those where the reducing gases are produced in specific facilities separate from the reduction reactor - which characterizes most processes using natural gas - and those where the gases are produced inside the fusion reactor: coal-fired processes generally fall into this category.[13] However, many "gas-fired" processes can be fed by gasification units producing a reducing gas from coal.[15]
+
+In addition, since the melting stage is necessary to obtain alloys, reduction-melting processes have been developed which, like blast furnaces, produce a more or less carburized liquid metal. Finally, many more or less experimental processes have been developed.[13]
+
+Bold indicates technically and commercially proven processes (i.e. operating viably in several economic contexts)[16]
+
+HYL III (competing process with Midrex)
+
+SL/RN (developed in 1964, 45% of pre-reduced coal production in 1997[21])
+
+A number of other efficient but more confidential processes succeeded SL/RN: Kawasaki and Koho,[22] Krupp-CODIR[23]
+
+In these processes, iron ore is brought into contact with reducing gases produced and heated by a separate plant in a closed enclosure. As a result, these processes are naturally suited to the use of natural gas.
+
+In these processes, the ore is fed into a tank, where it remains until it is completely reduced. The vessel is then emptied of its pre-reduced ore, and filled with another charge of untreated ore. These processes can therefore be easily extrapolated from laboratory experiments. What's more, their principle, based on batch production, facilitates process control.
+
+In natural gas cyclic processes, a unit produces hot reducing gas, which is injected into the reactor. To ensure continuous operation of the unit converting natural gas into reducing gas, several tanks are operated in parallel and with a time lag.
+
+The best-known of this type is HYL I and its improved variant, HYL II. This is the oldest industrial direct gas reduction process, developed in Mexico in 1957 by the Hylsa company.[17]
+
+These are exclusively coal-fired processes, with the reducing gases generated inside the reduction vessel. The ore is charged with coal into a closed container. This is then heated until the oxygen present in the ore combines with the carbon before being discharged, mainly in the form of CO or CO2. This production of gas by heating a solid material means that the reactor belongs to the retort category.
+
+The principle is an ancient one: in northern China, the shortage of charcoal led to the development of processes using hard coal before the 4th century. To avoid any contact between iron and sulfur, the brittle element provided by coal, China developed a process that involved placing iron ore in batteries of elongated tubular crucibles and covering them with a mass of coal, which was then burned.[24] This process survived into the 20th century.[25]
+
+More recently, other historic processes have come to the fore, such as that of Adrien Chenot, operational in the 1850s in a number of plants in France and Spain. Successive improvements by Blair, Yutes, Renton, and Verdié[1] are not significant.[2][26] Among the processes developed is the HOGANAS process, perfected in 1908. Three small units are still operational (as of 2010). Not very productive, it is limited to the production of powdered iron, but as it is slow and operates in closed retorts, it easily achieves the purities required by powder metallurgy.[27]
+
+Other retort processes were developed, such as KINGLOR-METOR, perfected in 1973. Two small units were built in 1978 (closed) and 1981[13] (probably closed[28]).
+
+Based on the principle of counter-current piston flow, these processes are the closest to the blast furnace or, more accurately, the stückofen. Hot reducing gases are obtained from natural gas, in a separate unit from the shaft, and injected at the bottom of the shaft, while the ore is charged at the top. The pre-reduced materials are extracted hot, but in solid form, from the bottom of the shaft. This similarity to a blast furnace without its crucible made it one of the first processes explored by metallurgists, but the failures of the German Gurlt in 1857, and the French Eugène Chenot (son of Adrien) around 1862, led to the conclusion that "the reduction of iron ore [...] is therefore [not] possible in large quantities by gas alone".[4]
+
+Developed in the 1970s, the Midrex process is the best example of a continuous direct reduction process. As much a technical success as a commercial one, since 1980 it has accounted for around two-thirds of the world's production of pre-reduced materials. Its similarity to the blast furnace means that it shares some of its advantages, such as high production capacity, and some disadvantages, such as the relative difficulty of controlling several simultaneous reactions in a single reactor (since the nature of the product changes considerably as it travels through the vessel). The strategy of selling turnkey units, combined with a cautious increase in production capacity, has given this process good financial[nb 11] and technical visibility... compared with the often dashed hopes of competing processes.[9][17]
+
+Its direct competitor, the HYL III process, is the result of a research effort by the Tenova Group (de), heir to the Mexican Hylsa pioneers. Accounting for almost 20% of pre-reduced product production, it differs from the Midrex process in that it features an in-house reforming unit for the production of reducing gases.[29]
+
+Other processes have been developed based on this continuous reactor principle. Some, like ULCORED,[30] are still at the study stage. Most have only been developed in a single country, or by a single company. Others were failures, such as the NSC process, of which a single plant was built in 1984 and converted to HYL III in 1993,[31] ARMCO (a single unit[32] commissioned in 1963[33] and shut down in 1982[34]) or PUROFER (3 units operational from 1970 to 1979,[13] small-scale production resumed in 1988).[34]
+
+
+Coal-fired processes are variants of natural gas processes, where the gas can be synthesized from coal in an additional unit. Among these variants, the MxCol, of which one commercial unit in Angul commissioned by Jindal Steel and Power has been operational since 2014, is a Midrex fed by a coal gasification unit.[35][36] Technically mature but more complex, they are at a disadvantage compared with equivalent gas-fired processes, which require slightly less investment.[37]
+Given that direct reduction is a chemical exchange between gas and solid, the fluidization of ore by reducing gases is an attractive line of research. However, the changing nature of the constituents, combined with the high temperature and the difficulty of controlling the fluidization phenomenon, make its adoption singularly difficult.
+
+Many processes have been developed on this principle. Some have been technical failures, such as the HIB (a single plant[38] commissioned in 1972, converted to the Midrex in 1981[39]) or economic failures, such as the FIOR process (a single plant commissioned in 1976, mothballed since 2001,[34] the forerunner of FINMET).[18]
+
+Developed in 1991 from the FIOR process, the FINMET process seems more mature, but its expansion has not materialized (two plants were built,[18] and only one was in operation as of 2014[40]). The CIRCORED process, also recent,[41] is similarly stagnant (just one plant built, commissioned in 1999, mothballed in 2012[9]), despite its adaptability to coal (CIRCOFER process, no industrial production).[19]
+
+Rotation of the reduction furnace may be a design choice intended to circulate the ore through the furnace. It can also play an active part in the chemical reaction by ensuring mixing between the reactants present. Rotary hearth processes, where the ore rests on a fixed bed and travels through a tunnel, fall into the first category. Rotary kiln processes, where the ore is mixed with coal at high temperature, constitute the second category.
+
+These processes consist of an annular furnace in which iron ore mixed with coal is circulated. Hot reducing gases flow over, and sometimes through, the charge. The ore is deposited on a tray, or carts, rotating slowly in the furnace. After one rotation, the ore is reduced; it is then discharged and replaced by oxidized ore.
+
+
+A number of processes have been developed based on this principle. In the 1970s-1980s, the INMETCO process demonstrated only the validity of the idea, with no industrial application.[42] The MAUMEE (or DryIron) process came to fruition in the US with the construction of two small industrial units in the 1990s.[43] Similarly, in Europe, a consortium of Benelux steelmakers developed the COMET process in the laboratory from 1996 to 1998. Despite the consortium's withdrawal from the research program in 1998, a single industrial demonstrator was extrapolated from it, the SIDCOMET, which was discontinued in 2002.[44] RedIron, whose only operational unit was inaugurated in Italy in 2010,[45] also benefits from this research. Japan has adopted the FASTMET process, with the commissioning of three units dedicated to the recovery of iron-rich powders,[46] and is proposing an improved version, the ITmk3 process, with one unit in operation in the United States.[47]
+This non-exhaustive list shows that, despite the keen interest shown by steelmakers in developed countries during the 1990s, none of these processes met with commercial success.
+
+These processes involve high-temperature blending of iron ore and coal powder, with a little limestone to reduce the acidity of the ore. Processes such as Carl Wilhelm Siemens',[48] based on the use of a short drum,[49] first appeared at the end of the 19th century. The tool used then evolved into a long tubular rotary kiln, inspired by those used in cement works, as in the Basset process, developed in the 1930s.[50]
+
+
+A process of historic importance is the Krupp-Renn. Developed in the 1930s, there were as many as 38 furnaces in 1945 which, although they only had a capacity of 1 Mt/year at the time, were installed all over the world.[20] This process was improved[nb 12] and inspired the German Krupp-CODIR[51] furnaces and the Japanese Kawasaki[52] and Koho processes. Both Japanese processes integrate a pelletizing unit for steel by-products upstream of the rotary furnaces. Two units of each process were built between 1968 (Kawasaki) and 1975 (Koho).[22]
+The ACCAR process, developed in the late 1960s and used confidentially until 1987,[9] uses a mixture of 80% coal and 20% oil or gas: the hydrocarbons, although more expensive, enrich the reducing gas with hydrogen.[12] The German Krupp-CODIR process, operational since 1974, has had little more success: only three units have been commissioned.[23] Finally, Indian steelmakers are behind the SIIL, Popurri, Jindal, TDR and OSIL processes, which are simply variants[nb 13] developed to meet specific technical and economic constraints.[12]
+
+Other processes, built on the same principle, failed to develop, such as the Strategic-Udy,[20] consisting of a single plant commissioned in 1963 and shut down in 1964.[39]
+
+The SL/RN process, developed in 1964, dominated coal-fired processes in 2013. In 1997, it accounted for 45% of pre-reduced coal production.[21] In 2012, however, production capacity for this process had fallen to just 1.8 Mt/year, out of a total of 17.06 Mt attributed to coal-fired processes.[nb 14][9]
+
+liq. (cast iron)
+
+Udy Larco
+
+Krupp
+
+Renn
+
+As the smelting stage is necessary to obtain alloys and shape the product, direct reduction processes are frequently combined with downstream smelting facilities.
+
+Most pre-reduced iron ore is smelted in electric furnaces: in 2003, 49 of the 50 Mt produced went into electric furnaces.[54] Process integration is generally highly advanced, to take advantage of the high temperature (over 600 °C) of the prereduct from the direct reduction reactor.[29]
+
+One idea is to carry out the entire reduction-melting process in the arc furnace installed downstream of the reduction plant. Several plasma processes operating above 1530 °C have been devised and sometimes tested. Furnaces can be either non-transferred arc (Plasmasmelt, Plasmared) or transferred arc (ELRED, EPP, SSP, The Toronto System, falling plasma film reactor). All these processes share the electric furnace's advantage of low investment cost, and its disadvantage of using an expensive energy source. In the case of direct reduction, this disadvantage is outweighed by the fact that a great deal of heat is required, both for the reduction process and because of the gangue to be melted.
+
+An alternative to the electric furnace is to melt the pre-reduction with a fuel. The cupola furnace is ideally suited to this task, but since one reason for the existence of direct reduction processes is the non-use of coke, other melting furnaces have emerged. The COREX process, in operation since 1987, consists of a direct-reduction shaft reactor feeding a blast furnace crucible, in which the pre-reduced ore is brought to a liquid smelting state, consuming only coal. This process also produces a hot reducing gas, which can be valorized in a Midrex-type unit.[55] An equivalent to COREX, based on the FINMET fluidized bed instead of the Midrex vessel, is the Korean FINEX process (a contraction of FINMET and COREX).[56] Both processes are in industrial operation at several plants around the world.[40]
+
+Last but not least, a number of reduction-melting furnaces in the same reactor have been studied, but have not yet led to industrial development. For example, the ISARNA[30] process and its derivative HISARNA (a combination of the ISARNA and HISMELT processes[57]), is a cyclonic reactor that performs melting before reduction.[30] These processes have culminated in an industrial demonstrator tested in the Netherlands since 2011.[57] Similarly, Japanese steelmakers joined forces in the 1990s to develop the DIOS process which, like many reduction-fusion processes, is similar to oxygen converters.[58] The TECNORED process, studied in Brazil,[59] also performs reduction-melting in the same vessel, but is more akin to a blast furnace modified to adapt to any type of solid fuel.[60] Of all the processes of this type that have been developed, a single ISASMELT-type industrial unit built in Australia, with a capacity of 0.8 Mt/year,[61] operated from 2005 to 2008[62] before being dismantled and shipped to China, where it was restarted in 2016.[63]
+
+In the US, where the Midrex process was first developed, direct reduction was seen in the 1960s as a way of breathing new life into electric steelmaking. The techno-economic model of the mini-mill, based on flexibility and reduced plant size, was threatened by a shortage of scrap metal, and a consequent rise in its price. With the same shortage affecting metallurgical coke, a return to the blast furnace route did not seem an attractive solution.[20]
+
+Direct reduction is theoretically well-suited to the use of ores that are less compatible with blast furnaces (such as fine ores that clog furnaces), which are less expensive. It also requires less capital, making it a viable alternative to the two tried-and-tested methods of electric furnaces and blast furnaces.[20]
+
+(blast furnace gas)
+
+(COREX gas)
+
+The comparative table shows that the diversity of processes is also justified by the need for quality materials. The coking plant that feeds a battery of blast furnaces is just as expensive as the blast furnace and requires a specific quality of coal.[64][65] Conversely, many direct-reduction processes are disadvantaged by the costly transformation of ore into pellets: these cost on average 70% more than raw ore.[66] Finally, gas requirements can significantly increase investment costs: gas produced by a COREX is remarkably well-suited to feeding a Midrex unit,[55] but the attraction of the low investment then fades.[67]
+
+
+Although gas handling and processing are far more economical than converting coal into coke (not to mention the associated constraints, such as bulk handling, high sensitivity of coking plants to production fluctuations, environmental impact, etc.), replacing coke with natural gas only makes direct reduction attractive to steelmakers with cheap gas resources. This point is essential, as European steelmakers pointed out in 1998:
+"There's no secret: to be competitive, direct reduction requires natural gas at $2 per gigajoule, half the European price."
+- L'Usine nouvelle, September 1998, La réduction directe passe au charbon.
+This explains the development of certain reduction-melting processes which, because of the high temperatures involved, have a surplus of reducing gas. Reduction-melting processes such as the COREX, capable of feeding an ancillary Midrex direct[54] reduction unit, or the Tecnored, are justified by their ability to produce CO-rich gas despite their higher investment cost.[64] In addition, coke oven gas is an essential co-product in the energy strategy of a steel complex: the absence of a coke oven must therefore be compensated for by higher natural gas consumption for downstream tools, notably hot rolling and annealing furnaces.
+
+The worldwide distribution of direct reduction plants is therefore directly correlated with the availability of natural gas and ore. In 2007, the breakdown was as follows:[54]
+
+China, a country with gigantic needs and a deficit of scrap metal, and Europe, lacking competitive ore and fuels, have never invested massively in these processes, remaining faithful to the blast furnace route. The United States, meanwhile, has always had a few units, but since 2012, the exploitation of shale gas has given a new impetus to natural gas processes.[68]
+
+However, because direct reduction uses much more hydrogen as a reducing agent than blast furnaces (which is very clear for natural gas processes), it produces much less CO2, a greenhouse gas.[64] This advantage has motivated the development of ULCOS processes in developed countries, such as HISARNA, ULCORED, and others. The emergence of mature gas treatment technologies, such as pressure swing adsorption or amine gas treating, has also rekindled the interest of researchers.[30] In addition to reducing CO2 emissions, pure hydrogen processes such as Hybrit are being actively studied with a view to decarbonizing the steel industry.[69]

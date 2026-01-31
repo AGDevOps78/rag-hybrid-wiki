@@ -1,0 +1,1 @@
+In the example below, a 5×5 Medjig square is created by wrapping a Medjig border around a 3×3 Medjig square given previously:

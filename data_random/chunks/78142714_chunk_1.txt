@@ -1,0 +1,1 @@
+Spatial omics refers to the collection of high-throughput molecular profiling techniques that measure and spatially map the distribution of transcriptome, proteome or other biomolecules in a tissue. Spatial biology is a more general term that encompasses the science and techniques, but often spatial biology and spatial omics are used interchangeably.

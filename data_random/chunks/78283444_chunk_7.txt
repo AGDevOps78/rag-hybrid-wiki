@@ -1,0 +1,1 @@
+Motion-planning algorithms and energy-saving strategies are critical for mobile robots, especially in applications like autonomous drones or long-duration robotic missions where battery life is limited.[39][40]

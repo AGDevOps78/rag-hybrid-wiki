@@ -1,0 +1,31 @@
+GreenChip is a brand of integrated circuits (ICs) for power management applications. Originally developed by Philips Semiconductors (now NXP Semiconductors), GreenChip technology is primarily used in power adapters and power supplies for various electronic devices.[1]
+
+GreenChip ICs have also been incorporated into energy-saving compact fluorescent lamps (CFLs) and some LED lighting products.  The use of GreenChip technology has contributed to reductions in power consumption across a range of electronics.[2]
+
+In 1998, Philips Semiconductors (now NXP) introduced the first GreenChip technology, the TEA1504 chip.[3] This chip was designed to improve the energy efficiency of monitors that used cathode ray tubes (CRTs). CRTs were the standard display technology for TVs and monitors at the time. They work by firing electrons at a coated screen to create an image.
+
+The TEA1504 focused on reducing the amount of power a monitor used in standby mode. This is the state when the monitor is turned on but not displaying an image. Back then, there were guidelines set by programs like Energy Star to limit standby power consumption. The TEA1504 included a special feature called "integrated standby burst mode" that helped monitors meet or even surpass these energy-saving targets.
+
+Launched in 2000, the second generation of GreenChip, GreenChip II, arrived with the TEA1507 chip. This new chip focused on making electronic devices even more energy-efficient in standby mode, especially for monitors, TVs, and VCRs.[4]
+
+Compared to the first generation, GreenChip II made significant strides. It could achieve standby power consumption below 1 watt, a major improvement from previous models. Additionally, the overall efficiency of the power supply was boosted to over 90%.[5]
+
+GreenChip II was developed in collaboration with Philips' consumer electronics division, specifically their TV department. This close partnership ensured the technology was well-suited for real-world applications, and many TV manufacturers adopted GreenChip II in their designs.
+
+Building on the success of the TEA1507, Philips released the TEA155x series in 2002/2003. This new series, still part of GreenChip II, was specifically designed for notebook adapters.[6]
+
+At the time, notebook adapters typically used around 1 watt even when the laptop was off. GreenChip II addressed this by reducing the adapter's no-load power consumption to less than half a watt (500 milliwatts).
+
+The TEA155x series included additional features to improve the overall reliability of notebook adapters. These features protected the adapter from potential damage and ensured better communication with the laptop. This combination of power savings and reliability helped GreenChip II become the leading technology in the notebook adapter market.
+
+The third generation of GreenChip, GreenChip III, debuted in 2007 with the launch of the TEA1750 integrated circuit (IC).[7] This generation expanded its reach beyond notebook adapters, finding application in:
+
+Further bolstering efficiency arrived alongside GreenChip III with the introduction of the GreenChip SR series in 2006.[8]  This series functions as a secondary control IC, working in tandem with the main power supply chip in devices like laptops. Essentially, GreenChip SR acts as a partner, collaborating to squeeze out even greater efficiency gains.  The key to this advancement lies in the utilisation of a more advanced component – the active MOSFET rectifier – which replaces older, less efficient technology. The GreenChip SR saw typical power losses reduced by a substantial 20-30%.[9] The GreenChip SR family witnessed further expansion in 2009 with the introduction of the TEA179x chips.
+
+In 2006, Philips also introduced the GreenChip PC, a chipset featuring a new topology designed to increase the overall efficiency of desktop PC power supplies by more than 80 percent. At the time, most desktop PC power supplies operated at 60-70% efficiency. The GreenChip PC was based on patented Philips technology, integrating the standby supply into the main converter, and thus reducing the number of external components required.[8]
+
+Addressing 10-70 W class power supplies, the TEA173x GreenChip Low Power Generation was launched at the end of 2009. The TEA173x targeted high volume computing (netbook, printer, monitor) and consumer (STB, DVD, Blu-ray, audio) applications.
+
+GreenChip Resonant ICs such as the TEA1713, launched in early 2010, extend the higher end of the Greenchip portfolio. They feature a resonant converter capable of being applied from 90 to 600 W. They are suitable for applications including LCD TVs and high density travel adapters.
+
+2010 also saw the advent of GreenChip ICs for lamps. These enable the creation of compact, energy-saving CFL bulbs that resemble the familiar incandescent bulbs.

@@ -1,0 +1,89 @@
+Catalytic computing is a technique in computer science, relevant to complexity theory, that uses full memory, as well as empty memory space, to perform computations.[1][2] Full memory is memory that begins in an arbitrary state and must be returned to that state at the end of the computation, for example important data.[2] It can sometimes be used to reduce the memory needs of certain algorithms, for example the tree evaluation problem.[1] It was defined by Buhrman, Cleve, Koucký, Loff, and Speelman in 2014[3] and was named after catalysts in chemistry, based on the metaphorically viewing the full memory as a "catalyst", a non-consumed factor critical for the computational "reaction" to succeed.[1]
+
+The complexity class CSPACE(s(n)) is the class of sets computable by catalytic Turing machines whose work tape is bounded by s(n) tape cells and whose auxiliary full memory space is bounded by 
+
+
+
+
+2
+
+s
+(
+n
+)
+
+
+
+
+{\displaystyle 2^{s(n)}}
+
+ tape cells.[2] It has been shown that CSPACE(log(n)), or catalytic logspace, is contained within ZPP and, importantly, contains TC1.[2]
+
+In 2020 J. Cook and Mertz used catalytic computing to prove to attack the tree evaluation problem (TreeEval) a type of pebble game introduced by Cook, McKenzie, Wehr, Braverman and Santhanam as an example where any algorithm for solving the problem would require too much memory to belong in the L complexity class,[4] proving that in fact the conjectured minimum can be lowered[5][6] and in 2023 they lowered the bound even further to space 
+
+
+
+O
+(
+log
+⁡
+n
+log
+⁡
+log
+⁡
+n
+)
+
+
+{\displaystyle O(\log n\log \log n)}
+
+,[7] almost ruling out the problem as an approach to the question if L=P.[1]
+
+In a 2025 preprint Williams showed that the work of J. Cook and Mertz could be used to prove that every deterministic multitape Turing machine of time complexity 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ can be simulated in space 
+
+
+
+O
+(
+
+
+t
+log
+⁡
+t
+
+
+)
+
+
+{\displaystyle O({\sqrt {t\log t}})}
+
+[8] improving the previous bound of 
+
+
+
+O
+(
+t
+
+/
+
+log
+⁡
+t
+)
+
+
+{\displaystyle O(t/\log t)}
+
+ by Hopcroft, Paul, and Valiant[9] and strengthening the case in the negative for the question if PSPACE=P.[10]

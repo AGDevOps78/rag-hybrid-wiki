@@ -1,0 +1,10 @@
+Election science is a field that deals with the conduct and administration of elections. It is distinct from the study of public opinion and election forecasting (which fall under political science and psephology). Election science combines the theoretical study of social choice theory (a branch of math and welfare economics) with empirical research dealing with the administration of elections (a branch of political science).
+
+The study of election science can be traced back to early scientific studies of electoral systems and particularly the development of the field of social choice theory, including the Marquis de Condorcet's analysis of electoral systems in the 18th century. The field came into being following the 2000 United States presidential election,[1] where several administrative[2] and technical failures[3] may have affected the outcome of the election. Examples of subjects where election science methods are applied include gerrymandering, electoral fraud, suffrage, and voter registration.
+
+There is an academic conference[4] dedicated to the study of election science and the Southern Political Science Association has a sub-conference for the study of election science.[5] In addition, multiple universities now offer a bachelor of science in political science for a data science track.[6][7]
+
+
+
+This article about a political term is a stub. You can help Wikipedia by adding missing information.
+This election-related article is a stub. You can help Wikipedia by adding missing information.

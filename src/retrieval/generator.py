@@ -13,7 +13,7 @@ class Generator:
         print("You are a helpful assistant. Use only the context below to answer.\n\n"
             f"Context:\n{context}\n\nQuestion: {query}\nAnswer:")
         return (
-            "You are a helpful assistant. Use only the context below to answer.\n\n"
+            "You are a helpful assistant. Use only the context below to answer in detail in atleast 2 to 3 sentences.\n\n"
             f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
         )
 

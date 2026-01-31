@@ -1,0 +1,220 @@
+Magnetochemistry is concerned with the magnetic properties of chemical compounds and elements. Magnetic properties arise from the spin and orbital angular momentum of the electrons contained in a compound. Compounds are diamagnetic when they contain no unpaired electrons. Molecular compounds that contain one or more unpaired electrons are paramagnetic. The magnitude of the paramagnetism is expressed as an effective magnetic moment, μeff. For first-row transition metals the magnitude of μeff is, to a first approximation, a simple function of the number of unpaired electrons, the spin-only formula. In general, spin–orbit coupling causes μeff to deviate from the spin-only formula. For the heavier transition metals, lanthanides and actinides, spin–orbit coupling cannot be ignored. Exchange interaction can occur in clusters and infinite lattices, resulting in ferromagnetism, antiferromagnetism or ferrimagnetism depending on the relative orientations of the individual spins.
+
+The primary measurement in magnetochemistry is magnetic susceptibility. This measures the strength of interaction on placing the substance in a magnetic field. The volume magnetic susceptibility, represented by the symbol 
+
+
+
+
+χ
+
+v
+
+
+
+
+{\displaystyle \chi _{v}}
+
+ is defined by the relationship
+
+where, 
+
+
+
+
+
+
+M
+→
+
+
+
+
+
+{\displaystyle {\vec {M}}}
+
+ is the magnetization of the material (the magnetic dipole moment per unit volume), measured in amperes per meter (SI units), and 
+
+
+
+
+
+
+H
+→
+
+
+
+
+
+{\displaystyle {\vec {H}}}
+
+ is the magnetic field strength, also measured in amperes per meter. Susceptibility is a dimensionless quantity. For chemical applications the molar magnetic susceptibility (χmol) is the preferred quantity. It is measured in m3·mol−1 (SI) or cm3·mol−1 (CGS) and is defined as
+
+where ρ is the density in kg·m−3 (SI) or g·cm−3 (CGS) and M is molar mass in kg·mol−1 (SI) or g·mol−1 (CGS).
+
+A variety of methods are available for the measurement of magnetic susceptibility.
+
+When an isolated atom is placed in a magnetic field there is an interaction because each electron in the atom behaves like a magnet, that is, the electron has a magnetic moment. There are two types of interaction.
+
+When the atom is present in a chemical compound its magnetic behaviour is modified by its chemical environment. Measurement of the magnetic moment can give useful chemical information.
+
+In certain crystalline materials individual magnetic moments may be aligned with each other (magnetic moment has both magnitude and direction). This gives rise to ferromagnetism, antiferromagnetism or ferrimagnetism. These are properties of the crystal as a whole, of little bearing on chemical properties.
+
+Diamagnetism is a universal property of chemical compounds, because all chemical compounds contain electron pairs. A compound in which there are no unpaired electrons is said to be diamagnetic. The effect is weak because it depends on the magnitude of the induced magnetic moment. It depends on the number of electron pairs and the chemical nature of the atoms to which they belong. This means that the effects are additive, and a table of "diamagnetic contributions", or Pascal's constants, can be put together.[6][7][8] With paramagnetic compounds the observed susceptibility can be adjusted by adding to it the so-called diamagnetic correction, which is the diamagnetic susceptibility calculated with the values from the table.[9]
+
+A metal ion with a single unpaired electron, such as Cu2+, in a coordination complex provides the simplest illustration of the mechanism of paramagnetism. The individual metal ions are kept far apart by the ligands, so that there is no magnetic interaction between them. The system is said to be magnetically dilute. The magnetic dipoles of the atoms point in random directions. When a magnetic field is applied, first-order Zeeman splitting occurs. Atoms with spins aligned to the field slightly outnumber the atoms with non-aligned spins. In the first-order Zeeman effect the energy difference between the two states is proportional to the applied field strength. Denoting the energy difference as ΔE, the Boltzmann distribution gives the ratio of the two populations as 
+
+
+
+
+e
+
+−
+Δ
+E
+
+/
+
+k
+T
+
+
+
+
+{\displaystyle e^{-\Delta E/kT}}
+
+, where k is the Boltzmann constant and T is the temperature in kelvins. In most cases ΔE is much smaller than kT and the exponential can be expanded as 1 – ΔE/kT. It follows from the presence of 1/T in this expression that the susceptibility is inversely proportional to temperature.[10]
+
+This is known as the Curie law and the proportionality constant, C, is known as the Curie constant, whose value, for molar susceptibility, is calculated as[11]
+
+where N is the Avogadro constant, g is the Landé g-factor, and μB is the Bohr magneton. In this treatment it has been assumed that the electronic ground state is not degenerate, that the magnetic susceptibility is due only to electron spin and that only the ground state is thermally populated.
+
+While some substances obey the Curie law, others obey the Curie-Weiss law.
+
+Tc is the Curie temperature. The Curie-Weiss law will apply only when the temperature is well above the Curie temperature. At temperatures below the Curie temperature the substance may become ferromagnetic. More complicated behaviour is observed with the heavier transition elements.
+
+When the Curie law is obeyed, the product of molar susceptibility and temperature is a constant. The effective magnetic moment, μeff is then defined[12] as
+
+Where C has CGS units cm3 mol−1 K, μeff is 
+
+Where C has SI units m3 mol−1 K,  μeff is
+
+The quantity μeff is effectively dimensionless, but is often stated as in units of Bohr magneton (μB).[12]
+
+For substances that obey the Curie law, the effective magnetic moment is independent of temperature. For other substances μeff is temperature dependent, but the dependence is small if the Curie-Weiss law holds and the Curie temperature is low.
+
+Compounds which are expected to be diamagnetic may exhibit this kind of weak paramagnetism. It arises from a second-order Zeeman effect in which additional splitting, proportional to the square of the field strength, occurs. It is difficult to observe as the compound inevitably also interacts with the magnetic field in the diamagnetic sense. Nevertheless, data are available for the permanganate ion.[13] It is easier to observe in compounds of the heavier elements, such as uranyl compounds.
+
+Exchange interactions occur when the substance is not magnetically dilute and there are interactions between individual magnetic centres. One of the simplest systems to exhibit the result of exchange interactions is crystalline copper(II) acetate, Cu2(OAc)4(H2O)2. As the formula indicates, it contains two copper(II) ions. The Cu2+ ions are held together by four acetate ligands, each of which binds to both copper ions. Each Cu2+ ion has a d9 electronic configuration, and so should have one unpaired electron. If there were a covalent bond between the copper ions, the electrons would pair up and the compound would be diamagnetic. Instead, there is an exchange interaction in which the spins of the unpaired electrons become partially aligned to each other. In fact two states are created, one with spins parallel and the other with spins opposed. The energy difference between the two states is so small their populations vary significantly with temperature. In consequence the magnetic moment varies with temperature in a sigmoidal pattern. The state with spins opposed has lower energy, so the interaction can be classed as antiferromagnetic in this case.[14] It is believed that this is an example of superexchange, mediated by the oxygen and carbon atoms of the acetate ligands.[15] Other dimers and clusters exhibit exchange behaviour.[16]
+
+Exchange interactions can act over infinite chains in one dimension, planes in two dimensions or over a whole crystal in three dimensions. These are examples of long-range magnetic ordering. They give rise to ferromagnetism, antiferromagnetism or ferrimagnetism, depending on the nature and relative orientations of the individual spins.[17]
+
+Compounds at temperatures below the Curie temperature exhibit long-range magnetic order in the form of ferromagnetism. Another critical temperature is the Néel temperature, below which antiferromagnetism occurs. The hexahydrate of nickel chloride, NiCl2·6H2O, has a Néel temperature of 8.3 K. The susceptibility is a maximum at this temperature. Below the Néel temperature the susceptibility decreases and the substance becomes antiferromagnetic.[18]
+
+The effective magnetic moment for a compound containing a transition metal ion with one or more unpaired electrons depends on the total orbital and spin angular momentum of the unpaired electrons, 
+
+
+
+
+
+
+L
+→
+
+
+
+
+
+{\displaystyle {\vec {L}}}
+
+ and 
+
+
+
+
+
+
+S
+→
+
+
+
+
+
+{\displaystyle {\vec {S}}}
+
+, respectively. "Total" in this context means "vector sum". In the approximation that the electronic states of the metal ions are determined by Russell-Saunders coupling and that spin–orbit coupling is negligible, the magnetic moment is given by[19]
+
+Orbital angular momentum is generated when an electron in an orbital of a degenerate set of orbitals is moved to another orbital in the set by rotation. In complexes of low symmetry certain rotations are not possible. In that case the orbital angular momentum is said to be "quenched" and 
+
+
+
+
+
+
+L
+→
+
+
+
+
+
+{\displaystyle {\vec {L}}}
+
+ is smaller than might be expected (partial quenching), or zero (complete quenching). There is complete quenching in the following cases. Note that an electron in a degenerate pair of dx2–y2 or dz2 orbitals cannot rotate into the other orbital because of symmetry.[20]
+
+When orbital angular momentum is completely quenched, 
+
+
+
+
+
+
+L
+→
+
+
+
+=
+0
+
+
+{\displaystyle {\vec {L}}=0}
+
+ and the paramagnetism can be attributed to electron spin alone. The total spin angular momentum is simply half the number of unpaired electrons and the spin-only formula results.
+
+where n is the number of unpaired electrons. The spin-only formula is a good first approximation for high-spin complexes of first-row transition metals.[21]
+
+The small deviations from the spin-only formula may result from the neglect of orbital angular momentum or of spin–orbit coupling. For example, tetrahedral d3, d4, d8 and d9 complexes tend to show larger deviations from the spin-only formula than octahedral complexes of the same ion, because "quenching" of the orbital contribution is less effective in the tetrahedral case.[22]
+
+According to crystal field theory, the d orbitals of a transition metal ion in an octahedral complex are split into two groups in a crystal field. If the splitting is large enough to overcome the energy needed to place electrons in the same orbital, with opposite spin, a low-spin complex will result. 
+
+With one unpaired electron μeff values range from 1.8 to 2.5 μB and with two unpaired electrons the range is 3.18 to 3.3 μB. Note that low-spin complexes of Fe2+ and Co3+ are diamagnetic. Another group of complexes that are diamagnetic are square-planar complexes of d8 ions such as Ni2+ and Rh+ and Au3+.
+
+When the energy difference between the high-spin and low-spin states is comparable to kT (k is the Boltzmann constant and T the temperature) an equilibrium is established between the spin states, involving what have been called "electronic isomers". Tris-dithiocarbamato iron(III), Fe(S2CNR2)3, is a well-documented example. The effective moment varies from a typical d5 low-spin value of 2.25 μB at 80 K to more than 4 μB above 300 K.[23]
+
+Crystal field splitting is larger for complexes of the heavier transition metals than for the transition metals discussed above. A consequence of this is that low-spin complexes are much more common. Spin–orbit coupling constants, ζ, are also larger and cannot be ignored, even in elementary treatments. The magnetic behaviour has been summarized, as below, together with an extensive table of data.[24]
+
+Russell-Saunders coupling, LS coupling, applies to the lanthanide ions, crystal field effects can be ignored, but spin–orbit coupling is not negligible. Consequently, spin and orbital angular momenta have to be combined
+
+and the calculated magnetic moment is given by
+
+In actinides spin–orbit coupling is strong and the coupling approximates to j j coupling.
+
+This means that it is difficult to calculate the effective moment. For example, uranium(IV), f2, in the complex [UCl6]2− has a measured effective moment of 2.2 μB, which includes a contribution from temperature-independent paramagnetism.[26]
+
+Very few compounds of main group elements are paramagnetic. Notable examples include: oxygen, O2; nitric oxide, NO; nitrogen dioxide, NO2 and chlorine dioxide, ClO2. In organic chemistry, compounds with an unpaired electron are said to be free radicals. Free radicals, with some exceptions, are short-lived because one free radical will react rapidly with another, so their magnetic properties are difficult to study. However, if the radicals are well separated from each other in a dilute solution in a solid matrix, at low temperature, they can be studied by electron paramagnetic resonance (EPR). Such radicals are generated by irradiation. Extensive EPR studies have revealed much about electron delocalization in free radicals. The simulated spectrum of the CH3• radical shows hyperfine splitting due to the interaction of the electron with the 3 equivalent hydrogen nuclei, each of which has a spin of 1/2.[27][28]
+
+Spin labels are long-lived free radicals which can be inserted into organic molecules so that they can be studied by EPR.
+[29] For example, the nitroxide MTSL, a functionalized derivative of TEtra Methyl Piperidine Oxide, TEMPO, is used in site-directed spin labeling.
+
+The gadolinium ion, Gd3+, has the f7 electronic configuration, with all spins parallel. Compounds of the Gd3+ ion are the most suitable for use as a contrast agent for MRI scans.[30] The magnetic moments of gadolinium compounds are larger than those of any transition metal ion. Gadolinium is
+preferred to other lanthanide ions, some of which have larger effective moments, due to its having a non-degenerate electronic ground state.[31]
+
+For many years the nature of oxyhemoglobin, Hb-O2, was highly controversial. It was found experimentally to be diamagnetic. Deoxy-hemoglobin is generally accepted to be a complex of iron in the +2 oxidation state, that is a d6 system with a high-spin magnetic moment near to the spin-only value of 4.9 μB. It was proposed that the iron is oxidized and the oxygen reduced to superoxide.
+
+Pairing up of electrons from Fe3+ and O2− was then proposed to occur via an exchange mechanism. It has now been shown that in fact the iron(II) changes from high-spin to low-spin when an oxygen molecule donates a pair of electrons to the iron. Whereas in deoxy-hemoglobin the iron atom lies above the plane of the heme, in the low-spin complex the effective ionic radius is reduced and the iron atom lies in the heme plane.[32]
+
+This information has an important bearing on research to find artificial oxygen carriers.
+
+Compounds of gallium(II) were unknown until quite recently. As the atomic number of gallium is an odd number (31), Ga2+ should have an unpaired electron. It was assumed that it would act as a free radical and have a very short lifetime. The non-existence of Ga(II) compounds was part of the so-called inert-pair effect. When salts of the anion with empirical formula such as [GaCl3]− were synthesized they were found to be diamagnetic. This implied the formation of a Ga-Ga bond and a dimeric formula, [Ga2Cl6]2−.[33]

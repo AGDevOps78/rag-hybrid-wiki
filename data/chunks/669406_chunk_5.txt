@@ -1,0 +1,1 @@
+Then the d-dimensional volume of Z ( S ) {\displaystyle Z(S)} is given by The determinant in this formula makes sense because (as noted above) when the set T {\displaystyle T} has cardinality equal to the dimension n {\displaystyle n} of the ambient space, the zonotope is a parallelotope.

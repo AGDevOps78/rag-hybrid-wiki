@@ -1,0 +1,99 @@
+Rayleigh fractionation describes the evolution of a system with multiple phases in which one phase is continuously removed from the system through fractional distillation. It is used in particular to describe isotopic enrichment or depletion as material moves between reservoirs in an equilibrium process. Rayleigh fractionation holds particular importance in hydrology and meteorology as a model for the isotopic differentiation of meteoric water due to condensation.
+
+The original Rayleigh equation was derived by Lord Rayleigh for the case of fractional distillation of mixed liquids. [1]
+
+This is an exponential relation that describes the partitioning of isotopes between two reservoirs as one reservoir decreases in size. The equations can be used to describe an isotope fractionation process if: (1) material is continuously removed from a mixed system containing molecules of two or more isotopic species (e.g., water with 18O and 16O, or sulfate with 34S and 32S), (2) the fractionation accompanying the removal process at any instance is described by the fractionation factor a, and (3) a does not change during the process. Under these conditions, the evolution of the isotopic composition in the residual (reactant) material is described by:
+
+
+
+
+
+
+
+R
+
+R
+
+0
+
+
+
+
+=
+
+
+(
+
+
+X
+
+X
+
+0
+
+
+
+
+)
+
+
+a
+−
+1
+
+
+
+
+{\displaystyle {\frac {R}{R^{0}}}=\left({\frac {X}{X^{0}}}\right)^{a-1}}
+
+
+
+where R = ratio of the isotopes (e.g., 18O/16O) in the reactant, R0 = initial ratio, X = the concentration or amount of the more abundant (lighter) isotope (e.g.,16O), and X0 = initial concentration. Because the concentration of X >> Xh (heavier isotope concentration), X is approximately equal to the amount of original material in the phase. Hence, if 
+
+
+
+f
+=
+X
+
+/
+
+
+X
+
+0
+
+
+
+
+{\displaystyle f=X/X^{0}}
+
+ = fraction of material remaining, then:
+
+
+
+
+
+R
+=
+
+R
+
+0
+
+
+
+f
+
+a
+−
+1
+
+
+
+
+{\displaystyle R=R^{0}f^{a-1}}
+
+
+
+For large changes in concentration, such as they occur during e.g. distillation of heavy water, these formulae need to be integrated over the distillation trajectory. For small changes such as occur during transport of water vapour through the atmosphere, the differentiated equation will usually be sufficient.

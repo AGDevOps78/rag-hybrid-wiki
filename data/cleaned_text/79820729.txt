@@ -1,0 +1,76 @@
+Physics of life is a branch of physics that studies the fundamental principles governing living systems. It applies methods from mechanics, thermodynamics, statistical physics, and information theory to biological phenomena ranging from molecular assemblies to ecosystems.[1] The field seeks to understand how complex behaviors of life arise from interactions among physical components under conditions far from equilibrium. Biological physics has gained wider recognition as a distinct and essential area within physics research.[2][3][4]
+
+The physics of life investigates how the familiar laws of physics apply to living matter, and how living systems sometimes require new physical principles for their understanding.[4] Rather than viewing biology as an exception, researchers treat biological phenomena as fertile ground for discovering general laws of non-equilibrium matter and information processing.
+
+Biological physics has grown substantially and now constitutes one of the largest divisions of the American Physical Society (APS).[2] It bridges traditional disciplines and introduces concepts such as stochasticity, phase transitions, and self-organization into the study of life.
+
+A 2022 decadal survey by the National Academies of Sciences, Engineering, and Medicine outlined five central questions guiding research in the physics of life:[1]
+
+Living systems face physical challenges in energy conversion, locomotion, environme_ntal sensing, and mechanical stability. These problems involve fields such as fluid dynamics, elasticity (physics), and non-equilibrium thermodynamics.
+
+Biological systems encode and transmit information through mechanisms like gene regulatory networks, synaptic signaling, and chemical communication. Frameworks such as information theory and Bayesian inference are used to model biological information processing.
+
+Macroscopic properties of tissues, organisms, and ecosystems arise from local physical interactions between molecules, cells, and structures. Research areas include phase separation in cells, collective behavior in animal groups, and morphogenesis.
+
+Scaling relationships often describe the emergent properties of biological systems. For example, diffusion-limited transport obeys a characteristic scaling law:
+
+where 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is the characteristic distance traveled over time 
+
+
+
+t
+
+
+{\displaystyle t}
+
+, consistent with Brownian motion.
+
+Similarly, phase separation kinetics in living systems are modeled by the Cahn–Hilliard equation:
+
+where 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ is the order parameter, 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is the chemical potential, and 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is the mobility. These mathematical models help quantify intracellular compartmentalization, tissue patterning, and early embryonic development.
+
+Through processes such as evolution, developmental plasticity, and adaptive learning, biological systems explore vast spaces of possible forms and behaviors, optimizing their functions under diverse constraints.
+
+Insights from biological physics have driven advances in biomechanics, neural engineering, synthetic biology, and regenerative medicine.
+
+Experimental tools include optical tweezers, cryo-electron microscopy, and single-molecule tracking. Theoretical approaches combine statistical mechanics, continuum mechanics, machine learning, and non-equilibrium physics.
+
+Concepts such as phase transitions, self-organization, and stochastic fluctuations, traditionally studied in inanimate systems, have become central for understanding biological systems.[4]
+
+Biological physics has evolved from an interdisciplinary curiosity into a central part of modern physics.[2] Researchers emphasize that studying life offers opportunities to discover new organizing principles of matter and information.[4] The National Academies report and commentary from the American Physical Society call for expanded funding, interdisciplinary training, and infrastructure to accelerate progress.[5]

@@ -1,0 +1,17 @@
+Safer End of Engineering Life, sometimes abbreviated to SEEL, is a concept that focuses on the importance of considering the entire lifecycle of a product or system. Currently there is a lot of focus on the decommissioning or retirement in particular industries. This includes but is not limited to plastic waste, electronic waste (sometimes shorted to e-waste), and construction and industrial waste.
+
+Recently[when?], SEEL is becoming more of a focus in fields such as software engineering, industrial design, and infrastructure development.
+
+The idea behind SEEL is to mitigate risks and ensure safety not only during the active use phase of a product but also during its end-of-life processes, such as disposal, recycling, or decommissioning. This approach recognises that even after a product has served its intended purpose, it can still pose risks to the environment, public health, or safety if not managed properly.[1]
+
+In software engineering, SEEL may involve designing systems with built-in mechanisms for secure data deletion, ensuring that sensitive information is properly erased when software or hardware reaches the end of its useful life. It could also involve planning for software updates and patches to be maintained and deployed until the end-of-life date to address any security vulnerabilities that may arise over time.[2]
+
+In industrial design and manufacturing, SEEL may include considerations for recyclability, ease of disassembly, and the use of environmentally friendly materials. By designing products with end-of-life considerations in mind, manufacturers can facilitate the recycling or repurposing of components, reducing waste and minimizing environmental impact.[3]
+
+The Royal Academy of Engineering launched a global review in January 2021 into the further study of SEEL, as well as the impacts the lack of action was having, with potential goals and aims in the future.[4]
+
+An international workshop was held online in May 2022 with experts from 15 countries.[5] The workshop aimed to reflect on the progress related to the safety challenges on how to ensure the global fleet of 50,000 ships and 10,000 offshore structures can be decommissioned in an environmentally friendly way.[6] During the same year, the European Union also published a report into findings on offshore decommissioning.[7]
+
+The Lowy Institute also published reports into the dangers of how reliant the oil and gas industries were on aging infrastructure.[8]
+
+A main focus in recent years has been the decommissioning of offshore structures and ships. Oil rigs as one example  have a complex decommissioning process. Even after decommissioning, there may still be infrastructure remaining on the seafloor, such as well casings or pipelines.[9] Decommissioning oil rigs presents numerous challenges due to technical complexity, environmental concerns, regulatory compliance, cost, legacy infrastructure, and stakeholder interests. These structures are intricate and contain various components, which requires specialised knowledge. Removal of hazardous materials can also be difficult and costly.[10]

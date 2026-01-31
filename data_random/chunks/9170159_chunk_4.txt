@@ -1,0 +1,1 @@
+Depth information based on disparity is not always clear-cut (correspondence problem). In humans, this leads to the double-nail illusion.

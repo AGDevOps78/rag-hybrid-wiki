@@ -1,0 +1,1 @@
+Poisson's ratio is a key parameter for EMR characterization during triaxial compression.[32] If the Poisson's ratio is lower, it is harder for the material to strain transversally and hence there is a higher probability of new fractures.

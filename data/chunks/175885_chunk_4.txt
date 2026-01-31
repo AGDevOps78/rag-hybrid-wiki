@@ -1,0 +1,1 @@
+Instead of inputting data into every single joint of the robot, the engineers programmed the robot as a whole, which makes it more capable to adapt to its environment. The information in this source is dissimilar to other sources, except the second source, because robots vary so much depending on the situation.[9]

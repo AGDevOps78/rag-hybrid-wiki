@@ -1,0 +1,140 @@
+Critical juncture theory focuses on critical junctures, i.e., large, rapid, discontinuous changes,[1] and the long-term causal effect or historical legacy of these changes.[2]
+Critical junctures are turning points that alter the course of evolution of some entity (e.g., a species, a society). Critical juncture theory seeks to explain both (1) the historical origin and maintenance of social order, and (2) the occurrence of social change through sudden, big leaps.[3]
+
+Critical juncture theory is not a general theory of social order and change.[4] It emphasizes one kind of cause (involving a big, discontinuous change) and kind of effect (a persistent effect).[5] Yet, it challenges some common assumptions in many approaches and theories in the social sciences. The idea that some changes are discontinuous sets it up as an alternative to (1) "continuist" or "synechist" theories that assume that change is always gradual or that natura non facit saltus – Latin for "nature does not make jumps."[6] The idea that such discontinuous changes have a long-term impact stands in counterposition to (2) "presentist" explanations that only consider the possible causal effect of temporally proximate factors.[7]
+
+Theorizing about critical junctures began in the social sciences in the 1960s. Since then, it has been central to a body of research in the social sciences that is historically informed. Research on critical junctures in the social sciences is part of the broader tradition of comparative historical analysis and historical institutionalism.[8] It is a tradition that spans political science, sociology and economics. Within economics, it shares an interest in historically oriented research with the new economic history or cliometrics. Research on critical junctures is also part of the broader "historical turn" in the social sciences.[9]
+
+The idea of episodes of discontinuous change, followed by periods of relative stability, was introduced in various fields of knowledge in the 1960s and early 1970s.[10]
+
+Philosopher of science Thomas Kuhn's landmark work The Structure of Scientific Revolutions (1962)[11] introduced and popularized the idea of discontinuous change and the long-term effects of discontinuous change. Kuhn argued that progress in knowledge occurs at times through sudden jumps, which he called paradigm shifts. After paradigm shifts, scholars do normal science within paradigms, which endure until a new revolution came about.
+
+Kuhn challenged the conventional view in the philosophy of science at the time that knowledge growth could be understood entirely as a process of gradual, cumulative growth.[12]
+Stephen Jay Gould writes that "Thomas Kuhn’s theory of scientific revolutions" was "the most overt and influential" scholarly work to make a "general critique of gradualism" in the twentieth century.[13]
+
+Anthropologist Ernest Gellner proposed a neo-episodic model of change in 1964 that highlights the "step-like nature of history" and the "remarkable discontinuity" between different historical periods. Gellner contrasts the neo-episodic model of change to an evolutionary model that portrays "the pattern of Western history" as a process of "continuous and sustained and mainly endogenous upward growth."[14]
+
+Sociologist Michael Mann adapted Gellner's idea of "'episodes' of major structural transformation" and called such episodes "power jumps."[15]
+
+Sociologist Seymour Lipset and political scientist Stein Rokkan introduced the idea of critical junctures and their long-term impact in the social sciences in 1967.[16] The ideas presented in the coauthored 1967 work were elaborated by Rokkan in Citizens, Elections, and Parties (1970).[17]
+
+Gellner had introduced a similar idea in the social sciences. However, Lipset and Rokkan offered a more elaborate model and an extensive application of their model to Europe (see below). Although Gellner influenced some sociologists,[18] the impact of Lipset and Rokkan on the social sciences was greater.
+
+Kuhn's ideas influenced paleontologist Stephen Jay Gould, who introduced the idea of punctuated equilibrium in the field of evolutionary biology in 1972.[19] Gould's initial work on punctuated equilibrium was coauthored with  Niles Eldredge.[20]
+
+Gould's model of punctuated equilibrium drew attention to episodic bursts of evolutionary change followed by periods of morphological stability. He challenged the conventional model of gradual, continuous change - called phyletic gradualism.[21]
+
+Since its launching in 1967, research on critical junctures has focused in part on developing a theoretical framework, which has evolved over time.[22]
+
+In studies of society, some scholars use the term "punctuated equilibrium" model,[23] and others the term "neo-episodic" model.[24] Studies of knowledge continue to use the term "paradigm shift".[25] However, these terms can be treated as synonyms for critical juncture.
+
+Key ideas in critical junctures research were initially introduced in the 1960s and early 1970s by Seymour Lipset, Stein Rokkan, and Arthur Stinchcombe.[26]
+
+Critical junctures and legacies
+
+Seymour Lipset and Stein Rokkan (1967) and Rokkan (1970) introduced the idea that big discontinuous changes, such as the reformation, the building of nations, and the Industrial Revolution, reflected conflicts organized around social cleavages, such as the center-periphery, state-church, land-industry, and owner-worker cleavages. In turn, these big discontinuous changes could be seen as critical junctures because they generated social outcomes that subsequently remained "frozen" for extensive periods of time.[27]
+
+In more general terms, Lipset and Rokkan's model has three components:[28]
+
+Rokkan (1970) added two points to these ideas. Critical junctures could set countries on divergent or convergent paths. Critical junctures could be "sequential," such that a new critical junctures does not totally erase the legacies of a previous critical juncture but rather modifies that previous legacy.[29]
+
+The reproduction of legacies through self-replicating causal loops
+
+Arthur Stinchcombe (1968) filled a key gap in Lipset and Rokkan's model. Lipset and Rokkan argued that critical junctures produced legacies, but did not explain how the effect of a critical juncture could endure over a long period.
+
+Stinchcombe elaborated the idea of historical causes (such as critical junctures) as a distinct kind of cause that generates a "self-replicating causal loop." Stinchcombe explained that the distinctive feature of such a loop is that "an effect created by causes at some previous period becomes a cause of that same effect in succeeding periods."[30] This loop was represented graphically by Stinchcombe as follows:
+
+Stinchcombe argued that the cause (X) that explains the initial adoption of some social feature (Y) was not the same one that explains the persistence of this feature. Persistence is explained by the repeated effect of Y on D and of D on Y.
+
+Additional contributions were made in the 1980s and early 1990s by various political scientists and economists.
+
+Punctuated equilibrium, path dependence, and institutions
+
+Paul A. David and W. Brian Arthur, two economists, introduced and elaborated the concept of path dependence, the idea that past events and decisions affect present options and that some outcomes can persist due to the operation of a self-reinforcing feedback loop.[31] This idea of a self-reinforcing feedback loop resembles that of a self-replicating causal loop introduced earlier by Stinchcombe. However, it resonated with economists and led to a growing recognition in economics that "history matters."[32]
+
+The work by Stephen Krasner in political science incorporated the idea of punctuated equilibrium into the social sciences. Krasner also drew on the work by Arthur and connected the idea of path dependence to the study of political institutions.[33]
+
+Douglass North, an economist and Nobel laureate, applied the idea of path dependence to institutions, which he defined as "the rules of the game in a society," and drew attention to the persistence of institutions.[34]
+
+A synthesis
+
+Political scientists Ruth Berins Collier and David Collier, in Shaping the Political Arena (1991), provided a synthesis of many ideas introduced from the 1960s to 1990, in the form of the following "five-step template":[35]
+
+These key concepts have been defined as follows:[36]
+
+Following a period of consolidation of critical junctures framework, few new developments occurred in the 1990s. However, since around 2000, several new ideas were proposed and many aspects of the critical junctures framework are the subject of debate.[37]
+
+Critical junctures and incremental change
+
+An important new issue in the study of change is the relative role of critical junctures and incremental change. On the one hand, the two kinds of change are sometimes starkly counterposed. Kathleen Thelen emphasizes more gradual, cumulative patterns of institutional evolution and holds that "the conceptual apparatus of path dependence may not always offer a realistic image of development."[38] On the other hand, path dependence, as conceptualized by Paul David is not deterministic and leaves room for policy shifts and institutional innovation.[39]
+
+Critical junctures and contingency
+
+Einar Berntzen notes another debate: "Some scholars emphasize the historical contingency of the choices made by political actors during the critical juncture."[40] For example, Michael Bernhard writes that critical junctures "are periods in which the constraints of structure have weakened and political actors have enhanced autonomy to restructure, overturn, and replace critical systems or sub-systems."[41]
+
+However, Berntzen holds that "other scholars have criticized the focus on agency and contingency as key causal factors of institutional path selection during critical junctures" and "argue that a focus on antecedent conditions of critical junctures is analytically more useful."[42] For example, Dan Slater and Erica Simmons place a heavy emphasis on antecedent conditions.[43]
+
+Schenoni provides a synthesis by suggesting that critical junctures (longer windows such as wars) where antecedents play a causal role, contain critical events (shorter episodes such as battles) where contingency is more clear.[44]
+
+
+Legacies and path dependence
+
+The use of the concept of path dependence in the study of critical junctures has been a source of some debate. On the one hand, James Mahoney argues that "path dependence characterizes specifically those historical sequences in which contingent events set into motion institutional patterns or event chains that have deterministic properties" and that there are two types of path dependence: "self-reinforcing sequences" and "reactive sequences."[45] On the other hand, Kathleen Thelen and other criticize the idea of path dependence determinism,[46] and Jörg Sydow, Georg Schreyögg, and Jochen Koch question the idea of reactive sequences as a kind of path dependence.[47]
+
+Institutional and behavioral path dependence
+
+The study of critical junctures has commonly been seen as involving a change in institutions.[48] However, many works extend the scope of research of critical junctures by focusing on changes in culture.[49] Avidit Acharya, Matthew Blackwell, and Maya Sen state that the persistence of a legacy can be "reinforced both by formal institutions, such as Jim Crow laws (a process known as institutional path dependence), and also by informal institutions, such as family socialization and community norms (a process we call behavioral path dependence)."[50]
+
+A critical juncture approach has been used in the study of many fields of research: state formation, political regimes, regime change and democracy, party system, public policy, government performance, and economic development.[51]
+
+In addition, many processes and events have been identified as critical junctures.
+
+Pre-1760 power jumps
+
+Michael Mann, in The Sources of Social Power (1986), relies on Gellner's neo-episodic model of change and identifies a series of "power jumps" in world history prior to 1760 - the idea of power jumps is similar to that of a critical juncture.[52] Some of the examples of power jumps identified by Mann are:
+
+Modern era critical junctures
+
+Some of the processes in the modern era that are commonly seen as critical junctures in the social sciences are:
+
+Considerable discussion has focused on the possibility that the COVID-19 pandemic will be a critical juncture.[67]
+
+Barrington Moore Jr.'s Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World (1966) argues that revolutions (the critical junctures) occurred in different ways (bourgeois revolutions, revolutions from above, and revolutions from below) and this difference led to contrasting political regimes in the long term (the legacy)—democracy, fascism, and communism, respectively.[68] In contrast to the unilinear view of evolution common in the 1960s, Moore showed that countries followed multiple paths to modernity.
+
+Collier and Collier's Shaping the Political Arena: Critical Junctures, the Labor Movement, and the Regime Dynamics in Latin America (1991) compares "eight Latin American countries to argue that labor-incorporation periods were critical junctures that set the countries on distinct paths of development that had major consequences for the crystallization of certain parties and party systems in the electoral arena. The way in which state actors incorporated labor movements was conditioned by the political strength of the oligarchy, the antecedent condition in their analysis. Different policies towards labor led to four specific types of labor incorporation: state incorporation (Brazil and Chile), radical populism (Mexico and Venezuela), labor populism (Peru and Argentina), and electoral mobilization by a traditional party (Uruguay and Colombia). These different patterns triggered contrasting reactions and counter reactions in the aftermath of labor incorporation. Eventually, through a complex set of intermediate steps, relatively enduring party system regimes were established in all eight countries: multiparty polarizing systems (Brazil and Chile), integrative party systems (Mexico and Venezuela), stalemated party systems (Peru and Argentina), and systems marked by electoral stability and social conflict (Uruguay and Colombia)."[69]
+
+John Ikenberry's After Victory: Institutions, Strategic Restraint, and the Rebuilding of Order After Major Wars (2001) compares post-war settlements after major wars – following the Napoleonic Wars in 1815, the world wars in 1919 and 1945, and the end of the Cold War in 1989. It argues that "international order has come and gone, risen and fallen across historical eras" and that the "great moments of order building come after major wars – 1648, 1713, 1815, 1919, 1945, and 1989." In essence, peace conferences and settlement agreements put in place "institutions and arrangements for postwar order." Ikenberry also shows that "the actual character of international order has varied across eras and order building moments" and that "variations have been manifest along multiple dimensions: geographic scope, organizational logic, rules and institutions, hierarchy and leadership, and the manner in and degree to which coercion and consent undergird the resulting order."[70]
+
+Seymour Martin Lipset, in The Democratic Century (2004), addresses the question why North America developed stable democracies and Latin America did not. He holds that the reason is that the initial patterns of colonization, the subsequent process of economic incorporation of the new colonies, and the wars of independence varies. The divergent histories of Britain and Iberia are seen as creating different cultural legacies that affected the prospects of democracy.[71]
+
+Daron Acemoglu and James A. Robinson’s Why Nations Fail: The Origins of Power, Prosperity, and Poverty (2012) draws on the idea of critical junctures.[72] A key thesis of this book is that, at critical junctures (such as the Glorious Revolution in 1688 in England), countries start to evolve along different paths. Countries that adopt inclusive political and economic institutions become prosperous democracies. Countries that adopt extractive political and economic institutions fail to develop political and economically.[73]
+
+Critical juncture research typically contrasts an argument about the historical origins of some outcome to an explanation based in temporally proximate factors.[74] However, researchers have engaged in debates about what historical event should be considered a critical juncture.
+
+The rise of the West
+
+A key debate in research on critical junctures concerns the turning point that led to the rise of the West.
+
+Historical sources of economic development (with a focus on Latin America)
+
+Another key debate concerns the historical roots of economic development, a debate that has address Latin America in particular.
+
+Historical origins of the Asian developmental state
+
+Research on Asia includes a debate about the historical roots of developmental states.
+
+Research on critical junctures is generally seen as an important contribution to the social sciences.
+
+Within political science, Berntzen argues that research on critical junctures "has played an important role in comparative historical and other macro-comparative scholarship."[85] Some of the most notable works in the field of comparative politics since the 1960s rely on the concept of a critical juncture.
+
+Barrington Moore Jr.'s Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World (1966) is broadly recognized as a foundational study in the study of democratization.[86]
+
+Ruth Berins Collier and David Collier's Shaping the Political Arena: Critical Junctures, the Labor Movement, and the Regime Dynamics in Latin America (1991) has been characterized by Giovanni Capoccia and R. Daniel Kelemen as a "landmark work" and by Kathleen Thelen as a "landmark study ... of regime transformation in Latin America."[87]
+
+Robert D. Putnam's Making Democracy Work: Civic Traditions in Modern Italy (1993)[88] provides an analysis of the historical origins of social capital in Italy that is widely credited with launching a strand of research on social capital and its consequences in various fields within political science.[89]
+
+Johannes Gerschewski describes John Ikenberry After Victory (2001) as a "masterful analysis."[90]
+
+Frank Baumgartner and Bryan D. Jones's Agendas and Instability in American Politics (2009)[91] is credited with having "a massive impact in the study of public policy."[92]
+
+Within economics, the historically informed work of Douglass North,[93] and Daron Acemoglu and James A. Robinson,[94] is seen as partly responsible for the disciple's renewed interest in political institutions and the historical origins of institutions and hence for the revival of the tradition of institutional economics.[95]

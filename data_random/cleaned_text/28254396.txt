@@ -1,0 +1,62 @@
+Chemical bath deposition, also called chemical solution deposition[1] and CBD, is a method of thin-film deposition (solids forming from a solution or gas), using an aqueous precursor solution.[1] Chemical bath deposition typically forms films using heterogeneous nucleation (deposition or adsorption of aqueous ions onto a solid substrate),[2] to form homogeneous thin films of metal chalcogenides (mostly oxides, sulfides, and selenides)[1] and many less common ionic compounds.[1][3] Chemical bath deposition produces films reliably, using a simple process with little infrastructure, at low temperature (<100 ˚C), and at low cost.[1] Furthermore, chemical bath deposition can be employed for large-area batch processing or continuous deposition. Films produced by CBD are often used in semiconductors, photovoltaic cells, and supercapacitors, and there is increasing interest in using chemical bath deposition to create nanomaterials.[1][4]
+
+Chemical bath deposition is useful in industrial applications because it is extremely cheap, simple, and reliable compared to other methods of thin-film deposition, requiring only aqueous solution at (relatively) low temperatures and minimal infrastructure.[1] The chemical bath deposition process can easily be scaled up to large-area batch processing or continuous deposition. 
+
+Chemical bath deposition forms small crystals, which are less useful for semiconductors than the larger crystals created by other methods of thin-film deposition but are more useful for nano materials. However, films formed by chemical bath deposition often have better photovoltaic properties (band electron gap) than films of the same substance formed by other methods.[1]
+
+Chemical bath deposition has a long history but until recently was an uncommon method of thin-film deposition.[1]
+
+In 1865, Justus Liebig published an article describing the use of chemical bath deposition to silver mirrors (to affix a reflective layer of silver to the back of glass to form a mirror),[5] though in the modern day electroplating and vacuum deposition are more common. 
+
+Around WWII, lead sulfide (PbS) and lead selenide (PbSe) CBD films are thought to have been used in infrared detectors.[1] These films are photoconductive when formed by chemical bath deposition.[1]
+
+Chemical bath deposition has a long history in forming thin films used in semiconductors as well. However the small size of deposited crystals is not ideal for semiconductors and chemical bath deposition is rarely used to manufacture semiconductors in the modern day.[1]
+
+Photovoltaic cells are the most common use of films deposited by chemical bath deposition because many films have better photovoltaic properties when deposited via CBD than when deposited by other methods.[1] This is because thin films formed by chemical bath deposition exhibit greater size quantization, and therefore smaller crystals and a greater optical band gap, than thin films formed by other methods.[1] These improved photovoltaic properties are why Cadmium Sulfide (CdS), a thin film common in photovoltaic cells, is the substance most commonly deposited by CBD and the substance most commonly investigated in CBD research papers.[1][2]
+
+Chemical bath deposition is also used to deposit buffer layers in photovoltaic cells because CBD does not damage the substrate.
+
+Chemical bath deposition films can be made to absorb certain wavelengths and reflect or transmit others as desired. This is because films formed by Chemical Bath Deposition have an electronic bandgap which can be precisely controlled. This selective transmission can be used for anti-reflection and anti-dazzling coatings, solar thermal applications, optical filters, polarizers, total reflectors, etc.[1] The films deposited by Chemical Bath Deposition have possible applications in anti-reflection, anti-dazzling, thermal control widow coatings, optical filters, total reflectors, poultry protection and warming coatings, light emitting diodes, solar cell fabrication, and varistors.[citation needed]
+
+Chemical bath deposition or electroless deposition has great applications in the field of nanomaterials,[1] because the small crystal size enables formation on the nanometer scale, because the properties and nanostructure of chemical bath deposition films can be precisely controlled, and because the uniform thickness, composition, and geometry of films deposited by chemical bath deposition allows the film to retain the structure of the substrate.[1] The low cost and high reliability of chemical bath deposition even on the nanometer scale is unlike any other thin-film deposition technique. Chemical bath deposition can be used to produce polycrystalline and epitaxial films, porous networks, nanorods, superlattices, and composites.[4]
+
+Chemical bath deposition relies on creating a solution such that deposition (changing from an aqueous to a solid substance) will only occur on the substrate, using the method below:
+
+That is, the solution is in a state where the precursor ions or colloidal particles are ‘sticky’, but can’t 'stick' to each other. When the substrate is introduced, the precursor ions or particles stick to it and aqueous ions stick to solid ions, forming a solid compound—depositing to form crystalline films. 
+
+The pH, temperature, and composition of the film affect crystal size, and can be used to control the rate of formation and the structure of the film. Other factors affecting crystal size include agitation, illumination, and the thickness of the film upon which the crystal is deposited.[1] Agitating the solution prevents the deposition of suspended colloidal crystals,[6] creating a smoother and more homogenous film with a higher band gap energy. Agitation also affects the formation speed and the temperature at which formation occurs, and can alter the structure of the crystals deposited.[6]
+
+Unlike most other deposition processes, chemical bath deposition tends to create a film of uniform thickness, composition, and geometry (lateral homogeneity) even on irregular (patterned or shaped) substrates because it, unlike other methods of deposition, is governed by surface chemistry. Ions adhere to all exposed surfaces of the substrate and crystals grow from those ions.[2][7]
+
+In ion-by-ion deposition, aqueous precursor ions react directly to form the thin film. 
+
+The conditions are controlled such that few hydroxide ions form to prevent deposition (not on the substrate) or precipitation of insoluble metal hydroxide. Sometimes a complexing agent is used to prevent the formation of metal hydroxide.[1] The metal salt and the chalcogenide salt disassociate to form precursor metal cations and chalcogenide anions, which are attracted to and adhere to the substrate by Van der Waals forces.[8] Ions adhere to the substrate, and aqueous ions attach to the growing crystals, forming larger crystals. Thus, this method of deposition results in larger and less uniform crystals than the hydroxide-cluster mechanism.[1]
+
+An example of the reaction, depositing cadmium sulfide, is shown below:[1][7][8]
+
+Hydroxide-cluster deposition occurs when hydroxide ions are present in the solution and usually results in smaller and more uniform crystals than ion-by-ion deposition. 
+
+When hydroxide ions are present in the solution in quantity, metal hydroxide ions form. The hydroxide ions act as ligands to the metal cations, forming insoluble colloidal clusters which are both dispersed throughout the solution and deposited onto the substrate. These clusters are attracted to the substrate by Van der Waals forces. The chalcogenide anions react with the metal hydroxide clusters, both dispersed and deposited, to form metal chalcogenide crystals. These crystals form the thin film, which has a structure similar to crystallite. In essence, the hydroxide ions acts as an intermediaries between the metal ions and the chalcogenide ions. Because each hydroxide cluster is a nucleation site, this deposition method usually results in smaller and more uniform crystals than ion-by-ion deposition.[7][8]
+
+An example of the chemical reaction, depositing cadmium sulfide, is shown below:[8]
+
+Unlike other methods of thin-film deposition, most any substrate which is chemically stable in the aqueous solution can theoretically be used in chemical bath deposition.[1] The desired properties of the film usually dictate the choice of substrate; for example, when light transparency is desired various types of glass are used, and in photovoltaic applications 
+
+
+
+
+
+CuInSe
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle {\ce {CuInSe2}}}
+
+is commonly used. Substrates can also be patterned with monolayers to direct the formation and structure of the thin films.[1] Substrates such as carbonized melamine foam (CFM)[citation needed] and acrylic acid (AA) hydrogels[9] have also been used for some specialized applications.

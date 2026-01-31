@@ -1,0 +1,19 @@
+Abstractions are fundamental building blocks of computer science, enabling complex systems and ideas to be simplified into more manageable and relatable concepts.
+
+General programming abstractions are foundational concepts that underlie virtually all of the programming tasks that software developers engage in. By providing a layer of separation from the specifics of the underlying hardware and system details, these abstractions allow for the creation of complex logic in a more approachable and manageable form. They emerge as a consensus on best practices for expressing and solving programming problems in efficient and logically sound ways. From the simplicity of a variable to the structured flow of control structures, these abstractions are the building blocks that constitute high-level programming languages and give rise to detailed software implementations.
+
+In the context of data structures, the term "abstraction" refers to the way in which a data structure represents and organizes data. Each data structure provides a particular way of organizing data in memory so that it can be accessed and modified according to specific rules. The data structure itself is an abstraction because it hides the details of how the data is stored in memory and provides a set of operations or interfaces for working with the data (e.g., push and pop for a stack, insert and delete for a binary search tree).
+
+In the world of functional programming, abstraction is not just a tool but a core principle that influences the entire programming model. The abstractions used in functional programming are designed to enhance expressiveness, provide greater modularity, and enable transformative operations that are both concise and predictable. By treating computation as the evaluation of mathematical functions, functional programming moves away from the mutable state and side effects that are typical in imperative programming, presenting a declarative approach to problem-solving.
+
+Concurrency models are critical abstractions in computer science that facilitate the management of multiple processes or threads executing simultaneously. These models provide the architectural framework needed to handle concurrent operations efficiently and safely in applications ranging from operating systems to high-throughput data processing and network servers. The key challenge they address is the coordination of computational tasks that can potentially interfere with one another, ensuring data integrity and optimizing resource usage without sacrificing performance.
+
+Design patterns in computer science represent abstract solutions to common software design problems. While they are not abstractions in the same sense as data structures or mathematical concepts, design patterns provide a high-level language for software developers to communicate and implement solutions in a consistent and recognizable way.
+
+Each design pattern abstracts the complexity of a particular design scenario or problem by providing a tested, proven development paradigm.
+
+Programming paradigms constitute the theoretical frameworks that shape the way software constructs are created and executed. Each paradigm embodies a unique approach to organizing and structuring programming logic, often promoting particular forms of abstraction and compositional structures that align with their underlying principles.
+
+Software engineering abstractions are conceptual tools that simplify the complex reality of software systems, enabling developers to focus on high-level problems and manage software complexity. These abstractions are often about hiding the underlying implementation details through encapsulation, defining clear interfaces, and establishing interaction protocols.
+
+Textbook reference:

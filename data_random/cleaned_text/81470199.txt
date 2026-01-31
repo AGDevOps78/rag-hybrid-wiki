@@ -1,0 +1,13 @@
+Thermodynamic computing refers to a new type of computing that has reached latter stages of development as of 2025. This type of computing has been pioneered and developed by the computing company Extropic.[1]
+
+Stochastic computing was investigated as early as the 1960s and 1970s, when engineers proposed circuits that performed stochastic sampling rather than fixed Boolean logic. Boltzmann machines based on statistical mechanics and energy-based neural networks provided the theoretical foundation for using physical energy landscapes to represent probability distributions. This was also developed further in machine-learning research on diffusion and generative models.
+
+In the 2000s and 2010s, developments in quantum annealing, notably D-Wave Systems computers and memristive systems, further demonstrated how physical systems could relax toward low-energy states corresponding to computational solutions. Extropic's approach represents a continuation of this tradition, replacing fully digital logic with thermodynamic sampling units (TSUs) designed to exploit controlled fluctuations for energy-efficient inference.
+
+Extropic developed a new type of computing hardware, the thermodynamic sampling unit (TSU). TSUs operate differently than conventional CPUs; instead of processing a series of programmable deterministic computations, TSUs produce samples from a programmable distribution.[1]
+
+Entropic's hardware  directly samples from complex probability distributions, omitting matrix multiplication TSUs sample from energy-based models (EBM), a type of machine learning model that directly define the shape of a probability distribution via an energy function.[1]  This distinguishes them from conventional AI algorithms that are based on sampling from complex probability distribution; current AI systems generally produce a vector of probabilities, and then derive a sample from that.
+
+The inputs to a TSU are parameters that specify the energy function of an EBM, and the outputs of a TSU are samples from the defined EBM. To use a TSU for machine learning, the parameters of the energy function are adjusted so that the EBM on the actual TSU will constitute a reliable model of real-world conditions.[1]
+
+On October 29, 2025, Extropic announced the development of its very first hardware item, referred to as the  Experimental Testing & Research Platform 0 (XTR-0).[2]

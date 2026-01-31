@@ -9,7 +9,7 @@ OUTPUT_DIR = "data/chunks"
 OUT_RANDOM_DIR = "data_random/chunks"
 EMBED_OUTPUT_FIXED = "data/embeddings.jsonl"
 
-MIN_SENTENCES = 3
+MIN_SENTENCES = 1
 MAX_SENTENCES = 8
 OVERLAP_SENTENCES = 2
 
