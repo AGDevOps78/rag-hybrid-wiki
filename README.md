@@ -9,6 +9,31 @@ src\corpus\embed.py > dense embedding creates jsonl file that can be used by any
 src\corpus\bm25_embed.py > bm25_index.json of files created
 
 
+what is religion ?
+Religion is a unique identity variable with immense power.
+chunk 3
+{"score_dense":0.5141894817352295,"score_sparse":9.355086095971878,"score_rrf":0.03047794966520434,"chunk_id":"62473758_chunk_4"}
+
+
+What are different categories of art?
+media, genre, styles, and form
+{"score_dense":0.6272503137588501,"score_sparse":18.115757683356577,"score_rrf":0.03252247488101534,"chunk_id":"752_chunk_15"}
+
+Definition of art.
+There is no generally agreed definition of what constitutes art
+{"score_dense":0.7314118146896362,"score_sparse":13.058879231893084,"score_rrf":0.03200204813108039,"chunk_id":"752_chunk_0"}
+
+Name a few famous artists.
+Michael Fried, T. J. Clark, Rosalind Krauss, Linda Nochlin and Griselda Pollock
+{"score_dense":0.5002988576889038,"score_sparse":9.896562092261469,"score_rrf":0.030886196246139225,"chunk_id":"752_chunk_44"}
+
+What  is astro physics?
+Unanswerable
+ no document on astro physics
+
+What is Albert Einstein famous for?
+theory of relativity
+{"score_dense":0.4562206566333771,"score_sparse":15.633653541997147,"score_rrf":0.03177805800756621,"chunk_id":"18831_chunk_34"}
 
 
 What is Mathematics ?

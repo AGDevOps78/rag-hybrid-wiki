@@ -12,10 +12,14 @@ class Generator:
         context = "\n\n".join([f"[{i+1}] {c['text']}" for i, c in enumerate(chunks)])
         print("You are a helpful assistant. Use only the context below to answer.\n\n"
             f"Context:\n{context}\n\nQuestion: {query}\nAnswer:")
-        return (
-            "You are a helpful assistant. Use only the context below to answer in detail in atleast 2 to 3 sentences.\n\n"
-            f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
-        )
+       
+        return (f"""You are an expert assistant. Use the only provided context below to answer the question.
+        Do NOT output a chunk number. 
+        Write a natural language explanation.
+        Context:{context}
+        Question: {query}
+        Answer in complete sentences:""")
+
 
     def generate(self, query, chunks):
         prompt = self.build_prompt(query, chunks)
