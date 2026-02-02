@@ -12,6 +12,8 @@ from src.retrieval.dense import DenseRetriever
 from src.retrieval.sparse import SparseRetriever
 from src.retrieval.hybrid import retrieve_hybrid
 from src.retrieval.generator import Generator
+from src.evaluation.eval_MRR import answer_from_which_chunk_rank
+from src.evaluation.eval_MRR import chunk_id_to_url
 
 st.title("Group 15 Hybrid RAG over Wikipedia")
 
@@ -35,6 +37,7 @@ if st.button("Ask") and query:
     sparse_results = sparse_ret.retrieve(query, top_k=top_k)
     fused = retrieve_hybrid(query, dense_ret, sparse_ret, k_dense=top_k, k_sparse=top_k, top_n=top_n)
     answer = generator.generate(query, fused)
+    #best_chunk, overlap, reciprocal_rank, best_url = answer_from_which_chunk_rank(answer, fused)
     elapsed = time.time() - t0
 
     st.subheader("Answer")
@@ -50,4 +53,5 @@ if st.button("Ask") and query:
             "score_sparse": c["score_sparse"],
             "score_rrf": c["score_rrf"],
             "chunk_id": c["chunk_id"],
+            "url": chunk_id_to_url(c["chunk_id"])
         })

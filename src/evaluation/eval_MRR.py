@@ -65,6 +65,28 @@ def answer_from_which_chunk(answer, retrieved_chunks):
 
     return best_chunk, best_overlap
 
+def answer_from_which_chunk_rank(answer, retrieved_chunks):
+    ans_tokens = set(normalize(answer).split())
+    best_chunk = None
+    best_overlap = 0
+    retrieved_url_by_rank = []
+    best_rank = None
+    for x, r in enumerate(retrieved_chunks):
+        retrieved_url_by_rank.append(chunk_id_to_url(r["chunk_id"]))
+        print(r["chunk_id"], r["score_rrf"], retrieved_url_by_rank[x])
+    
+    for rank,chunk in enumerate(retrieved_chunks) :
+        chunk_tokens = set(normalize(chunk["text"]).split())
+        overlap = len(ans_tokens & chunk_tokens)
+        if overlap > best_overlap:
+            best_overlap = overlap
+            best_chunk = chunk
+            best_rank = rank+1
+
+    return best_chunk, best_overlap, 1/best_rank if best_rank else 0.0, retrieved_url_by_rank[best_rank-1] if best_rank else None
+
+
+
 def chunk_id_to_url(chunk_id: str) -> str:
     """
     Convert a chunk ID like '29816_chunk_9' into a Wikipedia URL.
@@ -118,7 +140,9 @@ def evaluate_rag(n=20, path="data/generated_questions.jsonl"):
         mrr += mrr_url_level(gold_urls,retrieved_url_by_rank)
         print(f"RR for this question: {mrr_url_level(gold_urls,retrieved_url_by_rank)}\n")
         
-
+        best_chunk_id,overlap,reciprocal_rank,best_url = answer_from_which_chunk_rank(pred_answer, retrieved_chunks)
+        print(f" best chunk : {best_chunk_id} overlap: {overlap} Best URL contributing to answer: {best_url}, Reciprocal Rank: {reciprocal_rank}\n")
+        
         # 3. Find supporting chunk
         best_chunk, overlap = answer_from_which_chunk(pred_answer, retrieved_chunks)
 
@@ -211,14 +235,14 @@ def load_results_jsonl(path):
     print(f"Loaded {len(rows)} rows from {path}")
     return rows
 # Example usage:
-results, mrr = evaluate_rag( n=50, path=EVAL_QUESTIONS)
-print(results)
-print(f"Final MRR: {mrr}")
+results, mrr = evaluate_rag( n=1, path=EVAL_QUESTIONS)
+#print(results)
+#print(f"Final MRR: {mrr}")
 
 # Save results
-save_results_jsonl(results, EVAL_RESULTS)
+#save_results_jsonl(results, EVAL_RESULTS)
 
 # Load existing results with IDs
 table = load_results_jsonl(EVAL_RESULTS)
-print_table(table[:50])   # preview first 5 rows
+print_table(table[:50],50)   # preview first 5 rows
 

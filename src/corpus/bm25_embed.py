@@ -9,7 +9,9 @@ BM25_INDEX_PATH = "data/bm25_index.json"
 CHUNKS_DIR_RANDOM = "data_random/chunks"
 BM25_INDEX_PATH_RANDOM = "data_random/bm25_random_index.json"
 
-
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+bm25_index_path_full = os.path.join(ROOT, "data", "bm25_index.json")
+bm25_index_path_random_full = os.path.join(ROOT, "data_random", "bm25_random_index.json")
 # ---------------------------------------------------------
 # Simple tokenizer for BM25
 # ---------------------------------------------------------
@@ -75,6 +77,7 @@ def build_bm25_index_for(chunks_dir: str, index_path: str):
         "metadata": metadata_list
     }
     print(f"Saving BM25 index to {index_path}...")
+    print(os.path.dirname(index_path))
     os.makedirs(os.path.dirname(index_path), exist_ok=True)
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index_data, f)
@@ -108,7 +111,8 @@ def build_bm25_index():
 def load_bm25_index(index_path: str = BM25_INDEX_PATH):
     if index_path is None or index_path == "both":
         results = {}
-        for name, path in (("primary", BM25_INDEX_PATH), ("random", BM25_INDEX_PATH_RANDOM)):
+        print(f"Attempting to load BM25 indexes from paths: {bm25_index_path_full}, {bm25_index_path_random_full}")
+        for name, path in (("primary", bm25_index_path_full), ("random", bm25_index_path_random_full)):
             if os.path.exists(path):
                 with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
@@ -138,11 +142,13 @@ def search_bm25(query: str, top_k: int = 5, index_path: str = "both"):
     query_tokens = tokenize(query)
     #check if returned value is dict or tuple
     if isinstance(res, dict):
+        print(f"returning res as dict for query: '{query_tokens}' with indexes: {list(res)}, top_k={top_k}, index_path={index_path}")
         for entry in res.values():
             if entry is None:
                 continue
             bm25_obj, metadata_list = entry
             scores = bm25_obj.get_scores(query_tokens)
+            print(f"scores: {scores}")
             candidates.extend((float(s), m) for s, m in zip(scores, metadata_list))
     else:
         bm25_obj, metadata_list = res
@@ -168,3 +174,5 @@ def search_bm25(query: str, top_k: int = 5, index_path: str = "both"):
 # ---------------------------------------------------------
 if __name__ == "__main__":
     build_bm25_index()
+    #results = search_bm25("What is mathematics ?", top_k=2, index_path="both")
+    #print(len(results))

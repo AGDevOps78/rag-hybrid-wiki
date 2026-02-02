@@ -10,7 +10,7 @@ dense_ret = DenseRetriever()
 sparse_ret = SparseRetriever(index_path="both")
 
 # Query
-query = "what is the difference between the two subfields of philosophy?"
+query = "What is mathematics ?"
 results = retrieve_hybrid(query, dense_ret, sparse_ret, top_n=5)
 # LLM generation
 answer = Generator().generate(query, results)

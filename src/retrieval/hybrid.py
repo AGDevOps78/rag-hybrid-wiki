@@ -32,7 +32,8 @@ def rrf_fusion(dense_results, sparse_results, k=60, top_n=10):
         })
     return merged
 
-def retrieve_hybrid(query, dense_ret, sparse_ret, k_dense=60, k_sparse=60, top_n=10):
+def retrieve_hybrid(query, dense_ret, sparse_ret, k_dense=5, k_sparse=5, top_n=10):
     dense_results = dense_ret.retrieve(query, top_k=k_dense)
     sparse_results = sparse_ret.retrieve(query, top_k=k_sparse)
+    #print(sparse_ret.retrieve('What is mathematics ?', top_k=k_sparse))
     return rrf_fusion(dense_results, sparse_results, top_n=top_n)

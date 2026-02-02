@@ -1,19 +1,62 @@
 # rag-hybrid-wiki
 Hybrid RAG  implementation
 
+python .\src\corpus\clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
+
+ python .\src\corpus\clean_text.py --input data\cleaned_text --output data\cleaned_text_final
+
+ python .\src\corpus\chunker.py
+
+
 src\corpus\url_sampling.py  > connect to Wikipedia and get 200 wiki links (fixed) currently limit set to 20
 src\corpus\fetch_wikipedia.py > fetch text store it with the pagename
 src\corpus\clean_text.py > basic cleaning saving cleaned text
 src\corpus\chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
 src\corpus\embed.py > dense embedding creates jsonl file that can be used by any vector db
 src\corpus\bm25_embed.py > bm25_index.json of files created
+src\corpus\merge_embedings.py  > run to merge dense indexes data_random\embeddings.jsonl and data\embeddings.jsonl to data\embeddings_merged.jsonl
 
+data\eval_results.jsonl > evaluation results
+data\generated_questions.jsonl >
+
+
+from root of project run (src/retrieval/test.py) as module
+(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki> python -m src.retrieval.test
+
+runs the eval.. can also save data\eval_results.jsonl if needed
+(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki> python -m src.evaluation.eval_MRR   
+
+(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki\app> streamlit run app.py    
+
+why is learning public speaking techniques important?
+Public speaking is a fundamental component of rhetoric, analyzed by prominent thinkers. Public speaking was extensively studied in Ancient Greece and Ancient Rome, where it was a fundamental component of rhetoric, analyzed by prominent thinkers. Aristotle, the ancient Greek philosopher, identified three types of speeches: deliberative (political), forensic (judicial), and epideictic (ceremonial).[4] Public speaking is frequently directed at a select and sometimes restricted audience, consisting of individuals who may hold different perspectives. This audience can encompass enthusiastic supporters of the speaker, reluctant attendees with opposing views, or strangers with varying levels of interest in the speaker's topic.[5] Public speaking aims to either reassure an anxious audience or to alert a complacent audience of something important. Once the speaker has determined which of these approaches is required, they will use a combination of storytelling and informational approaches to achieve their goals.
+chunk2
+{"score_dense":0.5833410620689392,"score_sparse":16.43465369850526,"score_rrf":0.03149801587301587,"chunk_id":"25084_chunk_1"}
+
+What is an Atom?
+The atom is the basic unit of chemistry. It consists of a dense core called the atomic nucleus surrounded by a space occupied by an electron cloud. The nucleus is made up of positively charged protons and uncharged neutrons (together called nucleons), while the electron cloud consists of negatively charged electrons which orbit the nucleus. In a neutral atom, the negatively charged electrons balance out the positive charge of the protons. The nucleus is dense; the mass of a nucleon is approximately 1,836 times that of an electron, yet the radius of an atom is about 10,000 times that of its nucleus.[21] The atom is also the smallest entity that can be envisaged to retain the chemical properties of the element, such as electronegativity, ionization potential, preferred oxidation state(s), coordination number, and preferred types of bonds to form (e.g., metallic, ionic, covalent).[2][23] The atom is also the smallest entity that can be envisaged to retain the chemical properties of the element, such as electronegat
+Chunk 2
+{"score_dense":0.6775169372558594,"score_sparse":11.438774049328769,"score_rrf":0.029957522915269395,"chunk_id":"5180_chunk_3"}
+
+what constitutes an atom?
+A nucleus of protons and generally neutrons, surrounded by an electron cloud. The nucleus is made up of positively charged protons and uncharged neutrons (together called nucleons), while the electron cloud consists of negatively charged electrons which orbit the nucleus. The nucleus is dense; the mass of a nucleon is approximately 1,836 times that of an electron, yet the radius of an atom is about 10,000 times that of its nucleus.
+Chunk 2
+{"score_dense":0.7109595537185669,"score_sparse":8.330518731508192,"score_rrf":0.02889344262295082,"chunk_id":"902_chunk_0"}
 
 what is religion ?
 Religion is a unique identity variable with immense power.
 chunk 3
 {"score_dense":0.5141894817352295,"score_sparse":9.355086095971878,"score_rrf":0.03047794966520434,"chunk_id":"62473758_chunk_4"}
 
+Who was "The First Teacher"?
+Aristotle was well known among medieval Muslim intellectuals and revered as "The First Teacher" (Arabic: ).
+Chunk 3
+{"score_dense":0.30910518765449524,"score_sparse":12.07122427064592,"score_rrf":0.03036576949620428,"chunk_id":"32923_chunk_10"}
+
+Why is Aristotle called "The First Teacher"?
+Aristotle was widely considered the most pivotal figure in the development of philosophy, especially the Western tradition
+chunk 1
+{"score_dense":0.5760480761528015,"score_sparse":22.300606721072924,"score_rrf":0.03278688524590164,"chunk_id":"32923_chunk_10"}
 
 What are different categories of art?
 media, genre, styles, and form
@@ -32,17 +75,26 @@ Unanswerable
  no document on astro physics
 
 What is Albert Einstein famous for?
-theory of relativity
+Albert Einstein developed the theory of relativity that uses fundamentally these concepts.
 {"score_dense":0.4562206566333771,"score_sparse":15.633653541997147,"score_rrf":0.03177805800756621,"chunk_id":"18831_chunk_34"}
 
+Who was Albert Einstein?
+Albert Einstein was a physicist.
+Chunk 3
+{"score_dense":null,"score_sparse":14.25087259413689,"score_rrf":0.01639344262295082,"chunk_id":"363430_chunk_1"}
+
+what is Generational contract?
+The term generational contract is a concept used in the research of the relations between generations within a society. It refers to an agreement or consensus regarding the roles and mutual responsibilities of different age groups or generations. The term does not define a legal contract, as no enforceable agreement exists between generations.
+{"score_dense":0.7071757316589355,"score_sparse":22.723288080304663,"score_rrf":0.03252247488101534,"chunk_id":"81920874_chunk_0"}
 
 What is Mathematics ?
-A common approach is to define mathematics by its object of study.
+A common approach is to define mathematics by its object of study. Aristotle defined mathematics as "the science of quantity" and this definition prevailed until the 18th century. However, Aristotle also noted a focus on quantity alone may not distinguish mathematics from sciences like physics; in his view, abstraction and studying quantity as a property "separable in thought" from real instances set mathematics apart. In the 19th century, when mathematicians began to address topics—such as infinite sets—which have no clear-cut relation to physical reality, a variety of new definitions were given. With the large number of new areas of mathematics that have appeared since the beginning of the 20th century, defining mathematics by its object of study has become increasingly difficult. For example, in lieu of a definition, Saunders Mac Lane in Mathematics, form and function summarizes the basics of several areas of mathematics, emphasizing their inter-connectedness, and observes: the development of Mathematics provides a tightly connected network of formal rules, concepts, and systems. Nodes of this network are closely bound to procedures useful in human activities and to questions arising in science.
+chunk1
 {"score_dense":0.661025881767273,"score_sparse":10.659591806371015,"score_rrf":0.03128054740957967,"chunk_id":"18831_chunk_42"}
 
 why study mathematics ?
-for the needs of empirical sciences and mathematics itself
-
+Mathematics is a field of study that discovers and organizes methods, theories, and theorems that are developed and proved for the needs of empirical sciences and mathematics itself.
+Chunk 1
 {"score_dense":0.6120296120643616,"score_sparse":9.12672757018377,"score_rrf":0.032266458495966696,"chunk_id":"18831_chunk_0"}
 
 Why do we study history?
@@ -89,3 +141,27 @@ a branch of fundamental science
 
 {"score_dense":0.5634846687316895,"score_sparse":11.786887068572872,"score_rrf":0.030886196246139225,"chunk_id":"22939_chunk_20"}
 
+what is physics?
+
+Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.
+chunk 2
+{"score_dense":0.6238350868225098,"score_sparse":9.583735478424988,"score_rrf":0.029957522915269395,"chunk_id":"1653925_chunk_0"}
+
+How to extend life?
+
+
+
+The goal of life extension technology is to combine existing and predicted future biochemical and genetic techniques.
+
+{"score_dense":0.5305856466293335,"score_sparse":10.302588128366931,"score_rrf":0.03149801587301587,"chunk_id":"23607241_chunk_2"}
+
+discuss about Most Favored Nation Drug Pricing?
+
+Most Favored Nation Drug Pricing is a policy advanced during the first and second Trump administrations in which drug prices in the United States are tied to foreign drug prices. Prescription drug prices in the United States are much higher than costs abroad.
+
+{"score_dense":0.7244083285331726,"score_sparse":23.034341426656354,"score_rrf":0.03278688524590164,"chunk_id":"80019332_chunk_0"}
+
+who is a Psychologist?
+
+The term "psychologist" is a scientific term that refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. 
+{"score_dense":0.6555368900299072,"score_sparse":15.342330549739547,"score_rrf":0.031754032258064516,"chunk_id":"72132_chunk_0"}

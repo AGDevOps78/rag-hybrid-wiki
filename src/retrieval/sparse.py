@@ -7,8 +7,9 @@ class SparseRetriever:
         self.index_path = index_path
 
     def retrieve(self, query, top_k=10):
-        results = search_bm25(query, top_k=top_k, index_path=self.index_path)
-
+        results=[]
+        results = search_bm25(query, top_k, self.index_path)
+        print(f"SparseRetriever: {len(results)} results for query: '{query}' top_k={top_k}")
         # Normalize output to match dense retriever format
         normalized = []
         for r in results:
