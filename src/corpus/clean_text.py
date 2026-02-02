@@ -13,6 +13,13 @@ def strip_html(text: str) -> str:
         tag.decompose()
     return soup.get_text(separator=" ")
 
+def remove_citations(text: str) -> str:
+    """Remove inline citations like [1], [12], [3,4], [5–7], etc."""
+    # Remove patterns like [1], [12], [3,4], [5-7], [8–10]
+    text = re.sub(r"\[\s*\d+(\s*[-–,]\s*\d+)*\s*\]", " ", text)
+
+    return text
+
 def normalize_unicode(text: str) -> str:
     """Normalize unicode characters (NFKC)."""
     return unicodedata.normalize("NFKC", text)
@@ -40,7 +47,7 @@ def clean_text(text: str, lowercase: bool = False) -> str:
     text = normalize_unicode(text)
     text = remove_boilerplate(text)
     text = collapse_whitespace(text)
-
+    text = remove_citations(text)
     if lowercase:
         text = text.lower()
 

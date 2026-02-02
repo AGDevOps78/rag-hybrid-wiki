@@ -1,0 +1,1 @@
+In addition to static structures, structural chemistry also includes a focus on dynamics, such as fluxionality. In such cases, the time scale of the technique must be matched with the time scale of the dynamics. A classic example is dimethylformamide (DMF) where the dynamics are analyzed by dynamic NMR spectroscopy.

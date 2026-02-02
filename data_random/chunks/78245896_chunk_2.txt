@@ -1,0 +1,1 @@
+Removal of the plug stab (also known as the dummy or parking stab) from the receptacle is followed by insertion of the hot stab into the port. This operation can be done by a diver or a ROV with manipulator arm. The stab is not a self-locking mechanism, and though the internal forces may be balanced, an external force is required to secure the stab in place in the receptacle.

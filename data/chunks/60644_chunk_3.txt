@@ -1,0 +1,1 @@
+Programs were written to punched tape using existing teleprinters,  then were transferred to a reader so that a computer could load the program. The first documented computer to use punched tape as storage was the Zuse Z1, released in In the early In In the early Personal computers began to be widespread from the IBM began using semiconductor memory in

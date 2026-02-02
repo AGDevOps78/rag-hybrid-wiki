@@ -1,0 +1,1 @@
+However, the adoption is not straightforward, and many databases show a discrepancy between the chemical structures and the InChI they contain, which is a problem for linking databases.

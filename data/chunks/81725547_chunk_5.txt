@@ -1,0 +1,1 @@
+A prominent example is the CCaaLF framework, which treats concurrency control as a learnable agent function F : { s } → { a } {\displaystyle {\mathcal {F}}:\{s\}\rightarrow \{a\}} . This function dynamically maps real-time database states to specific conflict-handling actions.

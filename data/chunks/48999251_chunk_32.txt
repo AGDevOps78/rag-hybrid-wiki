@@ -1,0 +1,1 @@
+Researchers at the iHuman Institute at ShanghaiTech University employed of scheme in which 20,000 compounds per pool were screened against A2AR, a difficult G-protein coupled receptor to drug, with a 0.12% hit rate, leading to several high affinity ligands.

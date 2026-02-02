@@ -1,0 +1,1 @@
+However, this technique uses a regular AFM tip to which a single polymer molecule is attached. From the retraction part of the force curve, one can obtain information about stretching of the polymer or its peeling from the surface.

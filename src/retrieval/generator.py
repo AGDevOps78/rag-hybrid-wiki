@@ -9,13 +9,12 @@ class Generator:
         self.max_new_tokens = max_new_tokens
 
     def build_prompt(self, query, chunks):
-        context = "\n\n".join([f"[{i+1}] {c['text']}" for i, c in enumerate(chunks)])
-        print("You are a helpful assistant. Use only the context below to answer.\n\n"
+        context = "\n\n".join([f"Chunk_{i+1}. {c['text']}" for i, c in enumerate(chunks)])
+        print("You are an expert assistant. Use only the context below to answer.\n\n"
             f"Context:\n{context}\n\nQuestion: {query}\nAnswer:")
        
-        return (f"""You are an expert assistant. Use the only provided context below to answer the question.
+        return (f"""You are an expert assistant. Write a natural language explanation. Use the only provided text below to answer the question.
         Do NOT output a chunk number. 
-        Write a natural language explanation.
         Context:{context}
         Question: {query}
         Answer in complete sentences:""")

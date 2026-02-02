@@ -1,0 +1,1 @@
+In a t {\displaystyle t} can be simulated in space O ( t log ⁡ t ) {\displaystyle O({\sqrt {t\log t}})}   improving the previous bound of O ( t / log ⁡ t ) {\displaystyle O(t/\log t)} by Hopcroft, Paul, and Valiant  and strengthening the case in the negative for the question if PSPACE=P.

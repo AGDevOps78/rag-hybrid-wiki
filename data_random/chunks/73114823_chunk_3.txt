@@ -1,0 +1,1 @@
+GMSL devices must meet or exceed the requirements of the AEC-Q100 automotive reliability standard for integrated circuits, and the ISO At the AutoSens conference in Brussels in

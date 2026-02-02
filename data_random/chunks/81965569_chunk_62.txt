@@ -1,0 +1,1 @@
+Another approach is to append a row and a column to an even ordered Medjig square. Approaches such as the LUX method can also be used. In the example below, a 5×5 Medjig square is created by wrapping a Medjig border around a 3×3 Medjig square given previously:

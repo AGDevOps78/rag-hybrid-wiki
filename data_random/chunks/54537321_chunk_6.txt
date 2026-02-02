@@ -1,0 +1,1 @@
+Asymptotic behavior:  θ k ∼ θ ∞ + 0.316 / k + 0.114 / k 2 ... {\displaystyle \theta _{k}\sim \theta _{\infty }+0.316/k+0.114/k^{2}\ldots } . See also

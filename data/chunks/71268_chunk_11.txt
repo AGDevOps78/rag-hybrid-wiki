@@ -1,0 +1,1 @@
+Thermodynamic models developed by Dolomatov and collaborators use probability theory and equilibrium thermodynamics to estimate the distribution of organic molecules in the interstellar medium. <ref name="abundance of chemical elements3

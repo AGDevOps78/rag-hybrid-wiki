@@ -10,6 +10,8 @@ from src.retrieval.hybrid import retrieve_hybrid
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.append(ROOT)
 EVAL_QUESTIONS = os.path.join(ROOT, "data", "generated_questions.jsonl")
+EVAL_RESULTS = os.path.join(ROOT, "data", "eval_results.jsonl")
+
 def normalize(text):
     text = text.lower().strip()
     text = re.sub(r"[^a-z0-9\s]", " ", text)
@@ -90,6 +92,7 @@ def evaluate_rag(n=20, path="data/generated_questions.jsonl"):
         question_text = q["question"]
         gold_answer = q["ground_truth"]
         gold_urls = q["wikipedia_url"]
+        q_type= q["question_type"]
         # Load retrievers once
         dense_ret = DenseRetriever()
         sparse_ret = SparseRetriever(index_path="both")
@@ -108,9 +111,9 @@ def evaluate_rag(n=20, path="data/generated_questions.jsonl"):
         # Print retrieved chunks + RRF scores
         print("\n=== Retrieved Chunks ===\n")
         retrieved_url_by_rank = []
-        for i, r in enumerate(retrieved_chunks):
+        for x, r in enumerate(retrieved_chunks):
             retrieved_url_by_rank.append(chunk_id_to_url(r["chunk_id"]))
-            print(r["chunk_id"], r["score_rrf"], retrieved_url_by_rank[i])
+            print(r["chunk_id"], r["score_rrf"], retrieved_url_by_rank[x])
 
         mrr += mrr_url_level(gold_urls,retrieved_url_by_rank)
         print(f"RR for this question: {mrr_url_level(gold_urls,retrieved_url_by_rank)}\n")
@@ -123,24 +126,99 @@ def evaluate_rag(n=20, path="data/generated_questions.jsonl"):
         # 4. Compute F1
         f1 = answer_f1(pred_answer, gold_answer)
         print(f"F1 Score: {f1:.4f}\n")
+        
         results.append({
+            "id": i,
             "question": question_text,
             "pred_answer": pred_answer,
             "gold_answer": gold_answer,
             "f1": f1,
+            "question_type": q_type,
             "retrieved_urls": retrieved_url_by_rank,
             "gold_urls": gold_urls,
+            "reciprocal_rank": mrr_url_level(gold_urls,retrieved_url_by_rank),
             "supporting_chunk": best_chunk["chunk_id"] if best_chunk else None,
             "supporting_overlap": overlap
         })
-
     # 5. Compute MRR
     mrr = mrr / len(questions) if questions else 0.0
     print(f"MRR@{n}: {mrr:.4f}")
-
+   
+    
     return results , mrr
 
+def print_table(results, limit=20):
+    """
+    Print a compact table of evaluation results and show mean F1 + mean RR.
+    """
+    if not results:
+        print("No results to display.")
+        return
+
+    # Header
+    print("\n=== Evaluation Table ===\n")
+    print(f"{'ID':<5} {'F1':<10} {'RR':<10} {'overlap':<15} {'Type':<15}")
+    print("-" * 60)
+
+    # Print rows
+    for row in results[:limit]:
+        print(
+            f"{row['id']:<5} "
+            f"{row['f1']:<10.4f} "
+            f"{row['reciprocal_rank']:<10.4f} "
+            f"{row['supporting_overlap']:<15.4f} "
+            f"{row['question_type']:<15}"
+        )
+
+    # Compute means
+    mean_f1 = sum(r["f1"] for r in results) / len(results)
+    mean_rr = sum(r["reciprocal_rank"] for r in results) / len(results)
+
+    print("\n=== Summary Statistics ===")
+    print(f"Mean F1: {mean_f1:.4f}")
+    print(f"Mean Reciprocal Rank (RR): {mean_rr:.4f}")
+    print("-" * 60)
+
+def save_results_jsonl(results, path):
+    """
+    Save evaluation results to a JSONL file.
+    Appends if file exists, creates new file otherwise.
+    """
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    with open(path, "a", encoding="utf-8") as f:
+        for obj in results:
+            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+    print(f"Saved {len(results)} results → {path}")
+
+def load_results_jsonl(path):
+    """
+    Load a JSONL file and return a list of dicts with an added 'id' field.
+    """
+    if not os.path.exists(path):
+        print(f"No existing results file found at: {path}")
+        return []
+
+    rows = []
+    with open(path, "r", encoding="utf-8") as f:
+        for idx, line in enumerate(f):
+            if line.strip():
+                obj = json.loads(line)
+                obj["id"] = idx + 1
+                rows.append(obj)
+
+    print(f"Loaded {len(rows)} rows from {path}")
+    return rows
 # Example usage:
-results, mrr = evaluate_rag( n=20, path=EVAL_QUESTIONS)
+results, mrr = evaluate_rag( n=50, path=EVAL_QUESTIONS)
 print(results)
 print(f"Final MRR: {mrr}")
+
+# Save results
+save_results_jsonl(results, EVAL_RESULTS)
+
+# Load existing results with IDs
+table = load_results_jsonl(EVAL_RESULTS)
+print_table(table[:50])   # preview first 5 rows
+

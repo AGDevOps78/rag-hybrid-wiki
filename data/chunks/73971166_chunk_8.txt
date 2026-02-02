@@ -1,0 +1,1 @@
+TMC has also been extended to applications involving frictional contact and thermo-mechanical coupling. These advancements enhance the method's utility in modelling real-world mechanical interfaces.
