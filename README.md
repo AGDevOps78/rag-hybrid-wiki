@@ -165,3 +165,29 @@ who is a Psychologist?
 
 The term "psychologist" is a scientific term that refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. The term "psychologist" refers to a professional who practices psychology and studies mental states, perceptual, cognitive, emotional, and social processes and behavior. 
 {"score_dense":0.6555368900299072,"score_sparse":15.342330549739547,"score_rrf":0.031754032258064516,"chunk_id":"72132_chunk_0"}
+
+
+explain the difference between democracy and autocracy
+
+Answer
+Democracy is based on popular sovereignty. Autocracies are either dictatorships (including military dictatorships) or absolute monarchies.
+
+Best supporting chunk ID: 16027561_chunk_14
+Overlap: 11
+Best URL contributing to answer: https://en.wikipedia.org/?curid=16027561
+Reciprocal Rank: 1.0000
+
+Response time: 10.51s
+
+Top retrieved chunks (RRF)
+Chunk 1
+
+The interactions between different political systems are the basis for global politics. Forms of government can be classified by several ways. In terms of the structure of power, there are monarchies (including constitutional monarchies) and republics (usually presidential, semi-presidential, or parliamentary). The separation of powers describes the degree of horizontal integration between the legislature, the executive, the judiciary, and other independent institutions. The source of power determines the difference between democracies, oligarchies, and autocracies. In a democracy, political legitimacy is based on popular sovereignty. Forms of democracy include representative democracy, direct democracy, and demarchy. These are separated by the way decisions are made, whether by elected representatives, referendums, or by citizen juries.
+
+{
+"score_dense":0.5453159809112549
+"score_sparse":21.265834853055498
+"score_rrf":0.032018442622950824
+"chunk_id":"16027561_chunk_14"
+"url":"https://en.wikipedia.org/?curid=16027561"
+}

@@ -1,4 +1,5 @@
 import json, re
+import pandas as pd
 from collections import Counter
 import os,sys
 os.chdir("..")
@@ -203,6 +204,38 @@ def print_table(results, limit=20):
     print(f"Mean Reciprocal Rank (RR): {mean_rr:.4f}")
     print("-" * 60)
 
+
+def results_to_dataframe(results, limit=20):
+    """
+    Convert evaluation results into a pandas DataFrame and
+    compute summary statistics.
+    """
+    if not results:
+        return pd.DataFrame(), {"mean_f1": 0.0, "mean_rr": 0.0}
+
+    # Build DataFrame
+    df = pd.DataFrame([
+        {
+            "ID": row["id"],
+            "F1": row["f1"],
+            "RR": row["reciprocal_rank"],
+            "Overlap": row["supporting_overlap"],
+            "Type": row["question_type"]
+        }
+        for row in results[:limit]
+    ])
+
+    # Summary statistics
+    mean_f1 = sum(r["f1"] for r in results) / len(results)
+    mean_rr = sum(r["reciprocal_rank"] for r in results) / len(results)
+
+    summary = {
+        "mean_f1": mean_f1,
+        "mean_rr": mean_rr
+    }
+
+    return df, summary
+
 def save_results_jsonl(results, path):
     """
     Save evaluation results to a JSONL file.
@@ -216,7 +249,7 @@ def save_results_jsonl(results, path):
 
     print(f"Saved {len(results)} results → {path}")
 
-def load_results_jsonl(path):
+def load_results_jsonl(path=EVAL_RESULTS):
     """
     Load a JSONL file and return a list of dicts with an added 'id' field.
     """
@@ -243,6 +276,9 @@ results, mrr = evaluate_rag( n=1, path=EVAL_QUESTIONS)
 #save_results_jsonl(results, EVAL_RESULTS)
 
 # Load existing results with IDs
-table = load_results_jsonl(EVAL_RESULTS)
+table = load_results_jsonl()
 print_table(table[:50],50)   # preview first 5 rows
+df, summary = results_to_dataframe(table)
+print(f"Mean F1: {summary['mean_f1']:.4f}, Mean RR: {summary['mean_rr']:.4f}")
+print(df.head())
 
