@@ -1,32 +1,35 @@
 # rag-hybrid-wiki
 Hybrid RAG  implementation
 
-python .\src\corpus\clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
+1. Dataset Requirements
+rag-hybrid-wiki-main/src/corpus/url_sampling.py  > connect to Wikipedia and get 200 wiki links (fixed) currently limit set to 20
+rag-hybrid-wiki-main/src/corpus/fetch_wikipedia.py > fetch text store it with the pagename
+rag-hybrid-wiki-main/src\corpus/clean_text.py > basic cleaning saving cleaned text
+rag-hybrid-wiki-main/src/corpus/chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
+rag-hybrid-wiki-main/src/corpus/clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
+rag-hybrid-wiki-main/src/corpus/clean_text.py --input data\cleaned_text --output data\cleaned_text_final
+rag-hybrid-wiki-main/src/corpus/embed.py > dense embedding creates jsonl file that can be used by any vector db
+rag-hybrid-wiki-main/src/corpus/bm25_embed.py > bm25_index.json of files created
+rag-hybrid-wiki-main/src/corpus/merge_embedings.py  > run to merge dense indexes data_random\embeddings.jsonl and data\embeddings.jsonl to data\embeddings_merged.jsonl
 
- python .\src\corpus\clean_text.py --input data\cleaned_text --output data\cleaned_text_final
+2. Hybrid RAG System
+rag-hybrid-wiki-main/src/retrieval/dense.py > Dense retrival 
+rag-hybrid-wiki-main/src/retrieval/sparse.py > Sparse retrival
+rag-hybrid-wiki-main/src/retrieval/hybrid.py > Hybrid - Dense + Sparse retrival
+rag-hybrid-wiki-main/src/retrieval/hybrid.py > RRF
+rag-hybrid-wiki-main/src/retrieval/generator.py > Response Generator
+rag-hybrid-wiki-main/src/retrieval/test.py > Test and give RRF score for all chunk IDs
+streamlit run rag-hybrid-wiki-main/app/app.py > User Interface
 
- python .\src\corpus\chunker.py
+3. Automated Evalution
+rag-hybrid-wiki-main/src/retrieval/qgenerator.py > Automated question generator
+rag-hybrid-wiki-main/src/evaluation/eval_MRR.py > MRR evlaution
+rag-hybrid-wiki-main/src/evaluation/ndcg.py > NDCG evlaution
+rag-hybrid-wiki-main/src/evaluation/semantic_similarity.py > semantic similarity evlaution
+rag-hybrid-wiki-main/src/evaluation/ablation.py > Ablation evlaution
+rag-hybrid-wiki-main/src/evaluation/llm_as_judge.py > Ablation evlaution
 
-
-src\corpus\url_sampling.py  > connect to Wikipedia and get 200 wiki links (fixed) currently limit set to 20
-src\corpus\fetch_wikipedia.py > fetch text store it with the pagename
-src\corpus\clean_text.py > basic cleaning saving cleaned text
-src\corpus\chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
-src\corpus\embed.py > dense embedding creates jsonl file that can be used by any vector db
-src\corpus\bm25_embed.py > bm25_index.json of files created
-src\corpus\merge_embedings.py  > run to merge dense indexes data_random\embeddings.jsonl and data\embeddings.jsonl to data\embeddings_merged.jsonl
-
-data\eval_results.jsonl > evaluation results
-data\generated_questions.jsonl >
-
-
-from root of project run (src/retrieval/test.py) as module
-(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki> python -m src.retrieval.test
-
-runs the eval.. can also save data\eval_results.jsonl if needed
-(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki> python -m src.evaluation.eval_MRR   
-
-(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki\app> streamlit run app.py    
+Below are some example reuslts
 
 why is learning public speaking techniques important?
 Public speaking is a fundamental component of rhetoric, analyzed by prominent thinkers. Public speaking was extensively studied in Ancient Greece and Ancient Rome, where it was a fundamental component of rhetoric, analyzed by prominent thinkers. Aristotle, the ancient Greek philosopher, identified three types of speeches: deliberative (political), forensic (judicial), and epideictic (ceremonial).[4] Public speaking is frequently directed at a select and sometimes restricted audience, consisting of individuals who may hold different perspectives. This audience can encompass enthusiastic supporters of the speaker, reluctant attendees with opposing views, or strangers with varying levels of interest in the speaker's topic.[5] Public speaking aims to either reassure an anxious audience or to alert a complacent audience of something important. Once the speaker has determined which of these approaches is required, they will use a combination of storytelling and informational approaches to achieve their goals.
@@ -191,3 +194,80 @@ The interactions between different political systems are the basis for global po
 "chunk_id":"16027561_chunk_14"
 "url":"https://en.wikipedia.org/?curid=16027561"
 }
+
+
+Answer quality Semantic similarity score vs F1 score example:
+
+Question: What is the oldest piece of art found in Europe?
+Answer:
+Response time for question 22: 43.42s
+
+=== Generated Answer ===
+
+The Riesenhirschknochen der Einhornhöhle, dating back 51,000 years and made by Neanderthals, dates back 51,000 years and made by Neanderthals. The first undisputed sculptures and similar art pieces, like the Venus of Hohle Fels, are the numerous objects found at the Caves and Ice Age Art in the Swabian Jura UNESCO World Heritage Site, where the oldest non-stationary works of human art yet discovered were found, in the form of carved animal and humanoid figurines, in addition to the oldest musical instruments unearthed so far, with the artifacts dating between 43,000 and 35,000 BC, so being the first centre of human art. Many great traditions in art have a foundation in the art of one of the great ancient civilizations: Ancient Egypt, Mesopotamia, Persia, India, China, Ancient Greece, Rome, as well as Inca, Maya, and Olmec. Each of these centers of early civilization developed a unique and characteristic style in its art. Because of the size and duration of these civilizations, more of their art works have survived and more of their 
+
+=== Gold Answer ===
+
+The oldest piece of art found in Europe is the Riesenhirschknochen der Einhornhöhle, dating back 51,000 years and made by Neanderthals. ['https://en.wikipedia.org/?curid=752']
+
+F1 Score: 0.2804
+
+Semantic Similarity Score: 0.8378
+
+NDCG@3 Score: 1.0000
+
+Precision@3: 1.0000
+
+
+Question: Where is Shopska salad considered a national dish of Bulgaria?
+Answer:
+Response time for question 23: 10.11s
+
+=== Generated Answer ===
+
+Shopska salad is considered a national dish of Bulgaria, is claimed by Bulgaria, Croatia, Czechia, North Macedonia, and Serbia.
+
+=== Gold Answer ===
+
+Bulgaria, Croatia, Czechia, North Macedonia, and Serbia ['https://en.wikipedia.org/?curid=68554701']
+
+Best supporting chunk ID: 68554701_chunk_12, Overlap: 17
+F1 Score: 0.6667
+
+Semantic Similarity Score: 0.5187
+
+Retrieval quality example, here we see that ndcg@3 is 0.86 while precision@3 is 1. While all three chunks have relevant text.
+ndcg captures the fact that the 1st 2 have the relevant information
+
+Question: What was the school of positivism?
+Answer:
+Response time for question 61: 9.62s
+
+=== Generated Answer ===
+
+Auguste Comte formulated the school of positivism.
+
+=== Gold Answer ===
+
+Auguste Comte formulated the school of positivism and aimed to discover general laws of history, similar to the laws of nature studied by physicists. ['https://en.wikipedia.org/?curid=10772350']
+
+=== Retrieved Chunks ===
+
+18717981_chunk_9 0.032018442622950824 https://en.wikipedia.org/?curid=18717981
+18717981_chunk_11 0.03200204813108039 https://en.wikipedia.org/?curid=18717981
+10772350_chunk_40 0.0315136476426799 https://en.wikipedia.org/?curid=10772350
+RR for this question: 0.3333333333333333
+
+18717981_chunk_9 0.032018442622950824 https://en.wikipedia.org/?curid=18717981
+18717981_chunk_11 0.03200204813108039 https://en.wikipedia.org/?curid=18717981
+10772350_chunk_40 0.0315136476426799 https://en.wikipedia.org/?curid=10772350
+ best chunk : {'chunk_id': '10772350_chunk_40', 'text': 'In tune with this scientific outlook, Auguste Comte formulated the school of positivism and aimed to discover general laws of history, similar to the laws of nature studied by physicists. Building on the philosophy of Georg Wilhelm Friedrich Hegel, Karl Marx proposed one such general law in his theory of historical materialism, arguing that economic forces and class struggle are the fundamental drivers of historical change. Another influential development was the spread of European historiographical methods, which became the dominant approach to the academic study of the past worldwide. In the 20th century, traditional historical assumptions and practices were challenged while the scope of historical research broadened. The Annales school used insights from sociology, psychology, and economics to study long-term developments. Authoritarian regimes, like Nazi Germany, the Soviet Union, and China, manipulated historical narratives for ideological purposes. Various historians covered unconventional perspectives, focusing on the experiences of marginalized groups through approaches such as history from below, microhistory, oral history, and feminist history. Postcolonialism aimed to undermine the hegemony of the Western approach and postmodernism rejected the claim to a single universal truth in history.', 'score_dense': 0.5087823867797852, 'score_sparse': 17.5682166881247, 'score_rrf': 0.0315136476426799} overlap: 7 Best URL contributing to answer: https://en.wikipedia.org/?curid=10772350, Reciprocal Rank: 0.3333333333333333
+
+Best supporting chunk ID: 10772350_chunk_40, Overlap: 7
+F1 Score: 0.5263
+
+Semantic Similarity Score: 0.8422
+
+NDCG@3 Score: 0.8671
+
+Precision@3: 1.0000

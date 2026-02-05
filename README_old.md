@@ -1,35 +1,32 @@
 # rag-hybrid-wiki
 Hybrid RAG  implementation
 
-1. Dataset Requirements
-rag-hybrid-wiki-main/src/corpus/url_sampling.py  > connect to Wikipedia and get 200 wiki links (fixed) currently limit set to 20
-rag-hybrid-wiki-main/src/corpus/fetch_wikipedia.py > fetch text store it with the pagename
-rag-hybrid-wiki-main/src\corpus/clean_text.py > basic cleaning saving cleaned text
-rag-hybrid-wiki-main/src/corpus/chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
-rag-hybrid-wiki-main/src/corpus/clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
-rag-hybrid-wiki-main/src/corpus/clean_text.py --input data\cleaned_text --output data\cleaned_text_final
-rag-hybrid-wiki-main/src/corpus/embed.py > dense embedding creates jsonl file that can be used by any vector db
-rag-hybrid-wiki-main/src/corpus/bm25_embed.py > bm25_index.json of files created
-rag-hybrid-wiki-main/src/corpus/merge_embedings.py  > run to merge dense indexes data_random\embeddings.jsonl and data\embeddings.jsonl to data\embeddings_merged.jsonl
+python .\src\corpus\clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
 
-2. Hybrid RAG System
-rag-hybrid-wiki-main/src/retrieval/dense.py > Dense retrival 
-rag-hybrid-wiki-main/src/retrieval/sparse.py > Sparse retrival
-rag-hybrid-wiki-main/src/retrieval/hybrid.py > Hybrid - Dense + Sparse retrival
-rag-hybrid-wiki-main/src/retrieval/hybrid.py > RRF
-rag-hybrid-wiki-main/src/retrieval/generator.py > Response Generator
-rag-hybrid-wiki-main/src/retrieval/test.py > Test and give RRF score for all chunk IDs
-streamlit run rag-hybrid-wiki-main/app/app.py > User Interface
+ python .\src\corpus\clean_text.py --input data\cleaned_text --output data\cleaned_text_final
 
-3. Automated Evalution
-rag-hybrid-wiki-main/src/retrieval/qgenerator.py > Automated question generator
-rag-hybrid-wiki-main/src/evaluation/eval_MRR.py > MRR evlaution
-rag-hybrid-wiki-main/src/evaluation/ndcg.py > NDCG evlaution
-rag-hybrid-wiki-main/src/evaluation/semantic_similarity.py > semantic similarity evlaution
-rag-hybrid-wiki-main/src/evaluation/ablation.py > Ablation evlaution
-rag-hybrid-wiki-main/src/evaluation/llm_as_judge.py > Ablation evlaution
+ python .\src\corpus\chunker.py
 
-Below are some example reuslts
+
+src\corpus\url_sampling.py  > connect to Wikipedia and get 200 wiki links (fixed) currently limit set to 20
+src\corpus\fetch_wikipedia.py > fetch text store it with the pagename
+src\corpus\clean_text.py > basic cleaning saving cleaned text
+src\corpus\chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
+src\corpus\embed.py > dense embedding creates jsonl file that can be used by any vector db
+src\corpus\bm25_embed.py > bm25_index.json of files created
+src\corpus\merge_embedings.py  > run to merge dense indexes data_random\embeddings.jsonl and data\embeddings.jsonl to data\embeddings_merged.jsonl
+
+data\eval_results.jsonl > evaluation results
+data\generated_questions.jsonl >
+
+
+from root of project run (src/retrieval/test.py) as module
+(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki> python -m src.retrieval.test
+
+runs the eval.. can also save data\eval_results.jsonl if needed
+(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki> python -m src.evaluation.eval_MRR   
+
+(pfds) PS C:\Users\anshg\gitrepo\rag-hybrid-wiki\app> streamlit run app.py    
 
 why is learning public speaking techniques important?
 Public speaking is a fundamental component of rhetoric, analyzed by prominent thinkers. Public speaking was extensively studied in Ancient Greece and Ancient Rome, where it was a fundamental component of rhetoric, analyzed by prominent thinkers. Aristotle, the ancient Greek philosopher, identified three types of speeches: deliberative (political), forensic (judicial), and epideictic (ceremonial).[4] Public speaking is frequently directed at a select and sometimes restricted audience, consisting of individuals who may hold different perspectives. This audience can encompass enthusiastic supporters of the speaker, reluctant attendees with opposing views, or strangers with varying levels of interest in the speaker's topic.[5] Public speaking aims to either reassure an anxious audience or to alert a complacent audience of something important. Once the speaker has determined which of these approaches is required, they will use a combination of storytelling and informational approaches to achieve their goals.

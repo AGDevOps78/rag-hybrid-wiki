@@ -1,6 +1,7 @@
 import json
 import math
 import numpy as np
+import os, sys
 from sentence_transformers import SentenceTransformer
 
 from src.retrieval.dense import DenseRetriever
@@ -8,8 +9,12 @@ from src.retrieval.sparse import SparseRetriever
 from src.retrieval.hybrid import retrieve_hybrid
 from src.retrieval.generator import Generator
 
-QUESTIONS_FILE = "/content/drive/MyDrive/Colab Notebooks/rag-hybrid-wiki-main/data/generated_questions.jsonl"
-TOP_K = 10
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(ROOT)
+EVAL_QUESTIONS = os.path.join(ROOT, "data", "generated_questions.jsonl")
+
+QUESTIONS_FILE = EVAL_QUESTIONS
+TOP_K = 3
 
 # -----------------------------
 # Utility functions
