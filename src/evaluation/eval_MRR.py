@@ -561,19 +561,19 @@ def load_results_jsonl(path=EVAL_RESULTS):
 
     print(f"Loaded {len(rows)} rows from {path}")
     return rows
-# Example usage:
-#results, mrr = evaluate_rag( n=100, path=EVAL_QUESTIONS)
-#print(results)
-#print(f"Final MRR: {mrr}")
 
-# Save results
-#save_results_jsonl(results, EVAL_RESULTS)
 
-# Load existing results with IDs
+if __name__ == "__main__":
+    # Example usage:
+    results, mrr = evaluate_rag( n=1, path=EVAL_QUESTIONS)
+    print(results)
+    print(f"Final MRR: {mrr}")
 
-table = load_results_jsonl()
-#print_table(table[:50],50)   # preview first 5 rows
-df, summary = results_to_dataframe(table)
-print(f"Mean F1: {summary['mean_f1']:.4f}, Mean RR: {summary['mean_rr']:.4f}, Mean NDCG: {summary.get('NDCG@3', 0.0):.4f}, Mean Precision@3: {summary.get('Precision@3', 0.0):.4f}")
-print(df.head())
+
+    table = load_results_jsonl()
+    #print_table(table[:50],50)   # preview first 5 rows
+    df, summary = results_to_dataframe(table)
+    print(f"Mean F1: {summary['mean_f1']:.4f}, Mean RR: {summary['mean_rr']:.4f}, Mean NDCG: {summary.get('NDCG@3', 0.0):.4f}, Mean Precision@3: {summary.get('Precision@3', 0.0):.4f}")
+    print(df.head())
+
 

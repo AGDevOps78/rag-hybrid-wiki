@@ -18,10 +18,15 @@ class qCheckGenerator:
         "- QUESTION starts with What, Why, Where, When, How, Can, Could, Should, Would, May, Might, Explain,Define, Compare, or Contrast  \n"
         "- Starts with Explain, Define, Compare, or Contrast are also valid question starters.\n\n"
         "Examples of VALID questions:\n"
-        "- Where is Shopska salad considered a national dish of Bulgaria?"
-        "- How is carbon black different from other materials?"
+        "- What can cause vision with both eyes to be worse than with one eye alone?"
+        "- What is the name of the process that produced most of the hydrogen, helium and a very small quantity of lithium?"
+        "- What was the first public work Grace u Rofflu presented in ?"
+        "- What are poison exons?\n"
+        "- What is astro physics?"
+        "- Where is Shopska salad considered a national dish of Bulgaria ?"
+        "- How is carbon black different from other materials ?"
         "- Why is Turner's work closely linked to Durkheim's seminal work in The Ritual Process?"
-        "- What is Mathematics?\n"
+        "- What is Mathematics ?\n"
         "- What is the capital of France?\n"
         "- What are the health benefits of green tea?\n"
         "- How does photosynthesis work?\n"
@@ -30,7 +35,6 @@ class qCheckGenerator:
         "- When was the Declaration of Independence signed?\n"
         "- Which country has the largest population?\n"
         "- What is Physics?\n"
-        "- Define the term 'photosynthesis'.\n"
         "- What is Term of Office?\n"
         "- why is the sky blue?\n"
         "- How does BM25 scoring work?\n\n"
@@ -39,6 +43,8 @@ class qCheckGenerator:
         "- Compare and contrast dense and sparse retrieval methods.\n\n"
         "Examples of INVALID questions:\n"
         "- Hello world \n"
+        "- Tell me about the weather\n"
+        "- Hello world?\n"
         "- The quick brown fox\n"
         "- How are you doing today?\n"
         "- Greetings, how are you?\n"
@@ -65,7 +71,7 @@ class qCheckGenerator:
         resp = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         resp = resp.strip().lower()
         bool_val = False
-        positive_markers = ["yes", "valid", "true"]
+        positive_markers = ["yes", "valid", "true", "question", "interrogative", "well-formed"]
 
         if any(marker in resp for marker in positive_markers):
             bool_val = True

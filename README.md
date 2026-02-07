@@ -2,8 +2,8 @@
 Hybrid RAG  implementation
 
 1. Dataset Requirements
-rag-hybrid-wiki-main/src/corpus/url_sampling.py  > connect to Wikipedia and get 200 wiki links (fixed) currently limit set to 20
-rag-hybrid-wiki-main/src/corpus/fetch_wikipedia.py > fetch text store it with the pagename
+rag-hybrid-wiki-main/src/corpus/url_sampling.py  > connect to Wikipedia and get 200 wiki links (data\fixed_urls.json) if less than 200, Get 300 random links if required
+rag-hybrid-wiki-main/src/corpus/fetch_wikipedia.py > fetch text store it with the pagename, 
 rag-hybrid-wiki-main/src\corpus/clean_text.py > basic cleaning saving cleaned text
 rag-hybrid-wiki-main/src/corpus/chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
 rag-hybrid-wiki-main/src/corpus/clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
@@ -22,12 +22,22 @@ rag-hybrid-wiki-main/src/retrieval/test.py > Test and give RRF score for all chu
 streamlit run rag-hybrid-wiki-main/app/app.py > User Interface
 
 3. Automated Evalution
-rag-hybrid-wiki-main/src/retrieval/qgenerator.py > Automated question generator
+src\evaluation\call_gen_questions.py
+from project root run "python -m src.evaluation.call_gen_questions" >  create data\generated_questions.jsonl
+
 rag-hybrid-wiki-main/src/evaluation/eval_MRR.py > MRR evlaution
-rag-hybrid-wiki-main/src/evaluation/ndcg.py > NDCG evlaution
-rag-hybrid-wiki-main/src/evaluation/semantic_similarity.py > semantic similarity evlaution
+from project root run "python -m src.evaluation.eval_MRR"
+
 rag-hybrid-wiki-main/src/evaluation/ablation.py > Ablation evlaution
-rag-hybrid-wiki-main/src/evaluation/llm_as_judge.py > Ablation evlaution
+from project root run "python -m src.evaluation.ablation
+
+4. Input validation
+from src.evaluation.eval_MRR import  is_valid_question_strict
+
+5. Application 
+cd to .\App folder 
+run streamlit run app.py
+
 
 Below are some example reuslts
 
