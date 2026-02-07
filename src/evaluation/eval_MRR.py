@@ -10,6 +10,7 @@ from src.retrieval.dense import DenseRetriever
 from src.retrieval.sparse import SparseRetriever
 from src.retrieval.generator import Generator
 from src.retrieval.hybrid import retrieve_hybrid
+from src.retrieval.qchecker import qCheckGenerator 
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -19,6 +20,117 @@ EVAL_QUESTIONS = os.path.join(ROOT, "data", "generated_questions.jsonl")
 EVAL_RESULTS = os.path.join(ROOT, "data", "eval_results.jsonl")
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
+
+
+from sentence_transformers import SentenceTransformer, util
+
+class SentenceTransformerQuestionChecker:
+    def __init__(self, model_name="sentence-transformers/all-MiniLM-L6-v2"):
+        self.model = SentenceTransformer(model_name)
+
+        self.valid_examples = [
+            "What is the meaning of X?",
+            "How does this work?",
+            "Why does this happen?",
+            "Where can I find information about X?",
+            "Who is responsible for X?",
+            "When does X occur?"
+        ]
+
+        self.invalid_examples = [
+            "Hello world",
+            "This is a sentence.",
+            "The quick brown fox",
+            "How are you doing today?",
+            "Hello, can you help me with this?",
+            "What a wonderful day",
+            "Greetings"
+        ]
+
+        # Encode once
+        self.valid_emb = self.model.encode(self.valid_examples, convert_to_tensor=True)
+        self.invalid_emb = self.model.encode(self.invalid_examples, convert_to_tensor=True)
+
+    def is_valid(self, query, threshold=0.12):
+        q_emb = self.model.encode(query, convert_to_tensor=True)
+
+        sim_valid = util.cos_sim(q_emb, self.valid_emb).mean().item()
+        sim_invalid = util.cos_sim(q_emb, self.invalid_emb).mean().item()
+
+        score = sim_valid - sim_invalid
+        return score > threshold, score, sim_valid, sim_invalid
+
+                     
+
+QUESTION_STOPWORDS = {
+    "the","is","are","a","an","and","or","of","to","in","on","for","with",
+    "as","by","at","from","that","this","it","be","was","were","can","may",
+    "not","but","if","into","their","its","they","them","these","those",
+    # question words
+    "what","why","how","when","where","who","which","whom","whose",
+    "define","explain","compare","contrast"
+}
+
+QUESTION_CUES = {
+    "what","why","how","when","where","who","which","whom","whose","define","explain","compare","contrast",
+    "does","do","is","are","can","should","would","will","could"
+}
+
+def is_valid_question(q: str, min_len: int = 5) -> bool:
+    if not isinstance(q, str):
+        return False
+
+    q_clean = q.strip().lower()
+
+    # Basic length check
+    if len(q_clean) < min_len:
+        return False
+
+    # Must contain alphabetic characters
+    if not re.search(r"[a-zA-Z]", q_clean):
+        return False
+
+    # Tokenize
+    tokens = re.findall(r"[a-zA-Z]+", q_clean)
+
+    # Reject if all tokens are stopwords (e.g., "what is", "define", "explain")
+    meaningful_tokens = [t for t in tokens if t not in QUESTION_STOPWORDS]
+    if len(meaningful_tokens) == 0:
+        return False
+
+    # Interrogative structure check
+    starts_with_qword = tokens[0] in QUESTION_CUES
+    ends_with_qmark = q_clean.endswith("?")
+
+    if starts_with_qword or ends_with_qmark:
+        return True
+
+    return False
+
+
+qchecker = qCheckGenerator()
+def is_valid_question_strict(q: str, llm=qchecker) -> bool:
+    """
+    First uses deterministic rules.
+    If they fail and an LLM is provided, uses semantic fallback.
+    """
+    if not is_valid_question(q):
+        return False
+    
+    print(f"Basic checks passed for question: '{q}'")
+
+    '''checker = SentenceTransformerQuestionChecker()
+    is_valid, score, sim_valid, sim_invalid = checker.is_valid(q)
+
+    print(f"ST-based check: {is_valid}, score: {score}, sim_valid: {sim_valid}, sim_invalid: {sim_invalid}  for question: '{q}'")
+    if not is_valid:
+        return False
+        '''
+
+    if llm is not None:
+        return llm.llm_semantic_question_check(q)
+
+    return False
 
 
 def semantic_similarity(pred, gold):

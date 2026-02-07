@@ -13,7 +13,7 @@ from src.retrieval.sparse import SparseRetriever
 from src.retrieval.hybrid import retrieve_hybrid
 from src.retrieval.generator import Generator
 from src.evaluation.eval_MRR import answer_from_which_chunk_rank,ndcg_at_k_from_chunks,precision_at_k,find_supporting_chunks
-from src.evaluation.eval_MRR import chunk_id_to_url
+from src.evaluation.eval_MRR import chunk_id_to_url, is_valid_question_strict
 from src.evaluation.eval_MRR import load_results_jsonl, results_to_dataframe
 
 st.title("Group 15 Hybrid RAG over Wikipedia")
@@ -164,6 +164,11 @@ top_n = st.slider("Top-N after RRF", 1, 5, 3)
 
 if st.button("Ask") and query:
     t0 = time.time()
+    
+    if not is_valid_question_strict(query):
+        st.warning("Please enter a valid question.")
+        st.stop()
+
     dense_results = dense_ret.retrieve(query, top_k=top_k)
     sparse_results = sparse_ret.retrieve(query, top_k=top_k)
     fused = retrieve_hybrid(query, dense_ret, sparse_ret, k_dense=top_k, k_sparse=top_k, top_n=top_n)

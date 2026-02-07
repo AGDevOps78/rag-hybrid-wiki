@@ -1,13 +1,18 @@
 import json
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import os, sys
 
 from src.retrieval.dense import DenseRetriever
 from src.retrieval.sparse import SparseRetriever
 from src.retrieval.hybrid import retrieve_hybrid
 from src.retrieval.generator import Generator
 
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(ROOT)
+EVAL_QUESTIONS = os.path.join(ROOT, "data", "generated_questions.jsonl")
 
-QUESTIONS_FILE = "/content/drive/MyDrive/Colab Notebooks/rag-hybrid-wiki-main/data/generated_questions.jsonl"
+QUESTIONS_FILE = EVAL_QUESTIONS
+#QUESTIONS_FILE = "/content/drive/MyDrive/Colab Notebooks/rag-hybrid-wiki-main/data/generated_questions.jsonl"
 
 JUDGE_PROMPT = """
 You are an expert evaluator for a question answering system.
@@ -42,8 +47,8 @@ Return ONLY valid JSON in this format:
 # ---------------------------
 # Load LLM Judge
 # ---------------------------
-tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
-model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large")
+tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
 
 
 def judge_answer(question, gold, pred):
