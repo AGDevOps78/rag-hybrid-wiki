@@ -389,9 +389,9 @@ def results_to_dataframe(results, limit=20):
             "question": row["question"],
             "ground_truth": row["gold_answer"],
             "F1": row["f1"],
-            ndcg_text: row.get(f"NDCG@{len(row['retrieved_urls'])}", 0.0),
-            "RR": row["reciprocal_rank"],
             "Semantic Similarity": row["semantic_similarity"],
+            "RR": row["reciprocal_rank"],
+            ndcg_text: row.get(f"NDCG@{len(row['retrieved_urls'])}", 0.0),
             precision_at_k_text: row.get(precision_at_k_text, 0.0),
             "Type": row["question_type"],
             "response_time": row["response_time"]

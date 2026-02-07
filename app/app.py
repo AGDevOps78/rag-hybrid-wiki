@@ -27,7 +27,7 @@ def bar_chart_results(df):
 
     # Melt the DataFrame so F1 and RR become separate metric rows
     
-    df_grouped = (df.groupby("Type")[["F1", "RR", "NDCG@3", "Precision@3"]]
+    df_grouped = (df.groupby("Type")[["F1", "RR", "NDCG@3", "Precision@3", "Semantic Similarity"]]
                     .mean()
                     .reset_index()
                 )
@@ -35,7 +35,7 @@ def bar_chart_results(df):
 
     df_melted = df_grouped.melt(
     id_vars="Type",
-    value_vars=["F1", "RR", "NDCG@3", "Precision@3"],
+    value_vars=["F1", "RR", "NDCG@3", "Precision@3", "Semantic Similarity"],
     var_name="Metric",
     value_name="Score"
     )
@@ -59,7 +59,65 @@ def bar_chart_results(df):
 
     return fig
 
+def answer_quality_bar_chart(df):
+    # df must contain: ["question", "ground_truth", "F1", "RR", "Semantic Similarity"]
+    df = df.copy()
+    df["Avg Score"] = (df["F1"] + df["Semantic Similarity"]) / 2
 
+
+    #df_sorted = df.sort_values("F1", ascending=False)
+    fig = px.histogram(
+        df,
+        x="ID",
+        y=["F1", "Semantic Similarity", "Avg Score"],
+        title="Questions by F1 Score, Semantic Similarity, and Average Score",
+        text_auto=".3f"
+    )
+    fig.update_layout(
+        xaxis_title="Question ID",
+        yaxis_title="Score",
+        legend_title="Answer Quality Metric",
+        xaxis_tickangle=-45
+    )
+    return fig
+
+def retrieval_quality_bar_chart(df):
+    # df must contain: ["question", "ground_truth", "F1", "RR", "NDCG@3"]
+    df = df.copy()
+    df["Avg Retrieval Score"] = (df["RR"] + df["NDCG@3"] + df["Precision@3"]) / 3
+
+    #df_sorted = df.sort_values("Avg Retrieval Score", ascending=False)
+    fig = px.histogram(
+        df,
+        x="ID",
+        y=["RR", "NDCG@3", "Precision@3", "Avg Retrieval Score"],
+        title="Questions by RR, NDCG@3, Precision@3, and Average Retrieval Score",
+        text_auto=".3f"
+    )
+    fig.update_layout(
+        xaxis_title="Question ID",
+        yaxis_title="Score",
+        legend_title="Retrieval Quality Metric",
+        xaxis_tickangle=-45
+    )
+    return fig
+
+def response_time_bar_chart(df):
+    # df must contain: ["question", "ground_truth", "response_time"]
+    fig = px.histogram(
+        df,
+        x="ID",
+        y="response_time",
+        title="Questions by Response Time",
+        text_auto=".2f"
+    )
+    fig.update_layout(
+        xaxis_title="Question ID",
+        yaxis_title="Response Time (s)",
+        legend_title="Response Time",
+        xaxis_tickangle=-45
+    )
+    return fig
 
 @st.cache_resource
 def load_components():
@@ -87,14 +145,21 @@ if "avg_response_time" not in st.session_state:
     st.session_state.avg_response_time = 0.0
 
 dense_ret, sparse_ret, generator= load_components()
-df, summary = results_to_dataframe(st.session_state.eval_results)
+df, summary = results_to_dataframe(st.session_state.eval_results, 100)
 st.dataframe(df)
 st.caption(summary)
 fig = bar_chart_results(df)
 st.plotly_chart(fig)
+fig = answer_quality_bar_chart(df)
+st.plotly_chart(fig)
+fig = retrieval_quality_bar_chart(df)
+st.plotly_chart(fig)
+fig = response_time_bar_chart(df)
+st.plotly_chart(fig)
 query = st.text_input("Enter your question")
+    
 
-top_k = st.slider("Top-K per retriever", 3, 10, 5)
+top_k = st.slider("Top-K per retriever", 1, 5, 3)
 top_n = st.slider("Top-N after RRF", 1, 5, 3)
 
 if st.button("Ask") and query:
