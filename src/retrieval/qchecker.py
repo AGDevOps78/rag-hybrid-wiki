@@ -25,7 +25,7 @@ class qCheckGenerator:
         "- What is the capital of France?\n"
         "- What are the health benefits of green tea?\n"
         "- How does photosynthesis work?\n"
-        "- How can I improve my writing skills?\n"
+        "- What does the LinkML schema tries to anchor the meaning of free text strings by establishing identity via resolvable URIs?\n"
         "- Who is the president of the United States?\n"
         "- When was the Declaration of Independence signed?\n"
         "- Which country has the largest population?\n"
