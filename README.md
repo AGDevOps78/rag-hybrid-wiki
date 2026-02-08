@@ -3,14 +3,20 @@ Hybrid RAG  implementation
 
 1. Dataset Requirements
 rag-hybrid-wiki-main/src/corpus/url_sampling.py  > connect to Wikipedia and get 200 wiki links (data\fixed_urls.json) if less than 200, Get 300 random links if required
-rag-hybrid-wiki-main/src/corpus/fetch_wikipedia.py > fetch text store it with the pagename, 
+..rag-hybrid-wiki-main> python -m src.corpus.url_sampling
+rag-hybrid-wiki-main/src/corpus/fetch_wikipedia.py > fetch text store it with the pagename, if "data/embeddings.jsonl" for fixed url present it will not do this for 200 fixed url.. however due to zip size limit its not in the zip
+..rag-hybrid-wiki-main> python -m src.corpus.fetch_wikipedia     
 rag-hybrid-wiki-main/src\corpus/clean_text.py > basic cleaning saving cleaned text
+..rag-hybrid-wiki-main>  
+..rag-hybrid-wiki-main> python -m src.corpus.clean_text --input data_random\cleaned_text --output data_random/cleaned_text_final  
 rag-hybrid-wiki-main/src/corpus/chunker.py > as asked using sentence chunking to create chunked<uid>.txt and json with headers and metadata for BM25
-rag-hybrid-wiki-main/src/corpus/clean_text.py --input data_random\cleaned_text --output data_random\cleaned_text_final
-rag-hybrid-wiki-main/src/corpus/clean_text.py --input data\cleaned_text --output data\cleaned_text_final
+..rag-hybrid-wiki-main> python -m src.corpus.chunker     
 rag-hybrid-wiki-main/src/corpus/embed.py > dense embedding creates jsonl file that can be used by any vector db
+..rag-hybrid-wiki-main> python -m src.corpus.embed
 rag-hybrid-wiki-main/src/corpus/bm25_embed.py > bm25_index.json of files created
+..rag-hybrid-wiki-main> python -m src.corpus.bm25_embed
 rag-hybrid-wiki-main/src/corpus/merge_embedings.py  > run to merge dense indexes data_random\embeddings.jsonl and data\embeddings.jsonl to data\embeddings_merged.jsonl
+..rag-hybrid-wiki-main> python -m src.corpus.merge_embedings
 
 2. Hybrid RAG System
 rag-hybrid-wiki-main/src/retrieval/dense.py > Dense retrival 
@@ -19,8 +25,10 @@ rag-hybrid-wiki-main/src/retrieval/hybrid.py > Hybrid - Dense + Sparse retrival
 rag-hybrid-wiki-main/src/retrieval/hybrid.py > RRF
 rag-hybrid-wiki-main/src/retrieval/generator.py > Response Generator
 rag-hybrid-wiki-main/src/retrieval/test.py > Test and give RRF score for all chunk IDs
-streamlit run rag-hybrid-wiki-main/app/app.py > User Interface
+..rag-hybrid-wiki-main>python -m src.retrieval.test
+User Interface
 
+..rag-hybrid-wiki-main\app>streamlit run app.py
 3. Automated Evalution
 src\evaluation\call_gen_questions.py
 from project root run "python -m src.evaluation.call_gen_questions" >  create data\generated_questions.jsonl

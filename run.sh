@@ -40,13 +40,13 @@ echo "▶ Creating BM25 index..."
 python src/corpus/bm25_embed.py
 
 echo "▶ Merging embeddings..."
-python src/corpus/merge_embeddings.py
+python src/corpus/merge_embedings.py
 
 # -----------------------------
 # 3. Question Generation
 # -----------------------------
 echo "▶ Generating evaluation questions..."
-python src/retrieval/qgenerator.py
+python src/evaluation/call_gen_questions.py
 
 # -----------------------------
 # 4. Evaluation
@@ -57,14 +57,9 @@ python src/evaluation/eval_MRR.py
 echo "▶ Running NDCG evaluation..."
 python src/evaluation/ndcg.py
 
-echo "▶ Running semantic similarity evaluation..."
-python src/evaluation/semantic_similarity.py
-
 echo "▶ Running ablation study..."
 python src/evaluation/ablation.py
 
-echo "▶ Running LLM-as-Judge evaluation..."
-python src/evaluation/llm_as_judge.py
 
 # -----------------------------
 # 5. Done
