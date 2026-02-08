@@ -57,7 +57,8 @@ python src/evaluation/eval_MRR.py
 echo "▶ Running ablation study..."
 python src/evaluation/ablation.py
 
-
+echo "▶ Running LLM-as-Judge study..."
+python src/evaluation/llm_as_judge.py
 # -----------------------------
 # 5. Done
 # -----------------------------

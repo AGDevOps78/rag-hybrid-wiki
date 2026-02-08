@@ -1,10 +1,16 @@
+
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+
 import math
 import json, re
 import time
 import pandas as pd
 from collections import Counter
 from nltk.stem import PorterStemmer
-import os,sys
+import sys
 os.chdir("..")
 from src.retrieval.dense import DenseRetriever
 from src.retrieval.sparse import SparseRetriever
