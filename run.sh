@@ -54,9 +54,6 @@ python src/evaluation/call_gen_questions.py
 echo "▶ Running MRR evaluation..."
 python src/evaluation/eval_MRR.py
 
-echo "▶ Running NDCG evaluation..."
-python src/evaluation/ndcg.py
-
 echo "▶ Running ablation study..."
 python src/evaluation/ablation.py
 
